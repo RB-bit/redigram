@@ -72,20 +72,14 @@ footer .list-inline .list-inline-item {
     margin-top: 90px;
 }
 
-.vinotecas-1 {
-    margin-top: 50px;
+.promoUno-img{
+ margin-bottom: 15px;
 }
 
-.vinotecas-promo1 {
-    width: 300px;
-    margin: 30px;
-}
-
-.form-select{
-    width: 350px;
-    margin-left: 500px;
-    margin-top: 20px;
-}
+.promoUno-btn{
+    width: 345px !important;
+    margin: 15px;
+   }
 
 /* //////////////
    Agradecimiento
