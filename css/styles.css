@@ -5,6 +5,18 @@ body{
 }
 
 /* //////////////
+   SITIO EN CONSTRUCCIÓN
+//////////////*/
+.sitioEnConstruccion-img{
+    max-width: 100%;
+}
+
+/* @media (max-width: 769px){
+    .sitioEnConstruccion-img{
+        background-image: url(/img/sitioencostruccion/mobile.png);
+    }
+} */
+/* //////////////
    NAVBAR
 //////////////*/
 .logo-navbar{
@@ -47,7 +59,7 @@ footer {
     padding: 80px 0;
     text-align: center;
     color: white;
-    background-color: rgb(146, 134, 134);
+    background-color: rgb(209, 202, 202);
 }
 
 footer a {
