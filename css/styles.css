@@ -72,12 +72,30 @@ footer .list-inline .list-inline-item {
 //////////////*/
 
 .promo{
+    position: relative;
     margin-top: 70px;
-    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-line{
+    border-top: solid 1.5px #ffac44;
+    height: 25px;
+    width: 100%;
 }
 
 .promo-img-bodega{
+    max-width: 90%;
     margin-bottom: 15px;
+    max-height: 120px;
+}
+
+ @media (min-width: 760px){
+    .promo-img-bodega{
+        max-height: 100%;
+    }
 }
 
 .promo-title{
@@ -85,14 +103,21 @@ footer .list-inline .list-inline-item {
     padding: 15px;
 }
 
-.promo-background{
-    /* position: absolute; */
-    margin-top: 200px;
-    filter: opacity(10%);
-    z-index: 1;
+@media (max-width: 325px){
+    .promo-title{
+        padding: 0px;
+    }
 }
 
-@media (min-width: 760px){
+.promo-background{
+    position: absolute;
+    max-width: 100%;
+    filter: opacity(15%);
+    z-index: 1;
+    bottom: 0;
+} 
+
+ @media (min-width: 760px){
     .promo-background{
         position: relative;
         margin-top: 0;
@@ -116,13 +141,13 @@ footer .list-inline .list-inline-item {
 	background: #e7e7e7;
 	border: solid 2px #ffac44;
 	padding: 1.5rem 3rem;
-	margin: 50px 0px 105px 0px;
+	margin: 0px 0px 150px 0px;
 	position: relative;
 	display: inline-block;
     z-index: 99;
 }
 
-@media (min-width: 411px){
+/* @media (min-width: 411px){
     .button{
         margin: 50px 0px 130px 0px;
     }
@@ -132,7 +157,7 @@ footer .list-inline .list-inline-item {
     .button{
         margin: 50px 0px 40px 0px;
     }
-}
+} */
 
 .button::before,
 .button::after {
