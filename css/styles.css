@@ -73,7 +73,7 @@ footer .list-inline .list-inline-item {
 
 .promo{
     margin-top: 70px;
-    position: relative;
+    /* position: relative; */
 }
 
 .promo-img-bodega{
@@ -86,7 +86,7 @@ footer .list-inline .list-inline-item {
 }
 
 .promo-background{
-    position: absolute;
+    /* position: absolute; */
     margin-top: 200px;
     filter: opacity(10%);
     z-index: 1;
