@@ -7,8 +7,9 @@ body{
 /* //////////////
    NAVBAR
 //////////////*/
-navbar{
+.navbar{
     font-family: 'Mulish', sans-serif;
+    border-bottom: solid 2px #ffac44;
 }
 
 .logo-navbar{
@@ -66,53 +67,62 @@ footer .list-inline .list-inline-item {
     padding: 10px 15px;
 }
 
-
-
 /* //////////////
    Promos
 //////////////*/
 
-.titular-promos{
-    margin-top: 90px;
-    font-family: 'Playfair';
-}
-
-.promoUno-img{
- margin-bottom: 15px;
-}
-
-.promoUno-btn{
-    width: 345px !important;
-    margin: 15px;
-   }
-
-/* //////////////
-   Agradecimiento
-//////////////*/
-
-.agradecimiento{
-    height: 500px;
+.promo{
     margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
-/* //////////////
-   Botón para canjear
-//////////////*/
+.promo-img-bodega{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.promo-title{
+    padding: 15px;
+}
+
+.promo-background{
+    position: absolute;
+    margin-top: 200px;
+    filter: opacity(10%);
+    z-index: 1;
+}
+
+@media (min-width: 760px){
+    .promo-background{
+        position: relative;
+        margin-top: 0;
+        filter: opacity(0%);
+        height: 85px;
+    }
+}
 
 .button {
 	pointer-events: auto;
 	cursor: pointer;
 	background: #e7e7e7;
-	border: none;
+	border: solid 2px #ffac44;
 	padding: 1.5rem 3rem;
-	margin: 20px;
-    font-family: 'Mulish', sans-serif;
+	margin: 50px 0px 105px 0px;
 	position: relative;
 	display: inline-block;
+    z-index: 99;
+}
+
+@media (min-width: 411px){
+    .button{
+        margin: 50px 0px 130px 0px;
+    }
+}
+
+@media (max-width: 320px){
+    .button{
+        margin: 50px 0px 40px 0px;
+    }
 }
 
 .button::before,
@@ -128,10 +138,13 @@ footer .list-inline .list-inline-item {
 	overflow: hidden;
 	border-radius: 50%;
 	color: #fff;
-	width: 100px;
-	height: 100px;
+	width: 140px;
+	height: 140px;
 	padding: 0;
-	font-weight: 500;
+    margin-top: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.3rem;
+	font-weight: 400;
 }
 
 .button--skoll span {
@@ -163,6 +176,20 @@ footer .list-inline .list-inline-item {
 .button--skoll:hover::before {
 	transform: translate3d(0,100%,0);
 }
+
+/* //////////////
+   Agradecimiento
+//////////////*/
+
+.agradecimiento{
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* //////////////
    Media queries
