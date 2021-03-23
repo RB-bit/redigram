@@ -7,13 +7,19 @@ body{
 /* //////////////
    NAVBAR
 //////////////*/
+
+.navbar{
+    font-family: 'Mulish', sans-serif;
+    border-bottom: solid 2px #ffac44;
+}
+
 .logo-navbar{
     width: 150px;
     height: 40px;
 }
 
 /* //////////////
-   MAIN
+   Header
 //////////////*/
 
 .portada{
@@ -61,8 +67,6 @@ footer a:hover {
 footer .list-inline .list-inline-item {
     padding: 10px 15px;
 }
-
-
 
 /* //////////////
    Promos
@@ -124,6 +128,7 @@ footer .list-inline .list-inline-item {
 @media (max-width: 769px){
     .portada-txt {
         font-size: 1rem;
+        margin-top: 55px;
     }
 }
 
