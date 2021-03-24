@@ -27,6 +27,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
 }
 
 .portada-img{
@@ -39,10 +41,83 @@ body{
     position: absolute;
     color: white;
     font-size: 3.5rem;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
 }
 
+@keyframes animar {
+    0%   {
+        color:#ffac44;
+    }
+    100% {color: #fafafa;}
+}
+
+/* //////////////
+   Promos
+//////////////*/
+
 .promos{
+    font-family: 'Mulish', sans-serif;
     margin: 30px 15px 0px 15px;
+}
+
+.col-md-4{
+    margin-bottom: 30px;
+}
+
+/* //////////////
+   Subtitulo
+//////////////*/
+
+.sub-titulo{
+    height: 180px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-titulo-txt{
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+}
+
+.sub-titulo-icon{
+    padding-top: 5px;
+    color: black;
+    animation-name: iconanimation;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 5;
+}
+
+@keyframes iconanimation {
+0%   {
+    color:black;
+    transform: translateY(0px);
+    }
+50%   {
+    color:#ffac44;  
+    transform: translateY(10px);
+    }
+100% {
+    color: black;
+    transform: translateY(0);    
+    }
+}
+
+
+@media (max-width: 769px) {
+    .sub-titulo{
+        height: 110px;
+    }
+    .sub-titulo-txt{
+        font-size: 1rem;
+    }
 }
 
 /* //////////////
@@ -127,8 +202,11 @@ footer .list-inline .list-inline-item {
 
 @media (max-width: 769px){
     .portada-txt {
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-top: 55px;
+    }
+    .portada-img{
+        height: 250px;
     }
 }
 
