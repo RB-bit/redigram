@@ -128,19 +128,48 @@ body{
    Promos
 //////////////*/
 
-.titular-promos{
+.titular-promos-canale{
+    background: no-repeat center/100% url("../img/casarena-portada-dektop.png");
     font-family: 'Mulish', sans-serif;
-    margin-top: 90px;
+    margin-top: 58px;
+    height: 500px;
+    padding: 250px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white; 
 }
+
+@media (max-width: 769px){
+    .titular-promos-canale{
+        background: no-repeat center/100% url("../img/casarena-portada.png");
+        font-family: 'Mulish', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        height: 200px;
+        padding: 15px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+}
+
+/* .titular-promos-rime{
+    font-family: 'Mulish', sans-serif;
+}
+
+.titular-promos-casarena{
+    font-family: 'Mulish', sans-serif;
+
+} */
 
 .titular-promos-copy{
     font-family: 'Mulish', sans-serif;
     font-size:1.5rem;
-    margin-top: 30px;
+    padding-top: 120px;
 }
 
 
@@ -148,8 +177,8 @@ body{
     background-color: #ffac44;
     color: white;
     border-radius: 30px;
-    width: 350px;
-    margin-top: 20px;
+    border-color: white;
+    width: 500px;
 }
 
 table{
