@@ -62,8 +62,12 @@ body{
     margin: 30px 15px 0px 15px;
 }
 
-.col-md-4{
-    margin-bottom: 30px;
+.col-md-3{
+     margin: 15px 0px 15px 0px; 
+}
+
+.btn{
+    background: #ffac44;
 }
 
 /* //////////////
@@ -118,29 +122,6 @@ body{
     .sub-titulo-txt{
         font-size: 1rem;
     }
-}
-
-/* //////////////
-   Footer
-//////////////*/
-
-footer {
-    padding: 80px 0;
-    text-align: center;
-    color: white;
-    background-color: rgb(146, 134, 134);
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: #ffac44;
-}
-
-footer .list-inline .list-inline-item {
-    padding: 10px 15px;
 }
 
 /* //////////////
@@ -213,6 +194,29 @@ td, th{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* //////////////
+   Footer
+//////////////*/
+
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(146, 134, 134);
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ffac44;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
 }
 
 /* //////////////

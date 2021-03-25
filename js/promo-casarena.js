@@ -84,7 +84,7 @@ let vinotecasCasarena = [
       ir:"https://goo.gl/maps/rf5MgSG9Q5zb8Q217",
       barrio:"Zona Centro",
       bodega: "casarena",
-      thumbnailUrl: "img/vinotecas/casarena/labotilleria.jpeg"
+      thumbnailUrl: "img/vinotecas/casarena/labotilleria.jpg"
     },
     {
       id:10,
@@ -93,14 +93,14 @@ let vinotecasCasarena = [
       ir:"https://goo.gl/maps/2mEqDMipT45Kaa4SA",
       barrio:"Zona Macro-Centro",
       bodega: "casarena",
-      thumbnailUrl: "img/vinotecas/casarena/vinotecamaestro.jpeg"
+      thumbnailUrl: "img/vinotecas/casarena/vinotecamaestro.jpg"
     }
   ]
 
 selectBarrio.addEventListener('change', ()=>{
     //console.log(selectBarrio.value)
     switch(selectBarrio.value) {
-        case "Todas las vinoteca":
+        case "Todas las vinotecas":
             pintarVinotecas(vinotecasCasarena);
             break;
         case "Zona Centro":
