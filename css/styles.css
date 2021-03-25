@@ -129,7 +129,7 @@ body{
 //////////////*/
 
 .titular-promos-canale{
-    background: no-repeat center/100% url("../img/casarena-portada-dektop.png");
+    background: no-repeat center/100% url("../img/canale-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 58px;
     height: 500px;
@@ -143,9 +143,9 @@ body{
 
 @media (max-width: 769px){
     .titular-promos-canale{
-        background: no-repeat center/100% url("../img/casarena-portada.png");
+        background: no-repeat center/100% url("../img/canale-mobile.png");
         font-family: 'Mulish', sans-serif;
-        margin-top: 40px;
+        margin-top: 55px;
         margin-bottom: 30px;
         height: 200px;
         padding: 15px 0px 0px 0px;
@@ -157,14 +157,63 @@ body{
     }
 }
 
-/* .titular-promos-rime{
+.titular-promos-rime{
+    background: no-repeat center/100% url("../img/rime-desktop.png");
     font-family: 'Mulish', sans-serif;
+    margin-top: 58px;
+    height: 500px;
+    padding: 250px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+
+@media (max-width: 769px){
+    .titular-promos-rime{
+        background: no-repeat center/100% url("../img/rime-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        height: 200px;
+        padding: 15px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
 }
 
 .titular-promos-casarena{
+    background: no-repeat center/100% url("../img/casarena-portada-dektop.png");
     font-family: 'Mulish', sans-serif;
+    margin-top: 58px;
+    height: 500px;
+    padding: 250px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
 
-} */
+@media (max-width: 769px){
+    .titular-promos-casarena{
+        background: no-repeat center/100% url("../img/casarena-portada.png");
+        font-family: 'Mulish', sans-serif;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        height: 200px;
+        padding: 15px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+}
 
 .titular-promos-copy{
     font-family: 'Mulish', sans-serif;
