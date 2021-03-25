@@ -148,22 +148,58 @@ footer .list-inline .list-inline-item {
 //////////////*/
 
 .titular-promos{
+    font-family: 'Mulish', sans-serif;
     margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.vinotecas-1 {
-    margin-top: 50px;
+.titular-promos-copy{
+    font-family: 'Mulish', sans-serif;
+    font-size:1.5rem;
+    margin-top: 30px;
 }
 
-.vinotecas-promo1 {
-    width: 300px;
-    margin: 30px;
-}
 
 .form-select{
+    background-color: #ffac44;
+    color: white;
+    border-radius: 30px;
     width: 350px;
-    margin-left: 500px;
     margin-top: 20px;
+}
+
+table{
+    background: white;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Mulish', sans-serif;
+}
+
+td, th{
+    padding: 10px;
+}
+
+.borde-izq{
+    border-left: solid 1px black;
+}
+
+.borde-izq-1{
+    border-left: solid 1px black;
+    border-bottom: solid 1px black;
+    border-radius: 0px 20px 0px 0px;
+    background: #ffac44;
+    color: white;
+}
+
+.borde-abajo{
+    border-bottom: solid 1px black;
+    border-radius: 20px 0px 0px 0px;
+    background: #ffac44;
+    color: white;
 }
 
 /* //////////////
@@ -219,6 +255,9 @@ footer .list-inline .list-inline-item {
 }
 
 @media (max-width: 575px){
+    .titular-promos-copy{
+        font-size: 1.2rem;
+    }
     .form-select{
         width: 350px;
         margin-left: 15px;
