@@ -87,7 +87,17 @@ let vinotecasCasarena = [
       thumbnailUrl: "img/vinotecas/casarena/labotilleria.jpg"
     },
     {
-      id:10,
+      id: 10,
+      vinoteca: "Cavanova",
+      direccion: "1ero de Mayo 1349",
+      ir:"https://goo.gl/maps/56CRma3jRG7tmEBL6",
+      barrio:"Zona Centro",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/cavanova.png"
+    },
+    // Macro-Centro
+    {
+      id:11,
       vinoteca: "Vinoteca Maestro",
       direccion: "Suipacha 381",
       ir:"https://goo.gl/maps/2mEqDMipT45Kaa4SA",

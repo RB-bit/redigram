@@ -137,9 +137,18 @@ let vinotecasCanale = [
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/prada.png"
     },
-    //Zona Otros
     {
     id:15,
+    vinoteca: "MyM Distribuidora",
+    direccion: "Mitre 2599 - Funes",
+    ir:"https://goo.gl/maps/gh9LDqSjwkfCk6Uu5",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/random3.png"
+    },
+    //Zona Otros
+    {
+    id:16,
     vinoteca: "Quicho",
     direccion: "Belgrano 164 - Villa Constitución",
     ir:"https://goo.gl/maps/AfCs4MDRdMi7ekjb8",
@@ -148,7 +157,7 @@ let vinotecasCanale = [
     thumbnailUrl: "img/vinotecas/canale/random1.jpg"
     },
     {
-    id:16,
+    id:17,
     vinoteca: "Cerveteca",
     direccion: "Sarmiento 846 - Santa Teresa",
     ir:"https://goo.gl/maps/i2ay6TzT4En7MY9BA",
