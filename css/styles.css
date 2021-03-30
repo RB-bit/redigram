@@ -286,6 +286,10 @@ footer {
     margin-top: 50px;
 }
 
+.footer-menu{
+    font-size: 1.5rem;
+}
+
 footer a {
     color: white;
 }
@@ -294,9 +298,6 @@ footer a:hover {
     color: #ffac44;
 }
 
-footer .list-inline .list-inline-item {
-    padding: 10px 15px;
-}
 
 /* //////////////
    Media queries
