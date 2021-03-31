@@ -63,7 +63,7 @@ let vinotecasCasarena = [
       id: 7,
       vinoteca: "La Casa de los Vinos",
       direccion: "San Lorenzo esq. Pte. Roca",
-      ir:"https://goo.gl/maps/rFHySHexuniuLbtt7",
+      ir:"https://g.page/lacasadelosvinosrosario?share",
       barrio:"Zona Centro",
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/LaCasaDeLosVinos.png"
@@ -80,7 +80,7 @@ let vinotecasCasarena = [
     {
       id: 9,
       vinoteca: "La Botillería",
-      direccion: "Dorrego 349 2b",
+      direccion: "Dorrego 349 - Piso 2 Depto B",
       ir:"https://goo.gl/maps/rf5MgSG9Q5zb8Q217",
       barrio:"Zona Centro",
       bodega: "casarena",

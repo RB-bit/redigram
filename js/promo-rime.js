@@ -8,7 +8,7 @@ let vinotecasRime = [
     {
       id: 1,
       vinoteca: "Los Vinos de Stella",
-      direccion: "Galería Córdoba - Córdoba 1080 local N° 181518",
+      direccion: "Galería Córdoba - Córdoba 1080 local N° 18",
       ir:"https://goo.gl/maps/1NVPFS9obN71ZoNAA",
       barrio:"Zona Centro",
       bodega: "rime",

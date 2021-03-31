@@ -18,7 +18,7 @@ let vinotecasCanale = [
     {
     id: 2,
     vinoteca: "La Botillería",
-    direccion: "Dorrego 349 2b",
+    direccion: "Dorrego 349 - Piso 2 Depto B",
     ir:"https://goo.gl/maps/rf5MgSG9Q5zb8Q217",
     barrio:"Zona Centro",
     bodega: "canale",
@@ -64,7 +64,7 @@ let vinotecasCanale = [
     {
       id: 7,
       vinoteca: "Rosario Vinos Exclusivos",
-      direccion: "Pasco 1509",
+      direccion: "Pasco 1501",
       ir:"https://goo.gl/maps/2KxPH9C6UvVK2kt26",
       barrio:"Zona Macro Centro",
       bodega: "canale",
@@ -131,7 +131,7 @@ let vinotecasCanale = [
     {
     id:14,
     vinoteca: "Casa Prada",
-    direccion: "Shopping aeropuerto local 43",
+    direccion: "Shopping Fisherton Plaza local 43",
     ir:"https://goo.gl/maps/NWzZDV1EndumUU5q9",
     barrio:"Zona Funes y Fisherton",
     bodega: "canale",
