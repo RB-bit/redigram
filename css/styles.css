@@ -54,7 +54,7 @@ body{
 }
 
 /* //////////////
-   Promos
+   Promos-Home
 //////////////*/
 
 .promos{
@@ -125,7 +125,7 @@ body{
 }
 
 /* //////////////
-   Promos
+   Promos - Page 
 //////////////*/
 
 .titular-promos-canale{
@@ -141,22 +141,6 @@ body{
     color: white; 
 }
 
-@media (max-width: 769px){
-    .titular-promos-canale{
-        background: no-repeat center/100% url("../img/canale-mobile.png");
-        font-family: 'Mulish', sans-serif;
-        margin-top: 55px;
-        margin-bottom: 30px;
-        height: 200px;
-        padding: 15px 0px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white; 
-    }
-}
-
 .titular-promos-rime{
     background: no-repeat center/100% url("../img/rime-desktop.png");
     font-family: 'Mulish', sans-serif;
@@ -170,22 +154,6 @@ body{
     color: white; 
 }
 
-@media (max-width: 769px){
-    .titular-promos-rime{
-        background: no-repeat center/100% url("../img/rime-mobile.png");
-        font-family: 'Mulish', sans-serif;
-        margin-top: 55px;
-        margin-bottom: 30px;
-        height: 200px;
-        padding: 15px 0px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white; 
-    }
-}
-
 .titular-promos-casarena{
     background: no-repeat center/100% url("../img/casarena-portada-dektop.png");
     font-family: 'Mulish', sans-serif;
@@ -197,22 +165,6 @@ body{
     justify-content: center;
     align-items: center;
     color: white; 
-}
-
-@media (max-width: 769px){
-    .titular-promos-casarena{
-        background: no-repeat center/100% url("../img/casarena-portada.png");
-        font-family: 'Mulish', sans-serif;
-        margin-top: 55px;
-        margin-bottom: 30px;
-        height: 200px;
-        padding: 15px 0px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white; 
-    }
 }
 
 .titular-promos-copy{
@@ -585,7 +537,7 @@ td, th{
 
 
 /* //////////////
-   Agradecimiento
+   Agradecimiento -QR
 //////////////*/
 
 .agradecimiento{
@@ -636,6 +588,12 @@ footer .container{
    Media queries
 //////////////*/
 
+@media (max-width: 322px){
+    .sub-titulo-txt{
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 575.98px) { 
     .footer-menu { 
         display: block !important;
@@ -663,21 +621,290 @@ footer .container{
     }
 }
 
-@media (max-width: 1025px){
-    .form-select{
-        width: 350px;
-        margin-left: 300px;
-        margin-top: 20px;
-    }
-}
+/* //////////////
+    Promos - Page
+    //////////// */
 
-@media (max-width: 575px){
+    /* Ipad pro */
+@media (max-width: 1025px){
+        .titular-promos-casarena{
+            background: no-repeat center/100% url("../img/casarena-portada.png");
+            font-family: 'Mulish', sans-serif;
+            height: 550px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            padding-top: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white; 
+        }
+
+        .titular-promos-rime{
+            background: no-repeat center/100% url("../img/rime-mobile.png");;
+            font-family: 'Mulish', sans-serif;
+            height: 550px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            padding-top: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white; 
+        }
+
+        .titular-promos-canale{
+            background: no-repeat center/100% url("../img/canale-mobile.png");;
+            font-family: 'Mulish', sans-serif;
+            height: 550px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            padding-top: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white; 
+        }
+
+        .titular-promos-copy{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .form-select{
+            width: 350px;
+            margin-left: 15px;
+            margin-top: 10px;
+            position: relative;
+            top: 0px;
+        }
+    }
+    /* iPad */
+@media (max-width: 769px){
+    .titular-promos-casarena{
+        background: no-repeat center/100% url("../img/casarena-portada.png");
+        font-family: 'Mulish', sans-serif;
+        height: 400px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-rime{
+        background: no-repeat center/100% url("../img/rime-mobile.png");;
+        font-family: 'Mulish', sans-serif;
+        height: 400px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-canale{
+        background: no-repeat center/100% url("../img/canale-mobile.png");;
+        font-family: 'Mulish', sans-serif;
+        height: 400px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
     .titular-promos-copy{
         font-size: 1.2rem;
+        text-align: center;
+        margin-top: 30px;
     }
     .form-select{
         width: 350px;
         margin-left: 15px;
-        margin-top: 20px;
+        margin-top: 10px;
+        position: relative;
+        top: 30px;
+    }
+}
+
+/* Iphone 7/8/9 Plus */
+@media (max-width: 415px){
+    .titular-promos-casarena{
+        background: no-repeat center/100% url("../img/casarena-portada.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-rime{
+        background: no-repeat center/100% url("../img/rime-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-canale{
+        background: no-repeat center/100% url("../img/canale-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-copy{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .form-select{
+        width: 350px;
+        margin-left: 15px;
+        margin-top: 15px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+/* Iphone X-11-12 común y 6/7/8 común  */
+@media (max-width: 376px){
+    .titular-promos-casarena{
+        background: no-repeat center/100% url("../img/casarena-portada.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 45px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-rime{
+        background: no-repeat center/100% url("../img/rime-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-canale{
+        background: no-repeat center/100% url("../img/canale-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-copy{
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 125px;
+    }
+    .form-select{
+        width: 350px;
+        margin-top: 5px;
+        margin-left: 10px;
+        position: relative;
+        bottom: 5px;
+        top: 0px;
+    }
+}
+
+/* iPhone 5 */
+@media (max-width: 320px){
+    .titular-promos-casarena{
+        background: no-repeat center/100% url("../img/casarena-portada.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-rime{
+        background: no-repeat center/100% url("../img/rime-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-canale{
+        background: no-repeat center/100% url("../img/canale-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white; 
+    }
+
+    .titular-promos-copy{
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 125px;
+        margin-top: 0px;
+    }
+    .form-select{
+        width: 250px;
+        margin-top: 5px;
+        margin-left: 10px;
+        position: relative;
+        bottom: 10px;
     }
 }
