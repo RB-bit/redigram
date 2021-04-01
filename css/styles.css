@@ -260,6 +260,329 @@ td, th{
     background: #ffac44;
     color: white;
 }
+/* //////////////
+   Bodegas
+//////////////*/
+
+.bodegas__Cabecera{
+    background-image: url(/img/bodegas/vineyard-large.png);
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    margin-bottom: 250px;
+    filter:grayscale(40%);
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bodegas__Cabecera-content{
+    height: 400px;
+    width:  500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 370px;
+    padding: 30px 20px 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+.bodegas__Cabecera-icon{
+    padding-top: 5px;
+    color: black;
+    margin-top: 60px;
+    animation-name: bodegasanimation;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 8;
+}
+
+@keyframes bodegasanimation {
+0%   {
+    color:black;
+    transform: translateY(0px);
+    }
+50%   {
+    color:#ffac44;  
+    transform: translateY(10px);
+    }
+100% {
+    color: black;
+    transform: translateY(0);    
+    }
+}
+
+.bodegas__Cabecera-title{
+    font-family: 'Mulish';
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffac44;
+}
+
+ @media (max-width: 414px){
+    .bodegas__Cabecera{
+        background-image: url(/img/bodegas/vineyard-mobile.png);
+        height: 300px;
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-bottom: 190px;
+        filter:grayscale(40%);
+        position: relative;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bodegas__Cabecera-content{
+        height: 300px;
+        width:  200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+        padding: 30px 20px 10px 20px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+    }
+
+    .bodegas__Cabecera-content-img{
+        position: relative;
+        height: 70%;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .bodegas__Cabecera-title{
+        font-family: 'Mulish';
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 15px;
+        color: #ffac44;
+    }
+
+    .bodegas__Cabecera-icon{
+        padding-top: 5px;
+        color: black;
+        margin-top: 40px;
+        animation-name: bodegasanimation;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: 8;
+    }
+}
+
+.bodegas{
+    padding: 70px 0 10px 0;
+    height: auto;
+    text-align: center;
+}
+
+.bodegas::before{
+    content:'';
+    position: fixed;
+    top: 60px;
+    left: 640px;
+    width: 100%;
+    height: 100%;
+    background: url(/img/bodegas/uvas-sup-d-dektop-lareg-01.png) no-repeat;
+}
+
+.bodegas::after{
+    content:'';
+    position: fixed;
+    top: 400px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/img/bodegas/vinos-inf-i-desktop-01.png) no-repeat;
+}
+
+@media (min-width: 1700px){
+     .bodegas::before{
+        content:'';
+        position: fixed;
+        top: 60px;
+        left: 1150px;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-sup-d-dektop-lareg-01.png) no-repeat;
+    }
+    .bodegas::after{
+        content:'';
+        position: fixed;
+        top: 280px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/vinos-inf-i-desktop-large-01.png) no-repeat;
+    }
+}
+
+@media (max-width: 1030px){
+    .bodegas::before{
+        content:'';
+        position: fixed;
+        top: 60px;
+        left: 300px;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-sup-d-dektop-lareg-01.png) no-repeat;
+    }
+    
+    .bodegas::after{
+        content:'';
+        position: fixed;
+        top: 880px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/vinos-inf-i-desktop-01.png) no-repeat;
+    }
+}
+
+
+@media (max-width: 414px){
+    .bodegas{
+        margin-top: 50px;
+        padding: 40px 0 10px 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .bodegas::before{
+        content:'';
+        position: fixed;
+        top: 60px;
+        left: 300px;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-sup-d-mobile-01.png) no-repeat;
+    }
+    .bodegas::after{
+        content:'';
+        position: fixed;
+        top: 520px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-ab-i.png) no-repeat;
+    }
+}
+
+@media (max-width: 375px){
+
+    .bodegas::before{
+        content:'';
+        position: fixed;
+        top: 40px;
+        left: 250px;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-sup-d-mobile-01.png) no-repeat;
+    }
+    .bodegas::after{
+        content:'';
+        position: fixed;
+        top: 590px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-ab-i.png) no-repeat;
+    }
+}
+
+@media (max-width: 320px){
+
+    .bodegas::before{
+        content:'';
+        position: fixed;
+        top: 40px;
+        left: 200px;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-sup-d-mobile-01.png) no-repeat;
+    }
+    .bodegas::after{
+        content:'';
+        position: fixed;
+        top: 370px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/img/bodegas/uvas-ab-i.png) no-repeat;
+    }
+}
+
+.bodegas__HorizontalScroll{
+    width: auto;
+    height: 280px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow-y: hidden; 
+    overflow-x: auto;
+    position: relative;
+    z-index: 999;
+}
+
+.bodegas__HorizontalScroll-child{
+    width: 250px;
+    height: 250px;
+    margin: 0 5px 0 5px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+}
+
+.bodegas__HorizontalScroll-child-img{
+    width: 150px;
+    height: 150px;
+    transition: 0.5s ease-in-out;
+}
+
+.bodegas__HorizontalScroll-child:hover .bodegas__HorizontalScroll-child-img{
+    transform: scale(1.2) ;
+}
+
+.bodegas__HorizontalScroll-child-title{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    border-bottom: 5px;
+}
+
+.bodegas__HorizontalScroll-child-link{
+    width: 70px;
+    height: 40px;
+    color: #ffac44;
+}
+
+.bodegas__HorizontalScroll-child-link:hover{
+    background-color: #ffac44;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
 
 /* //////////////
    Agradecimiento
@@ -296,6 +619,16 @@ footer a {
 
 footer a:hover {
     color: #ffac44;
+}
+
+footer small{
+    position: relative;
+    z-index: 999;
+}
+
+footer .container{
+    position: relative;
+    z-index: 999;
 }
 
 

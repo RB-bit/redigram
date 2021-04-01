@@ -27,24 +27,26 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         rel="stylesheet"
         />
-    <!-- Google Fonts -->
-    <link
-        rel="preconnect" href="https://fonts.gstatic.com">
-        <!-- Playfair -->
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
-        <!-- Mulish -->
-        <link
-            rel="preconnect" href="https://fonts.gstatic.com">
-        <link 
-            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
     <!-- MDB -->
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
         rel="stylesheet"
         />
+    <!-- Google Fonts -->
+    <link
+    rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Playfair -->
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Mulish -->
+    <link
+        rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet"> 
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link  rel="icon"   href="img/favicon.png" type="image/png" />
 </head>
 <body>
     <navbar>
@@ -79,7 +81,7 @@
             <!-- Navbar dropdown -->
             <li class="nav-item dropdown">
                 <a
-                class="nav-link dropdown-toggle"
+                class="nav-link active dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -94,19 +96,17 @@
                 <li><a class="dropdown-item" href="promo-rime.html">Promo - Cava Rimé</a></li>
                 <li><a class="dropdown-item" href="promo-canale.html">Promo - Bodega Canale</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="bodegas.html">Bodegas</a>
-              </li>
                 <li>
                     <a class="dropdown-item" href="https://bit.ly/WhatsappRedigram">¡Quiero contactar un experto en vinos!</a>
                 </li>
                 </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                >¿Quienes somos?</a
-                >
+                <a class="nav-link active" aria-current="page" href="bodegas.html">Bodegas</a>
             </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Quiénes somos</a>
+            </li> -->
             </ul>
             <!-- Left links -->
         </div>
@@ -115,37 +115,141 @@
         <!-- Container wrapper -->
         </nav>
     </navbar>
-    <header>
-        <div class="portada">
-            <img class="portada-img" src="img/vinosPortada.jpg" alt="">
-            <h1 class="portada-txt text-center">Bienvenido al Mercado Online del Vino</h1>
+
+    <header class="bodegas__Cabecera">
+        <div class="bodegas__Cabecera-content">
+            <img src="img/bodegas/firma-03.png" alt="" class="bodegas__Cabecera-content-img">
+            <h1 class="bodegas__Cabecera-title">Bodegas con las que trabajamos</h1>
+            <a href="#bodegas"><i class="fas fa-chevron-down bodegas__Cabecera-icon"></i></a>
         </div>
     </header>
-    <main class="bodegas">
+
+    <main class="bodegas" id="bodegas">
+        <div class="bodegas__HorizontalScroll">
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/lagarde.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Lagarde</h2>
+                <a href="https://www.lagarde.com.ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/casarena.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Casarena</h2>
+                <a href="http://www.casarena.com/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/canale.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Humberto Canale</h2>
+                <a href="https://bodegahcanale.com/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/cava-rime.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Cava Rimé</h2>
+                <a href="http://www.bodegarfm.com.ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/amalaya.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Amalaya</h2>
+                <a href="https://www.amalaya.com/home/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/renacer.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Renacer </h2>
+                <a href="https://www.bodegarenacer.com.ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+        </div>
+        <div class="bodegas__HorizontalScroll">
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/alchimia.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Alchimia</h2>
+                <a href="https://www.alchimiawines.com.ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/colome.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Colomé</h2>
+                <a href="https://www.bodegacolome.com/bodega/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/ambrosia.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Ambrosia</h2>
+                <a href="http://www.fincaambrosia.com/ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/cassone.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Cassone</h2>
+                <a href="https://familiacassone.com.ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/antigal.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Antigal</h2>
+                <a href="https://www.antigal.com/#" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/mythic.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Mythic</h2>
+                <a href="https://mythicwine.com/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+        </div>
+        <div class="bodegas__HorizontalScroll">
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/achaval.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Achaval</h2>
+                <a href="http://www.achaval-ferrer.com/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/monteviejo.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Monte Viejo</h2>
+                <a href="http://www.monteviejo.com.ar/?lang=eniniciolanges/inicio?lang=es" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/bbpc.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega BBPC</h2>
+                <a href="https://www.facebook.com/BBPC-Vinos-107345850796695/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/pelleriti.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Pelleriti</h2>
+                <a href="http://pelleritiwines.com/es/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/terza.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Terza</h2>
+                <a href="http://www.casarena.com/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/gin.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Sur Gin</h2>
+                <a href="https://surgin.com.ar/" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+            <div class="bodegas__HorizontalScroll-child">
+                <img src="/img/bodegas/logos/bapteme.png" alt="logo bodega" class="bodegas__HorizontalScroll-child-img">
+                <h2 class="bodegas__HorizontalScroll-child-title">Bodega Bapteme</h2>
+                <a href="http://www.baptemevins.com.ar/nosotros.php" class="bodegas__HorizontalScroll-child-link">Conocela</a>
+            </div>
+        </div>
     </main>
     
     <footer>
-      <div class="container">
-          <img class="footer-logo" src="img/redigram-blanco.png" class="logo-brand" alt="logo">
-          <ul class="list-inline">
-              <li class="list-inline-item footer-menu"><a href="index.html"><strong>Home</strong></a></li>
-              <li class="list-inline-item footer-menu"><a href="#"><strong>¿Quienes somos?</strong></a></li>
-              <li class="list-inline-item footer-menu"><a href="#"><strong>Bodegas</strong></a></li>
-          </ul>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.instagram.com/redigramsa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.facebook.com/redigram" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="https://bit.ly/WhatsappRedigram" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-          </ul>
-          <small>©2021 Todos los derechos reservados. Creados por <a href="https://mangotango.com.ar/" class="font-weight-bold" target="_blank"
-                  rel="noopener">Mango Tango</a></small>
-      </div>
-  </footer>
-    <!-- Script -->
-    <!-- MDB -->
-    <script
-        type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
-        ></script>
+        <div class="container">
+            <img class="footer-logo" src="img/redigram-blanco.png" class="logo-brand" alt="logo">
+            <ul class="list-inline">
+                <li class="list-inline-item footer-menu"><a href="index.html"><strong>Home</strong></a></li>
+                <li class="list-inline-item footer-menu"><a href="#"><strong>Quienes somos</strong></a></li>
+                <li class="list-inline-item footer-menu"><a href="#"><strong>Bodegas</strong></a></li>
+            </ul>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://www.instagram.com/redigramsa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/redigram" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://bit.ly/WhatsappRedigram" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+            <small>©2021 Todos los derechos reservados. Creados por <a href="https://mangotango.com.ar/" class="font-weight-bold" target="_blank"
+                    rel="noopener">Mango Tango</a></small>
+        </div>
+    </footer>
+      <!-- Script -->
+      <!-- MDB -->
+      <script
+          type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+          ></script>
 </body>
 </html>

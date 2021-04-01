@@ -45,76 +45,76 @@
         />
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link  rel="icon"   href="img/favicon.png" type="image/png" />
 </head>
 <body>
-    <navbar>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-        <!-- Toggle button -->
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarCenteredExample"
-            aria-controls="navbarCenteredExample"
+  <navbar>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarCenteredExample"
+        aria-controls="navbarCenteredExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <a href="index.html"><img class="logo-navbar" src="img/redigram-blanco.png" alt="logo-brand"></a>
+
+    <!-- Collapsible wrapper -->
+    <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarCenteredExample"
+    >
+        <!-- Left links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+            <a
+            class="nav-link active dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <a href="index.html"><img class="logo-navbar" src="img/redigram-blanco.png" alt="logo-brand"></a>
-
-        <!-- Collapsible wrapper -->
-        <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarCenteredExample"
-        >
-            <!-- Left links -->
-            <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <!-- Navbar dropdown -->
-            <li class="nav-item dropdown">
-                <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-                >
-                Promos y vinotecas
-                </a>
-                <!-- Dropdown menu -->
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="promo-casarena.html">Promo - Bodega Casarena</a></li>
-                <li><a class="dropdown-item" href="promo-rime.html">Promo - Cava Rimé</a></li>
-                <li><a class="dropdown-item" href="promo-canale.html">Promo - Bodega Canale</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="bodegas.html">Bodegas</a>
-              </li>
-                <li>
-                    <a class="dropdown-item" href="https://bit.ly/WhatsappRedigram">¡Quiero contactar un experto en vinos!</a>
-                </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                >¿Quienes somos?</a
-                >
+            >
+            Promos y vinotecas
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="promo-casarena.html">Promo - Bodega Casarena</a></li>
+            <li><a class="dropdown-item" href="promo-rime.html">Promo - Cava Rimé</a></li>
+            <li><a class="dropdown-item" href="promo-canale.html">Promo - Bodega Canale</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+                <a class="dropdown-item" href="https://bit.ly/WhatsappRedigram">¡Quiero contactar un experto en vinos!</a>
             </li>
             </ul>
-            <!-- Left links -->
-        </div>
-        <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
-        </nav>
-    </navbar>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="bodegas.html">Bodegas</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Quiénes somos</a>
+        </li> -->
+        </ul>
+        <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+    </nav>
+</navbar>
     <header>
         <div class="portada">
             <img class="portada-img" src="img/vinosPortada.jpg" alt="">
@@ -184,8 +184,8 @@
           <img class="footer-logo" src="img/redigram-blanco.png" class="logo-brand" alt="logo">
           <ul class="list-inline">
               <li class="list-inline-item footer-menu"><a href="index.html"><strong>Home</strong></a></li>
-              <li class="list-inline-item footer-menu"><a href="#"><strong>¿Quienes somos?</strong></a></li>
-              <li class="list-inline-item footer-menu"><a href="#"><strong>Bodegas</strong></a></li>
+              <!-- <li class="list-inline-item footer-menu"><a href="#"><strong>Quiénes somos</strong></a></li> -->
+              <li class="list-inline-item footer-menu"><a href="bodegas.html"><strong>Bodegas</strong></a></li>
           </ul>
           <ul class="list-inline">
             <li class="list-inline-item"><a href="https://www.instagram.com/redigramsa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
