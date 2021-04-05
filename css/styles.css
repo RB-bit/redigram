@@ -10,7 +10,7 @@ body{
 
 .navbar{
     font-family: 'Mulish', sans-serif;
-    border-bottom: solid 2px #ffac44;
+    border-bottom: solid 2px #cabea2;
 }
 
 .logo-navbar{
@@ -41,14 +41,29 @@ body{
     position: absolute;
     color: white;
     font-size: 3.5rem;
+    letter-spacing: -1px;
     animation-name: animar;
     animation-duration: 5s;
     animation-timing-function: ease-out;
 }
 
+.portada-txt::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #cabea2;
+    transition: width .5s
+}
+
+.portada-txt:hover::after{
+    width: 100%;
+    transition: width .5s;
+}
+
 @keyframes animar {
     0%   {
-        color:#ffac44;
+        color:#cabea2;
     }
     100% {color: #fafafa;}
 }
@@ -67,7 +82,7 @@ body{
 }
 
 .btn{
-    background: #ffac44;
+    background: #cabea2;
 }
 
 /* //////////////
@@ -105,7 +120,7 @@ body{
     transform: translateY(0px);
     }
 50%   {
-    color:#ffac44;  
+    color:#cabea2;  
     transform: translateY(10px);
     }
 100% {
@@ -175,7 +190,7 @@ body{
 
 
 .form-select{
-    background-color: #ffac44;
+    background-color: #cabea2;
     color: white;
     border-radius: 30px;
     border-color: white;
@@ -202,14 +217,14 @@ td, th{
     border-left: solid 1px black;
     border-bottom: solid 1px black;
     border-radius: 0px 20px 0px 0px;
-    background: #ffac44;
+    background: #cabea2;
     color: white;
 }
 
 .borde-abajo{
     border-bottom: solid 1px black;
     border-radius: 20px 0px 0px 0px;
-    background: #ffac44;
+    background: #cabea2;
     color: white;
 }
 /* //////////////
@@ -234,13 +249,13 @@ td, th{
 
 .bodegas__Cabecera-content{
     height: 400px;
-    width:  500px;
+    width:  300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 370px;
+    top: 380px;
     padding: 30px 20px 10px 20px;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
@@ -264,7 +279,7 @@ td, th{
     transform: translateY(0px);
     }
 50%   {
-    color:#ffac44;  
+    color:#cabea2;  
     transform: translateY(10px);
     }
 100% {
@@ -275,11 +290,12 @@ td, th{
 
 .bodegas__Cabecera-title{
     font-family: 'Mulish';
+    margin-top: 20px;
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
     margin-top: 15px;
-    color: #ffac44;
+    color: #cabea2;
 }
 
  @media (max-width: 414px){
@@ -327,7 +343,7 @@ td, th{
         font-weight: 400;
         text-align: center;
         margin-top: 15px;
-        color: #ffac44;
+        color: #cabea2;
     }
 
     .bodegas__Cabecera-icon{
@@ -524,16 +540,256 @@ td, th{
 .bodegas__HorizontalScroll-child-link{
     width: 70px;
     height: 40px;
-    color: #ffac44;
+    color: #cabea2;
 }
 
 .bodegas__HorizontalScroll-child-link:hover{
-    background-color: #ffac44;
+    background-color: #cabea2;
     color: white;
     border-radius: 30px;
     padding: 5px;
 }
 
+/* ///////////////
+    Quienes somos
+    ///////////// */
+
+.nosotros__Cabecera{
+    background-image: url(/img/bodegas/vineyard-large.png);
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    margin-bottom: 250px;
+    filter:grayscale(40%);
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nosotros__Cabecera-content{
+    height: 400px;
+    width:  300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 380px;
+    padding: 30px 20px 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+.nosotros__Cabecera-icon{
+    padding-top: 5px;
+    color: black;
+    margin-top: 60px;
+    animation-name: bodegasanimation;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 8;
+}
+
+@keyframes bodegasanimation {
+0%   {
+    color:black;
+    transform: translateY(0px);
+    }
+50%   {
+    color:#cabea2;  
+    transform: translateY(10px);
+    }
+100% {
+    color: black;
+    transform: translateY(0);    
+    }
+}
+
+.nosotros__Cabecera-title{
+    font-family: 'Mulish';
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    color: #cabea2;
+}
+
+    @media (max-width: 414px){
+    .nosotros__Cabecera{
+        background-image: url(/img/bodegas/vineyard-mobile.png);
+        height: 300px;
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-bottom: 190px;
+        filter:grayscale(40%);
+        position: relative;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nosotros__Cabecera-content{
+        height: 300px;
+        width:  200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+        padding: 30px 20px 10px 20px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+    }
+
+    .nosotros__Cabecera-content-img{
+        position: relative;
+        height: 70%;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .nosotros__Cabecera-title{
+        font-family: 'Mulish';
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 15px;
+        color: #cabea2;
+    }
+
+    .nosotros__Cabecera-icon{
+        padding-top: 5px;
+        color: black;
+        margin-top: 40px;
+        animation-name: bodegasanimation;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: 8;
+    }
+}
+
+.nosotros{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mulish';
+}
+
+.nosotros__contenido{
+    max-width: 80%;
+    font-family: 'Mulish';
+}
+
+.nosotros__contenido h2{
+    position: relative;
+    margin: 0 0 5px 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 3em;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.nosotros__contenido h2[data-scroll="in"]{
+    transform: sacaleX(1);
+}
+
+.nosotros__contenido h2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #cabea2;
+    transform-origin: right;
+    transition: 0.3s;
+}
+
+.nosotros__contenido h2[data-scroll="in"]:before{
+    transform: scaleX(0);
+    transition-delay: 0.3s;
+}
+
+.nosotros__contenido h3{
+    position: relative;
+    margin: 5px 0px 50px;
+    padding: 0;
+    font-size: 2em;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(1);
+}
+
+.nosotros__contenido h3[data-scroll="in"]{
+    transform: sacaleX(1);
+    transition-delay: 1s;
+}
+
+.nosotros__contenido h3:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #cabea2;
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.nosotros__contenido h3[data-scroll="in"]:before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+.nosotros__contenido p{
+    font-size: 1.2em;
+    transition: 1s;
+    opacity: 0;
+    margin-bottom: 50px;
+}
+
+.nosotros__contenido p[data-scroll="in"]{
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.nosotros__contenido a {
+    position: relative;
+    background: #cabea2;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 1s;
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.nosotros__contenido a[data-scroll="in"]{
+    transform: translateX(0);
+    transition-delay: 1s;
+    opacity: 1;
+}
 
 
 /* //////////////
@@ -570,7 +826,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffac44;
+    color: #cabea2;
 }
 
 footer small{
