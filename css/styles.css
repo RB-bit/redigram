@@ -443,7 +443,7 @@ td, th{
 }
 
 .bodegas__Cabecera-content{
-    height: 400px;
+    height: 300px;
     width:  300px;
     display: flex;
     justify-content: center;
@@ -509,8 +509,8 @@ td, th{
         flex-direction: column;
     }
     .bodegas__Cabecera-content{
-        height: 300px;
-        width:  200px;
+        height: 200px;
+        width:  220px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -521,13 +521,6 @@ td, th{
         background: #fff;
         box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
         border-radius: 20px;
-    }
-
-    .bodegas__Cabecera-content-img{
-        position: relative;
-        height: 70%;
-        width: 70%;
-        margin-bottom: 30px;
     }
 
     .bodegas__Cabecera-title{
@@ -612,7 +605,6 @@ td, th{
         background: url(/img/bodegas/uvas-sup-d-dektop-lareg-01.png) no-repeat;
         filter: opacity(0.25);
     }
-    
     .bodegas::after{
         content:'';
         position: fixed;
@@ -625,7 +617,6 @@ td, th{
     }
 }
 
-
 @media (max-width: 414px){
     .bodegas{
         margin-top: 50px;
@@ -633,7 +624,6 @@ td, th{
         height: auto;
         text-align: center;
     }
-
     .bodegas::before{
         content:'';
         position: fixed;
@@ -657,7 +647,6 @@ td, th{
 }
 
 @media (max-width: 375px){
-
     .bodegas::before{
         content:'';
         position: fixed;
@@ -681,7 +670,6 @@ td, th{
 }
 
 @media (max-width: 320px){
-
     .bodegas::before{
         content:'';
         position: fixed;
@@ -718,9 +706,8 @@ td, th{
     height: 250px;
     margin: 0 5px 0 5px;
     display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
+    background: #fff;
     box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
-    backdrop-filter: blur(10px);
     border-radius: 30px;
 }
 
