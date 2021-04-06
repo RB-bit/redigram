@@ -146,26 +146,83 @@ let vinotecasCanale = [
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/random3.png"
     },
-    //Zona Otros
     {
     id:16,
+    vinoteca: "Lo de Tere",
+    direccion: "Av. Real 9576 - Fisherton",
+    ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/random4"
+    },
+    //Zona Villa Constitución
+    {
+    id:17,
     vinoteca: "Quicho",
     direccion: "Belgrano 164 - Villa Constitución",
     ir:"https://goo.gl/maps/AfCs4MDRdMi7ekjb8",
-    barrio:"Zona Otros",
+    barrio:"Zona Villa Constitucion",
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/random1.jpg"
     },
     {
-    id:17,
+    id:18,
+    vinoteca: "Entre Copas",
+    direccion: "Dorrego 1101 - Villa Constitución",
+    ir:"https://g.page/entrecopasenoteca?share",
+    barrio:"Zona Villa Constitucion",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/entrecopas"
+    },
+    // Zona Santa Teresa
+    {
+    id:19,
     vinoteca: "Cerveteca",
     direccion: "Sarmiento 846 - Santa Teresa",
     ir:"https://goo.gl/maps/i2ay6TzT4En7MY9BA",
-    barrio:"Zona Otros",
+    barrio:"Zona Santa Teresa",
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/random2.jpeg"
-    }
-
+    },
+    //Zona San Lorenzo
+    {
+    id:20,
+    vinoteca: "Campos",
+    direccion: "Belgrano 776 - San Lorenzo",
+    ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
+    barrio:"Zona San Lorenzo",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/vinoteca-campos"
+    },
+    //Zona Parana
+    {
+    id:21,
+    vinoteca: "El Palacio",
+    direccion: "Gral. Pascual Echague 814 - Paraná",
+    ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
+    barrio:"Zona Parana",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/random2.jpeg"
+    },
+    //Zona Santa Fe
+    {
+    id:22,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "Aristóbulo del Valle 6342 - Santa Fe",
+    ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
+    barrio:"Zona Santa Fe",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/donjuanjacinto1"
+    },
+    {
+    id:23,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "25 de mayo 3601 - Santa Fe",
+    ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
+    barrio:"Zona Santa Fe",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/donjuanjacinto2"
+    },
   ]
 selectBarrio.addEventListener('change', ()=>{
     //console.log(selectBarrio.value)
@@ -191,9 +248,21 @@ selectBarrio.addEventListener('change', ()=>{
         case "Zona Funes y Fisherton":
             pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Funes y Fisherton'));
             break;
-        case "Zona Otros":
-            pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Otros'));
+        case "Zona San Lorenzo":
+            pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona San Lorenzo'));
             break;
+        case "Zona Villa Constitucion":
+          pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Villa Constitucion'));
+            break;
+        case "Zona Santa Fe":
+          pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Santa Fe'));
+          break;
+        case "Zona Parana":
+              pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Parana'));
+              break;
+        case "Zona Santa Teresa":
+          pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Santa Teresa'));
+          break;
     }
 })
 
