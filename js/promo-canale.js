@@ -222,7 +222,7 @@ let vinotecasCanale = [
     barrio:"Zona Santa Fe",
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/donjuanjacinto2"
-    },
+    }
   ]
 selectBarrio.addEventListener('change', ()=>{
     //console.log(selectBarrio.value)

@@ -49,6 +49,83 @@ let vinotecasRime = [
       barrio:"Zona Centro",
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/vinotecaBaco.png"
+    },
+    {
+      id: 6,
+      vinoteca: "Queseria sin un vino",
+      direccion: "Pte. Roca 1518",
+      ir:"https://goo.gl/maps/5ryrFkjuSeP9CKvr5",
+      barrio:"Zona Centro",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/queseria.png"
+    },
+    // Zona Funes y Fisherton
+    {
+    id:7,
+    vinoteca: "Lo de Tere",
+    direccion: "Av. Real 9576 - Fisherton",
+    ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
+    barrio:"Zona Fisherton",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/random4"
+    },
+    // Zona Villa Constitucion
+    {
+    id:8,
+    vinoteca: "Entre Copas",
+    direccion: "Dorrego 1101 - Villa Constitución",
+    ir:"https://g.page/entrecopasenoteca?share",
+    barrio:"Zona Villa Constitucion",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/entrecopas"
+    },
+    // Zona San Lorenzo
+    {
+    id:9,
+    vinoteca: "Campos",
+    direccion: "Belgrano 776 - San Lorenzo",
+    ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
+    barrio:"Zona San Lorenzo",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/vinoteca-campos"
+    },
+    //Zona Parana
+    {
+    id:10,
+    vinoteca: "El Palacio",
+    direccion: "Gral. Pascual Echague 814 - Paraná",
+    ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
+    barrio:"Zona Parana",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/random2.jpeg"
+    },
+    //Zona Santa Fe
+    {
+    id:11,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "Aristóbulo del Valle 6342 - Santa Fe",
+    ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
+    barrio:"Zona Santa Fe",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/donjuanjacinto1"
+    },
+    {
+    id:12,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "25 de mayo 3601 - Santa Fe",
+    ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
+    barrio:"Zona Santa Fe",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/donjuanjacinto2"
+    },
+    {
+    id:13,
+    vinoteca: "La Cueva de Francia",
+    direccion: "Francia 3490 - Santa Fe",
+    ir:"https://goo.gl/maps/q4eMXN8UEwyswmdo8",
+    barrio:"Zona Santa Fe",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/lacueva"
     }
   ]
 
@@ -64,6 +141,21 @@ selectBarrio.addEventListener('change', ()=>{
         case "Zona Granadero Baigorria":
                 pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Granadero Baigorria'));
                 break;
+        case "Zona Fisherton":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Fisherton'));
+          break;
+        case "Zona Villa Constitucion":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Villa Constitucion'));
+          break;
+        case "Zona Parana":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Parana'));
+          break;
+        case "Zona San Lorenzo":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona San Lorenzo'));
+          break;
+        case "Zona Santa Fe":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Santa Fe'));
+          break;
     }
 })
 

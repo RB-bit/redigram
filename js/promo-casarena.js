@@ -104,6 +104,84 @@ let vinotecasCasarena = [
       barrio:"Zona Macro-Centro",
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/vinotecamaestro.jpg"
+    },
+    // Zona Sur
+    {
+    id:12,
+    vinoteca: "El Tonel",
+    direccion: "Ayacucho 5321",
+    ir:"https://goo.gl/maps/DpZLPxtVQxx8ZcpMA",
+    barrio:"Zona Sur",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/eltonel"
+    },
+    // Zona Funes y Fisherton
+    {
+    id:13,
+    vinoteca: "Lo de Tere",
+    direccion: "Av. Real 9576 - Fisherton",
+    ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
+    barrio:"Zona Fisherton",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random4"
+    },
+    // Zona Villa Constitucion
+    {
+    id:14,
+    vinoteca: "Entre Copas",
+    direccion: "Dorrego 1101 - Villa Constitución",
+    ir:"https://g.page/entrecopasenoteca?share",
+    barrio:"Zona Villa Constitucion",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/entrecopas"
+    },
+    // Zona San Lorenzo
+    {
+    id:15,
+    vinoteca: "Campos",
+    direccion: "Belgrano 776 - San Lorenzo",
+    ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
+    barrio:"Zona San Lorenzo",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/vinoteca-campos"
+    },
+    //Zona Parana
+    {
+    id:16,
+    vinoteca: "El Palacio",
+    direccion: "Gral. Pascual Echague 814 - Paraná",
+    ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
+    barrio:"Zona Parana",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random2.jpeg"
+    },
+    //Zona Santa Fe
+    {
+    id:17,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "Aristóbulo del Valle 6342 - Santa Fe",
+    ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
+    barrio:"Zona Santa Fe",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/donjuanjacinto1"
+    },
+    {
+    id:18,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "25 de mayo 3601 - Santa Fe",
+    ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
+    barrio:"Zona Santa Fe",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/donjuanjacinto2"
+    },
+    {
+    id:19,
+    vinoteca: "La Cueva de Francia",
+    direccion: "Francia 3490 - Santa Fe",
+    ir:"https://goo.gl/maps/q4eMXN8UEwyswmdo8",
+    barrio:"Zona Santa Fe",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/lacueva"
     }
   ]
 
@@ -119,7 +197,25 @@ selectBarrio.addEventListener('change', ()=>{
         case "Zona Macro-Centro":
                 pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Macro-Centro'));
                 break;
-    }
+        case "Zona Sur":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Sur'));
+          break;
+        case "Zona Fisherton":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Fisherton'));
+          break;
+        case "Zona Villa Constitucion":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Constitucion'));
+          break;
+        case "Zona Parana":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Parana'));
+          break;
+        case "Zona San Lorenzo":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona San Lorenzo'));
+          break;
+        case "Zona Santa Fe":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Santa Fe'));
+          break;
+  }
 })
 
   pintarVinotecas(vinotecasCasarena)
