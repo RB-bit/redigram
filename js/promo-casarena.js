@@ -1,5 +1,7 @@
 const locales = document.getElementById('locales')
+const deli = document.getElementById('deli')
 const templateCard = document.getElementById('template-card').content
+const delivery = document.getElementById('delivery').content
 const fragment = document.createDocumentFragment()
 //Filtro por Barrio
 const selectBarrio = document.getElementById('selectBarrio')
@@ -182,43 +184,92 @@ let vinotecasCasarena = [
     barrio:"Zona Santa Fe",
     bodega: "casarena",
     thumbnailUrl: "img/vinotecas/casarena/lacueva"
+    },
+    {
+      id:20,
+      vinoteca: "Exquisitos Placeres",
+      direccion: "Balcarce 1576 - Santa Fe",
+      ir:"https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
+      barrio:"Zona Santa Fe",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/exquisitosplaceres"
+    },
+    //Zona Santo Tomé
+    {
+    id:21,
+    vinoteca: "Entre Copas - Almacén de Vinos",
+    direccion: "Macias 2092 - Santo Tomé",
+    ir:"https://goo.gl/maps/NabVLXmqtG6bFsVi9",
+    barrio:"Zona Santo Tome",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/entrecopassantotome"
     }
   ]
+
+let  vinotecasDelivery = [
+  {
+    id:26,
+    vinoteca: "Cepa Negra",
+    direccion: "Delivery en Rosario, Fisherton, Funes y Roldán",
+    contactar:"https://bit.ly/373LoKa",
+    barrio:"Zona Delivery",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/random2.jpeg"
+  }
+]
 
 selectBarrio.addEventListener('change', ()=>{
     //console.log(selectBarrio.value)
     switch(selectBarrio.value) {
         case "Todas las vinotecas":
-            pintarVinotecas(vinotecasCasarena);
-            break;
+          pintarVinotecas(vinotecasCasarena);
+          break;
         case "Zona Centro":
-            pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Centro'));
-            break;
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Centro'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
         case "Zona Macro-Centro":
-                pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Macro-Centro'));
-                break;
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Macro-Centro'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
         case "Zona Sur":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Sur'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona Fisherton":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Fisherton'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona Villa Constitucion":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Constitucion'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona Parana":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Parana'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona San Lorenzo":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona San Lorenzo'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona Santa Fe":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Santa Fe'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
+        case "Zona Santo Tome":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Santo Tome'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Delivery":
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === ''));
+          break;
+        
   }
 })
 
   pintarVinotecas(vinotecasCasarena)
+  Delivery(vinotecasDelivery)
 
 function pintarVinotecas(array){
     locales.innerHTML = ''
@@ -233,4 +284,19 @@ function pintarVinotecas(array){
         fragment.appendChild(clone)
     })
     locales.appendChild(fragment)
+}
+
+function Delivery(array){
+  deli.innerHTML = ''
+    array.forEach(vinotecaDeli => {
+      console.log(vinotecaDeli)
+      delivery.querySelector('h5').textContent = vinotecaDeli.vinoteca
+      delivery.querySelector('p').textContent = vinotecaDeli.direccion
+      delivery.querySelector('img').setAttribute("src", vinotecaDeli.thumbnailUrl)
+      delivery.querySelector('a').setAttribute("href", vinotecaDeli.ir)
+
+      const clone = delivery.cloneNode(true)
+      fragment.appendChild(clone)
+    })
+  deli.appendChild(fragment)
 }

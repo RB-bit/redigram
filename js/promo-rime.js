@@ -59,9 +59,28 @@ let vinotecasRime = [
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/queseria.png"
     },
+    {
+      id:7,
+      vinoteca: "Del Lito Vinos",
+      direccion: "3 de Febrero 1133",
+      ir:"https://g.page/del-lito-vinoteca?share",
+      barrio:"Zona Centro",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/dellito"
+    },
+    // Zona macro Centro
+    {
+      id:8,
+      vinoteca: "Etiqueta Negra",
+      direccion: "Viamonte 661",
+      ir:"https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
+      barrio:"Zona Macro Centro",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/random4"
+    },
     // Zona Funes y Fisherton
     {
-    id:7,
+    id:9,
     vinoteca: "Lo de Tere",
     direccion: "Av. Real 9576 - Fisherton",
     ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
@@ -71,7 +90,7 @@ let vinotecasRime = [
     },
     // Zona Villa Constitucion
     {
-    id:8,
+    id:10,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir:"https://g.page/entrecopasenoteca?share",
@@ -81,7 +100,7 @@ let vinotecasRime = [
     },
     // Zona San Lorenzo
     {
-    id:9,
+    id:11,
     vinoteca: "Campos",
     direccion: "Belgrano 776 - San Lorenzo",
     ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -91,7 +110,7 @@ let vinotecasRime = [
     },
     //Zona Parana
     {
-    id:10,
+    id:12,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -101,7 +120,7 @@ let vinotecasRime = [
     },
     //Zona Santa Fe
     {
-    id:11,
+    id:13,
     vinoteca: "Don Juan Jacinto",
     direccion: "Aristóbulo del Valle 6342 - Santa Fe",
     ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -110,7 +129,7 @@ let vinotecasRime = [
     thumbnailUrl: "img/vinotecas/rime/donjuanjacinto1"
     },
     {
-    id:12,
+    id:14,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -119,13 +138,32 @@ let vinotecasRime = [
     thumbnailUrl: "img/vinotecas/rime/donjuanjacinto2"
     },
     {
-    id:13,
+    id:15,
+    vinoteca: "Exquisitos Placeres",
+    direccion: "Balcarce 1576 - Santa Fe",
+    ir:"https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
+    barrio:"Zona Santa Fe",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/exquisitosplaceres"
+    },
+    {
+    id:16,
     vinoteca: "La Cueva de Francia",
     direccion: "Francia 3490 - Santa Fe",
     ir:"https://goo.gl/maps/q4eMXN8UEwyswmdo8",
     barrio:"Zona Santa Fe",
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/rime/lacueva"
+    },
+    //Zona Santo Tomé
+    {
+      id:17,
+      vinoteca: "Entre Copas - Almacén de Vinos",
+      direccion: "Macias 2092 - Santo Tomé",
+      ir:"https://goo.gl/maps/NabVLXmqtG6bFsVi9",
+      barrio:"Zona Santo Tome",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/entrecopassantotome"
     }
   ]
 
@@ -138,9 +176,12 @@ selectBarrio.addEventListener('change', ()=>{
         case "Zona Centro":
             pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Centro'));
             break;
+        case "Zona Macro Centro":
+            pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Macro Centro'));
+            break;          
         case "Zona Granadero Baigorria":
-                pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Granadero Baigorria'));
-                break;
+            pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Granadero Baigorria'));
+            break;
         case "Zona Fisherton":
           pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Fisherton'));
           break;
@@ -155,6 +196,9 @@ selectBarrio.addEventListener('change', ()=>{
           break;
         case "Zona Santa Fe":
           pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Santa Fe'));
+          break;
+        case "Zona Santo Tome":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Santo Tome'));
           break;
     }
 })
