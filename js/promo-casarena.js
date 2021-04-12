@@ -45,12 +45,12 @@ let vinotecasCasarena = [
     },
     {
       id: 5,
-      vinoteca: "Vinoteca Baco",
-      direccion: "9 de julio 786",
-      ir:"https://goo.gl/maps/rFHySHexuniuLbtt7",
+      vinoteca: "Don Baco - Casa de Vinos",
+      direccion: "9 de julio 768",
+      ir:"https://g.page/don-baco-casa-de-vinos?share",
       barrio:"Zona Centro",
       bodega: "casarena",
-      thumbnailUrl: "img/vinotecas/casarena/vinotecaBaco.png"
+      thumbnailUrl: "img/vinotecas/casarena/vinotecaBaco"
     },
     {
         id: 6,
@@ -97,9 +97,18 @@ let vinotecasCasarena = [
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/cavanova.png"
     },
+    {
+      id: 11,
+      vinoteca: "Orígenes Tienda Gourmet",
+      direccion: "Moreno 137 BIS",
+      ir:"https://goo.gl/maps/BVc8D1ReqjJCmC247",
+      barrio:"Zona Centro",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/origenes"
+    },
     // Macro-Centro
     {
-      id:11,
+      id:12,
       vinoteca: "Vinoteca Maestro",
       direccion: "Suipacha 381",
       ir:"https://goo.gl/maps/2mEqDMipT45Kaa4SA",
@@ -107,9 +116,18 @@ let vinotecasCasarena = [
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/vinotecamaestro.jpg"
     },
+    {
+      id:13,
+      vinoteca: "La Toscana",
+      direccion: "Mendoza 3563",
+      ir:"https://goo.gl/maps/tTHX2FGRAr8n3eW66",
+      barrio:"Zona Macro-Centro",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/latoscana"
+      },
     // Zona Sur
     {
-    id:12,
+    id:14,
     vinoteca: "El Tonel",
     direccion: "Ayacucho 5321",
     ir:"https://goo.gl/maps/DpZLPxtVQxx8ZcpMA",
@@ -119,7 +137,7 @@ let vinotecasCasarena = [
     },
     // Zona Funes y Fisherton
     {
-    id:13,
+    id:15,
     vinoteca: "Lo de Tere",
     direccion: "Av. Real 9576 - Fisherton",
     ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
@@ -129,7 +147,7 @@ let vinotecasCasarena = [
     },
     // Zona Villa Constitucion
     {
-    id:14,
+    id:16,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir:"https://g.page/entrecopasenoteca?share",
@@ -139,7 +157,7 @@ let vinotecasCasarena = [
     },
     // Zona San Lorenzo
     {
-    id:15,
+    id:17,
     vinoteca: "Campos",
     direccion: "Belgrano 776 - San Lorenzo",
     ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -149,7 +167,7 @@ let vinotecasCasarena = [
     },
     //Zona Parana
     {
-    id:16,
+    id:18,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -159,7 +177,7 @@ let vinotecasCasarena = [
     },
     //Zona Santa Fe
     {
-    id:17,
+    id:19,
     vinoteca: "Don Juan Jacinto",
     direccion: "Aristóbulo del Valle 6342 - Santa Fe",
     ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -168,7 +186,7 @@ let vinotecasCasarena = [
     thumbnailUrl: "img/vinotecas/casarena/donjuanjacinto1"
     },
     {
-    id:18,
+    id:20,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -177,7 +195,7 @@ let vinotecasCasarena = [
     thumbnailUrl: "img/vinotecas/casarena/donjuanjacinto2"
     },
     {
-    id:19,
+    id:21,
     vinoteca: "La Cueva de Francia",
     direccion: "Francia 3490 - Santa Fe",
     ir:"https://goo.gl/maps/q4eMXN8UEwyswmdo8",
@@ -186,7 +204,7 @@ let vinotecasCasarena = [
     thumbnailUrl: "img/vinotecas/casarena/lacueva"
     },
     {
-      id:20,
+      id:22,
       vinoteca: "Exquisitos Placeres",
       direccion: "Balcarce 1576 - Santa Fe",
       ir:"https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
@@ -196,7 +214,7 @@ let vinotecasCasarena = [
     },
     //Zona Santo Tomé
     {
-    id:21,
+    id:23,
     vinoteca: "Entre Copas - Almacén de Vinos",
     direccion: "Macias 2092 - Santo Tomé",
     ir:"https://goo.gl/maps/NabVLXmqtG6bFsVi9",

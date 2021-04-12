@@ -62,9 +62,18 @@ const selectBarrio = document.getElementById('selectBarrio')
        bodega: "canale",
        thumbnailUrl: "img/vinotecas/canale/elcamino.png"
    },
+   {
+    id:7,
+    vinoteca: "Vinoteca Terruño",
+    direccion: "Catamarca 1640",
+    ir:"https://goo.gl/maps/wpZjMtmQM4QLzVsY9",
+    barrio:"Zona Centro",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/teruno"
+  },
    //Zona Macro Centro
    {
-     id: 7,
+     id: 8,
      vinoteca: "Rosario Vinos Exclusivos",
      direccion: "Pasco 1501",
      ir:"https://goo.gl/maps/2KxPH9C6UvVK2kt26",
@@ -73,7 +82,7 @@ const selectBarrio = document.getElementById('selectBarrio')
      thumbnailUrl: "img/vinotecas/canale/vinosexclusivos.png"
    },
    {
-     id: 8,
+     id: 9,
      vinoteca: "Eleven Copas",
      direccion: "Corientes 1919",
      ir:"https://g.page/eleven-copas?share",
@@ -82,7 +91,7 @@ const selectBarrio = document.getElementById('selectBarrio')
      thumbnailUrl: "img/vinotecas/canale/elevencopas.png"
    },
    {
-     id: 9,
+     id: 10,
      vinoteca: "Rincón Fonseca",
      direccion: "España 1921",
      ir:"https://goo.gl/maps/CdPt7acFywSBe69w9",
@@ -90,9 +99,27 @@ const selectBarrio = document.getElementById('selectBarrio')
      bodega: "canale",
      thumbnailUrl: "img/vinotecas/canale/rinconfonseca.png"
    },
+   {
+    id:11,
+    vinoteca: "Eleven Wines",
+    direccion: "Ov. Lagos 522",
+    ir:"https://g.page/vinoteca-eleven-wines?share",
+    barrio:"Zona Macro Centro",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/elevenwines"
+  },
+  {
+    id:12,
+    vinoteca: "La Toscana",
+    direccion: "Mendoza 3563",
+    ir:"https://goo.gl/maps/tTHX2FGRAr8n3eW66",
+    barrio:"Zona Macro Centro",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/latoscana"
+    },
    //Zona Norte
    {
-     id:10,
+     id:13,
      vinoteca: "Don Eliseo",
      direccion: "Gorriti 415",
      ir:"https://goo.gl/maps/NVi1DHrQb5RcXAum8",
@@ -102,7 +129,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona Sur
    {
-   id:11,
+   id:14,
    vinoteca: "Fiambrería Amenabar",
    direccion: "Rueda 2165",
    ir:"https://goo.gl/maps/JuyyaFftSMTZw8KF8",
@@ -112,7 +139,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona Oeste
    {
-   id:12,
+   id:15,
    vinoteca: "Francesca Delicatessen",
    direccion: "Mendoza 5503",
    ir:"https://goo.gl/maps/QAQiT1nvESwMLCXL6",
@@ -122,7 +149,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona Funes y Fisherton
    {
-   id:13,
+   id:16,
    vinoteca: "Mundo Vino",
    direccion: "Córdoba 1820, Funes",
    ir:"https://goo.gl/maps/U2cLWVX17Xn2SLyZ6",
@@ -131,7 +158,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    thumbnailUrl: "img/vinotecas/canale/mundovino.png"
    },
    {
-   id:14,
+   id:17,
    vinoteca: "Casa Prada",
    direccion: "Shopping Fisherton Plaza local 43",
    ir:"https://goo.gl/maps/NWzZDV1EndumUU5q9",
@@ -140,7 +167,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    thumbnailUrl: "img/vinotecas/canale/prada.png"
    },
    {
-   id:15,
+   id:18,
    vinoteca: "MyM Distribuidora",
    direccion: "Mitre 2599 - Funes",
    ir:"https://goo.gl/maps/gh9LDqSjwkfCk6Uu5",
@@ -149,7 +176,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    thumbnailUrl: "img/vinotecas/canale/random3.png"
    },
    {
-   id:16,
+   id:19,
    vinoteca: "Lo de Tere",
    direccion: "Av. Real 9576 - Fisherton",
    ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
@@ -159,7 +186,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona Villa Constitución
    {
-   id:17,
+   id:20,
    vinoteca: "Quicho",
    direccion: "Belgrano 164 - Villa Constitución",
    ir:"https://goo.gl/maps/AfCs4MDRdMi7ekjb8",
@@ -168,7 +195,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    thumbnailUrl: "img/vinotecas/canale/random1.jpg"
    },
    {
-   id:18,
+   id:21,
    vinoteca: "Entre Copas",
    direccion: "Dorrego 1101 - Villa Constitución",
    ir:"https://g.page/entrecopasenoteca?share",
@@ -178,7 +205,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    // Zona Santa Teresa
    {
-   id:19,
+   id:22,
    vinoteca: "Cerveteca",
    direccion: "Sarmiento 846 - Santa Teresa",
    ir:"https://goo.gl/maps/i2ay6TzT4En7MY9BA",
@@ -188,7 +215,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona San Lorenzo
    {
-   id:20,
+   id:23,
    vinoteca: "Campos",
    direccion: "Belgrano 776 - San Lorenzo",
    ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -198,7 +225,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona Parana
    {
-   id:21,
+   id:24,
    vinoteca: "El Palacio",
    direccion: "Gral. Pascual Echague 814 - Paraná",
    ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -208,7 +235,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
    //Zona Santa Fe
    {
-   id:22,
+   id:25,
    vinoteca: "Don Juan Jacinto",
    direccion: "Aristóbulo del Valle 6342 - Santa Fe",
    ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -217,7 +244,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    thumbnailUrl: "img/vinotecas/canale/donjuanjacinto1"
    },
    {
-   id:23,
+   id:26,
    vinoteca: "Don Juan Jacinto",
    direccion: "25 de mayo 3601 - Santa Fe",
    ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -226,7 +253,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    thumbnailUrl: "img/vinotecas/canale/donjuanjacinto2"
    },
    {
-   id:24,
+   id:27,
    vinoteca: "Exquisitos Placeres",
    direccion: "Balcarce 1576 - Santa Fe",
    ir:"https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
@@ -236,7 +263,7 @@ const selectBarrio = document.getElementById('selectBarrio')
    },
        //Zona Santo Tomé
    {
-   id:25,
+   id:28,
    vinoteca: "Entre Copas - Almacén de Vinos",
    direccion: "Macias 2092 - Santo Tomé",
    ir:"https://goo.gl/maps/NabVLXmqtG6bFsVi9",
@@ -248,7 +275,7 @@ const selectBarrio = document.getElementById('selectBarrio')
 
 let  vinotecasDelivery = [
   {
-    id:26,
+    id:29,
     vinoteca: "Cepa Negra",
     direccion: "Delivery en Rosario, Fisherton, Funes y Roldán",
     contactar:"https://bit.ly/373LoKa",

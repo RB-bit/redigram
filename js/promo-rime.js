@@ -43,12 +43,12 @@ let vinotecasRime = [
     },
     {
       id: 5,
-      vinoteca: "Vinoteca Baco",
-      direccion: "9 de julio 786",
-      ir:"https://goo.gl/maps/rFHySHexuniuLbtt7",
+      vinoteca: "Don Baco - Casa de Vinos",
+      direccion: "9 de julio 768",
+      ir:"https://g.page/don-baco-casa-de-vinos?share",
       barrio:"Zona Centro",
-      bodega: "rime",
-      thumbnailUrl: "img/vinotecas/rime/vinotecaBaco.png"
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/vinotecaBaco"
     },
     {
       id: 6,
@@ -68,9 +68,18 @@ let vinotecasRime = [
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/dellito"
     },
-    // Zona macro Centro
     {
       id:8,
+      vinoteca: "El Caballero del Vino",
+      direccion: "Necochea 1426",
+      ir:"https://goo.gl/maps/staixWv31C1ESW1t8",
+      barrio:"Zona Centro",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/elcaballero"
+    },
+    // Zona macro Centro
+    {
+      id:9,
       vinoteca: "Etiqueta Negra",
       direccion: "Viamonte 661",
       ir:"https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
@@ -80,7 +89,7 @@ let vinotecasRime = [
     },
     // Zona Funes y Fisherton
     {
-    id:9,
+    id:10,
     vinoteca: "Lo de Tere",
     direccion: "Av. Real 9576 - Fisherton",
     ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
@@ -90,7 +99,7 @@ let vinotecasRime = [
     },
     // Zona Villa Constitucion
     {
-    id:10,
+    id:13,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir:"https://g.page/entrecopasenoteca?share",
@@ -100,7 +109,7 @@ let vinotecasRime = [
     },
     // Zona San Lorenzo
     {
-    id:11,
+    id:14,
     vinoteca: "Campos",
     direccion: "Belgrano 776 - San Lorenzo",
     ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -110,7 +119,7 @@ let vinotecasRime = [
     },
     //Zona Parana
     {
-    id:12,
+    id:15,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
