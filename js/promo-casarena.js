@@ -50,7 +50,7 @@ let vinotecasCasarena = [
       ir:"https://g.page/don-baco-casa-de-vinos?share",
       barrio:"Zona Centro",
       bodega: "casarena",
-      thumbnailUrl: "img/vinotecas/casarena/vinotecaBaco"
+      thumbnailUrl: "img/vinotecas/casarena/vinotecabaco"
     },
     {
         id: 6,
