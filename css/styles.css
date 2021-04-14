@@ -1378,6 +1378,13 @@ footer small{
 /* //////////////
     Footer - Quienes Somos
     //////////// */
+    @media (max-width: 1920px){
+        .quienessomos{
+            margin-top: 40px;
+            top: 580px;
+        }
+    }
+
     @media (max-width: 1444px){
         .quienessomos{
             margin-top: 40px;
@@ -1388,7 +1395,7 @@ footer small{
     @media (max-width: 769px){
         .quienessomos{
             margin-top: 40px;
-            top: 600px;
+            top: 800px;
         }
     }
     
