@@ -258,7 +258,7 @@ body{
     .portada-txt-B{
         position: absolute;
         width: 80%;
-        top: 5.3rem;
+        top: 5.6rem;
         color: white;
         font-size: 1rem;
         letter-spacing: -0.5px;
@@ -1071,15 +1071,6 @@ footer small{
     }
 }
 
-@media (max-width: 769px){
-    .portada-txt {
-        font-size: 1.3rem;
-        margin-top: 55px;
-    }
-    .portada-img{
-        height: 250px;
-    }
-}
 
 
 /* //////////////
