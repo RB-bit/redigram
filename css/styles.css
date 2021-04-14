@@ -55,9 +55,14 @@ body{
     width: 80%;
     top: 6em;
     color: white;
+<<<<<<< HEAD
     font-size: 5em;
     letter-spacing: -0.5px;
     text-transform: uppercase;
+=======
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+>>>>>>> test
     animation-name: animar;
     animation-duration: 5s;
     animation-timing-function: ease-out;
@@ -85,6 +90,20 @@ body{
 }
 
 .portada-txt-B:hover::after{
+    width: 100%;
+    transition: width .5s;
+}
+
+.portada-txt::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #cabea2;
+    transition: width .5s
+}
+
+.portada-txt:hover::after{
     width: 100%;
     transition: width .5s;
 }
@@ -745,7 +764,7 @@ td, th{
     ///////////// */
 
 .nosotros__Cabecera{
-    background-image: url(/img/bodegas/vineyard-large.png);
+    background-image: url(/img/quienessomos-large);
     height: 700px;
     width: 100%;
     position: relative;
@@ -761,7 +780,7 @@ td, th{
 }
 
 .nosotros__Cabecera-content{
-    height: 400px;
+    height: 300px;
     width:  300px;
     display: flex;
     justify-content: center;
@@ -770,9 +789,8 @@ td, th{
     position: relative;
     top: 380px;
     padding: 30px 20px 10px 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: white;
     box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
-    backdrop-filter: blur(15px);
     border-radius: 20px;
 }
 
@@ -808,67 +826,9 @@ td, th{
     font-weight: 400;
     text-align: center;
     margin-top: 15px;
-    color: #cabea2;
+    color: black;
 }
 
-    @media (max-width: 414px){
-    .nosotros__Cabecera{
-        background-image: url(/img/bodegas/vineyard-mobile.png);
-        height: 300px;
-        width: 100%;
-        position: relative;
-        top: 0;
-        margin-bottom: 190px;
-        filter:grayscale(40%);
-        position: relative;
-        z-index: 999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .nosotros__Cabecera-content{
-        height: 300px;
-        width:  200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-        top: 200px;
-        padding: 30px 20px 10px 20px;
-        background: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
-        backdrop-filter: blur(15px);
-        border-radius: 20px;
-    }
-
-    .nosotros__Cabecera-content-img{
-        position: relative;
-        height: 70%;
-        width: 70%;
-        margin-bottom: 30px;
-    }
-
-    .nosotros__Cabecera-title{
-        font-family: 'Mulish';
-        font-size: 1.5rem;
-        font-weight: 400;
-        text-align: center;
-        margin-top: 15px;
-        color: #cabea2;
-    }
-
-    .nosotros__Cabecera-icon{
-        padding-top: 5px;
-        color: black;
-        margin-top: 40px;
-        animation-name: bodegasanimation;
-        animation-duration: 1s;
-        animation-fill-mode: both;
-        animation-iteration-count: 8;
-    }
-}
 
 .nosotros{
     position: relative;
@@ -999,12 +959,26 @@ td, th{
    Footer
 //////////////*/
 
-footer {
+
+
+.footer-container{
+    position: relative;
     padding: 80px 0;
     text-align: center;
     color: white;
-    background-color: rgb(146, 134, 134);
+    background-color: rgb(129, 126, 126);
     margin-top: 50px;
+    z-index: 999;
+}
+
+.quienessomos{
+    position: relative;
+    padding: 80px 0;
+    top: 270px;
+    text-align: center;
+    color: white;
+    background-color: rgb(146, 134, 134);
+    z-index: 999;
 }
 
 .footer-menu{
@@ -1023,13 +997,6 @@ footer small{
     position: relative;
     z-index: 999;
 }
-
-footer .container{
-    position: relative;
-    z-index: 999;
-}
-
-
 /* //////////////
    Media queries
 //////////////*/
@@ -1040,22 +1007,85 @@ footer .container{
     }
 }
 
-@media (max-width: 575.98px) { 
-    .footer-menu { 
-        display: block !important;
-        padding: 20px 0 !important;
-        font-size: 20px;
+/* //////////////
+    Quienes Somos - Media queries
+    //////////// */
+
+@media (max-width: 416px){
+    .nosotros{
+        margin-top: 250px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Mulish';
+    }
+    .nosotros__contenido h2{
+        font-size: 2em;
+    }
+    .nosotros__contenido h3{
+        font-size: 1.5em;
+    }
+    .nosotros__contenido p{
+        font-size: 1em;
+    }
+    .nosotros__Cabecera{
+        background-image: url(/img/quienessomos-mobile);
+        height: 300px;
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-bottom: 100px;
+        position: relative;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nosotros__Cabecera-content{
+        height: 200px;
+        width:  200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+        padding: 30px 20px 10px 20px;
+        background: #fff;
+        box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+        border-radius: 20px;
     }
 
-    footer .list-inline .list-inline-item {
-        padding: 5px 10px;
+    .nosotros__Cabecera-title{
+        font-family: 'Mulish';
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 15px;
+        color: black;
     }
 
-    .footer-logo{
-        width: 250px;
-        height: 70px;
+    .nosotros__Cabecera-icon{
+        padding-top: 5px;
+        color: black;
+        margin-top: 40px;
+        animation-name: bodegasanimation;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: 8;
     }
 }
+
+@media (max-width: 769px){
+    .portada-txt {
+        font-size: 1.3rem;
+        margin-top: 55px;
+    }
+    .portada-img{
+        height: 250px;
+    }
+}
+
 
 /* //////////////
     Promos - Page
@@ -1344,3 +1374,70 @@ footer .container{
         bottom: 10px;
     }
 }
+
+/* //////////////
+    Footer - Quienes Somos
+    //////////// */
+    @media (max-width: 1444px){
+        .quienessomos{
+            margin-top: 40px;
+            top: 480px;
+        }
+    }
+
+    @media (max-width: 769px){
+        .quienessomos{
+            margin-top: 40px;
+            top: 600px;
+        }
+    }
+    
+    @media (max-width: 415px){
+        .quienessomos{
+            position: relative;
+            top: 900px;
+            padding: 80px 0;
+            text-align: center;
+            color: white;
+            background-color: rgb(146, 134, 134);
+        }
+    }
+
+    @media (max-width: 560px){
+        .quienessomos{
+            position: relative;
+            top: 1000px;
+            padding: 80px 0;
+            text-align: center;
+            color: white;
+            background-color: rgb(146, 134, 134);
+        }
+    }
+
+    @media (max-width: 321px){
+        .quienessomos{
+            position: relative;
+            top: 1230px;
+            padding: 80px 0;
+            text-align: center;
+            color: white;
+            background-color: rgb(146, 134, 134);
+        }
+    }
+    
+    @media (max-width: 575.98px) { 
+        .footer-menu { 
+            display: block !important;
+            padding: 20px 0 !important;
+            font-size: 20px;
+        }
+    
+        footer .list-inline .list-inline-item {
+            padding: 5px 10px;
+        }
+    
+        .footer-logo{
+            width: 250px;
+            height: 70px;
+        }
+    }
