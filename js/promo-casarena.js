@@ -106,9 +106,18 @@ let vinotecasCasarena = [
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/origenes"
     },
-    // Macro-Centro
     {
       id:12,
+      vinoteca: "La Gourmetería",
+      direccion: "Tucumán 1322",
+      ir:"https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
+      barrio:"Zona Centro",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/lagourmeteria"
+    },
+    // Macro-Centro
+    {
+      id:13,
       vinoteca: "Vinoteca Maestro",
       direccion: "Suipacha 381",
       ir:"https://goo.gl/maps/2mEqDMipT45Kaa4SA",
@@ -117,17 +126,17 @@ let vinotecasCasarena = [
       thumbnailUrl: "img/vinotecas/casarena/vinotecamaestro.jpg"
     },
     {
-      id:13,
-      vinoteca: "La Toscana",
-      direccion: "Mendoza 3563",
-      ir:"https://goo.gl/maps/tTHX2FGRAr8n3eW66",
+      id:14,
+      vinoteca: "Benny - Almacén Gourmet",
+      direccion: "San Luis 2644",
+      ir:"https://goo.gl/maps/yzeTGeBb2WmXKd1fA",
       barrio:"Zona Macro-Centro",
       bodega: "casarena",
-      thumbnailUrl: "img/vinotecas/casarena/latoscana"
+      thumbnailUrl: "img/vinotecas/casarena/benny"
       },
     // Zona Sur
     {
-    id:14,
+    id:15,
     vinoteca: "El Tonel",
     direccion: "Ayacucho 5321",
     ir:"https://goo.gl/maps/DpZLPxtVQxx8ZcpMA",
@@ -135,19 +144,75 @@ let vinotecasCasarena = [
     bodega: "casarena",
     thumbnailUrl: "img/vinotecas/casarena/eltonel"
     },
+    {
+    id:16,
+    vinoteca: "La Toscana",
+    direccion: "Mendoza 3563",
+    ir:"https://goo.gl/maps/tTHX2FGRAr8n3eW66",
+    barrio:"Zona Sur",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/latoscana"
+    },
+    // Zona Norte
+    {
+      id:17,
+      vinoteca: "Don Eliseo",
+      direccion: "Gorriti 415",
+      ir:"https://goo.gl/maps/NVi1DHrQb5RcXAum8",
+      barrio:"Zona Norte",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/doneliseo.png"
+    },
+    // Zona Oeste
+    {
+      id:18,
+      vinoteca: "Vinoteca Draks",
+      direccion: "Avellaneda esquina San Juan",
+      ir:"https://goo.gl/maps/gPZXBQM6eVB78hpN8",
+      barrio:"Zona Oeste",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/draks"
+    },
     // Zona Funes y Fisherton
     {
-    id:15,
+    id:19,
     vinoteca: "Lo de Tere",
     direccion: "Av. Real 9576 - Fisherton",
     ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
-    barrio:"Zona Fisherton",
+    barrio:"Zona Funes y Fisherton",
     bodega: "casarena",
     thumbnailUrl: "img/vinotecas/casarena/random4"
     },
+    {
+    id:20,
+    vinoteca: "Restaurant San Sebastián",
+    direccion: "Club House, barrio en Funes",
+    ir:"https://goo.gl/maps/JiWcAuzYMwVxk2Cf9",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/sansebastian"
+    },
+    {
+    id:21,
+    vinoteca: "Autoservicio Arlequín",
+    direccion: "Córdoba 1984, Funes",
+    ir:"https://goo.gl/maps/C1gXXDPNspRMcvkY8",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/arlequin"
+    },
+    {         
+    id:22,
+    vinoteca: "Casa Prada",
+    direccion: "Shopping Fisherton Plaza local 43",
+    ir:"https://goo.gl/maps/NWzZDV1EndumUU5q9",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/prada.png"
+    },
     // Zona Villa Constitucion
     {
-    id:16,
+    id:23,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir:"https://g.page/entrecopasenoteca?share",
@@ -157,7 +222,7 @@ let vinotecasCasarena = [
     },
     // Zona San Lorenzo
     {
-    id:17,
+    id:24,
     vinoteca: "Campos",
     direccion: "Belgrano 776 - San Lorenzo",
     ir:"https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -167,7 +232,7 @@ let vinotecasCasarena = [
     },
     //Zona Parana
     {
-    id:18,
+    id:25,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir:"https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -177,7 +242,7 @@ let vinotecasCasarena = [
     },
     //Zona Santa Fe
     {
-    id:19,
+    id:26,
     vinoteca: "Don Juan Jacinto",
     direccion: "Aristóbulo del Valle 6342 - Santa Fe",
     ir:"https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -186,7 +251,7 @@ let vinotecasCasarena = [
     thumbnailUrl: "img/vinotecas/casarena/donjuanjacinto1"
     },
     {
-    id:20,
+    id:27,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir:"https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -195,7 +260,7 @@ let vinotecasCasarena = [
     thumbnailUrl: "img/vinotecas/casarena/donjuanjacinto2"
     },
     {
-    id:21,
+    id:28,
     vinoteca: "La Cueva de Francia",
     direccion: "Francia 3490 - Santa Fe",
     ir:"https://goo.gl/maps/q4eMXN8UEwyswmdo8",
@@ -204,7 +269,7 @@ let vinotecasCasarena = [
     thumbnailUrl: "img/vinotecas/casarena/lacueva"
     },
     {
-      id:22,
+      id:29,
       vinoteca: "Exquisitos Placeres",
       direccion: "Balcarce 1576 - Santa Fe",
       ir:"https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
@@ -214,14 +279,120 @@ let vinotecasCasarena = [
     },
     //Zona Santo Tomé
     {
-    id:23,
+    id:30,
     vinoteca: "Entre Copas - Almacén de Vinos",
     direccion: "Macias 2092 - Santo Tomé",
     ir:"https://goo.gl/maps/NabVLXmqtG6bFsVi9",
     barrio:"Zona Santo Tome",
     bodega: "casarena",
     thumbnailUrl: "img/vinotecas/casarena/entrecopassantotome"
-    }
+    },
+      //Zona Roldán
+    {
+    id:31,
+    vinoteca: "Que buena idea",
+    direccion: "Independencia 234, Roldán",
+    ir:"https://goo.gl/maps/8gseR4nMqT6qhMoB8",
+    barrio:"Zona Roldan",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/quebuenaidea"
+    },
+      //Zona Rafaela
+  {
+    id:32,
+    vinoteca: "Los Cortesanos",
+    direccion: "Alvear 281, Rafaela",
+    ir:"https://g.page/LosCortesanos?share",
+    barrio:"Zona Rafaela",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/loscortesanos"
+    },
+  //Zona Esperanza
+    {
+      id:35,
+      vinoteca: "Los Cortesanos",
+      direccion: "Aarón Castellanos 1802, Esperanza",
+      ir:"https://g.page/VinotecaLosCortesanos?share",
+      barrio:"Zona Esperanza",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/loscortesanosesperanza"
+      },
+       //Zona Entre Rios
+  {
+    id:36,
+    vinoteca: "Senza Colpa",
+    direccion: "Villa Elisa, Entre Rios - Uquiza 1782",
+    ir:"https://goo.gl/maps/Xj4RobFQzpTzygm6A",
+    barrio:"Zona Entre Rios",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random4"
+    },
+    {
+    id:37,
+    vinoteca: "Vinoteca Brenda",
+    direccion: "Villa Elisa, Entre Rios - Estrada 844",
+    ir:"https://g.page/distribuidorayvinotecabrenda?share",
+    barrio:"Zona Entre Rios",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/entrerios/brenda"
+    },
+    {
+    id:38,
+    vinoteca: "Vinoteca de Victoria",
+    direccion: "Victoria, Entre Rios - Sarmiento 552",
+    ir:"https://goo.gl/maps/aB1YUDf2STaNTFJT9",
+    barrio:"Zona Entre Rios",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/entrerios/victoria"
+    },
+    {
+    id:39,
+    vinoteca: "Dioniso Vinos & Afines",
+    direccion: "Ramírez, Entre Rios - Eva Perón 531",
+    ir:"https://goo.gl/maps/CRKXkWXrLNnwCEbx9",
+    barrio:"Zona Entre Rios",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random1.jpg"
+    },
+    {
+    id:40,
+    vinoteca: "La Bodega",
+    direccion: "Gualeguaychú, Entre Rios - Aristóbulo del Valle 1265",
+    ir:"https://goo.gl/maps/L2mprhdFYsQXHmEA8",
+    barrio:"Zona Entre Rios",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/entrerios/labodega"
+    },
+    //Zona Las Parejas
+    {
+    id:41,
+    vinoteca: "Vinoteca ArcoIris",
+    direccion: "Calle 10 num. 1134 - Las Parejas",
+    ir:"https://goo.gl/maps/8M1aCsCvoMseXFHL8",
+    barrio:"Zona Las Parejas",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random1.jpg"
+    },
+    //Zona Vilal gdor galvez
+    {
+      id:42,
+      vinoteca: "Vinoteca As de Copas",
+      direccion: "Rivadavia 1635 - Villa Gobernador Gálvez",
+      ir:"https://goo.gl/maps/kqJqPPxSnqBWge5WA",
+      barrio:"Zona Villa Gobernador Galvez",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/random4"
+      },
+          //Zona Venado Tuerto
+    {
+      id:43,
+      vinoteca: "Mundo Bebidas",
+      direccion: "San Martin 1045 - Venado Tuerto",
+      ir:"https://goo.gl/maps/i9YKW9AaYd3A3fcy6",
+      barrio:"Zona Venado Tuerto",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/random2.jpeg"
+      },
   ]
 
 let  vinotecasDelivery = [
@@ -254,8 +425,16 @@ selectBarrio.addEventListener('change', ()=>{
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Sur'));
           Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
-        case "Zona Fisherton":
-          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Fisherton'));
+        case "Zona Norte":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Norte'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Oeste":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Oeste'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Funes y Fisherton":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Funes y Fisherton'));
           Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona Villa Constitucion":
@@ -276,6 +455,34 @@ selectBarrio.addEventListener('change', ()=>{
           break;
         case "Zona Santo Tome":
           pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Santo Tome'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Roldan":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Roldan'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Rafaela":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Rafaela'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Esperanza":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Esperanza'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Entre Rios":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Entre Rios'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Las Parejas":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Las Parejas'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Villa Gobernador Galvez":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Gobernador Galvez'));
+          Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+          break;
+        case "Zona Venado Tuerto":
+          pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Venado Tuerto'));
           Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
           break;
         case "Zona Delivery":

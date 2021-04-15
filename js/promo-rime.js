@@ -77,9 +77,18 @@ let vinotecasRime = [
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/elcaballero"
     },
-    // Zona macro Centro
     {
       id:9,
+      vinoteca: "La Gourmetería",
+      direccion: "Tucumán 1322",
+      ir:"https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
+      barrio:"Zona Centro",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/lagourmeteria"
+    },
+    // Zona macro Centro
+    {
+      id:10,
       vinoteca: "Etiqueta Negra",
       direccion: "Viamonte 661",
       ir:"https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
@@ -89,13 +98,22 @@ let vinotecasRime = [
     },
     // Zona Funes y Fisherton
     {
-    id:10,
+    id:11,
     vinoteca: "Lo de Tere",
     direccion: "Av. Real 9576 - Fisherton",
     ir:"https://goo.gl/maps/g1cT8axbfJZKGNdG7",
-    barrio:"Zona Fisherton",
+    barrio:"Zona Funes y Fisherton",
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/rime/random4"
+    },
+    {
+    id:21,
+    vinoteca: "Autoservicio Arlequín",
+    direccion: "Córdoba 1984, Funes",
+    ir:"https://goo.gl/maps/C1gXXDPNspRMcvkY8",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/arlequin"
     },
     // Zona Villa Constitucion
     {
@@ -173,7 +191,65 @@ let vinotecasRime = [
       barrio:"Zona Santo Tome",
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/entrecopassantotome"
-    }
+    },
+    //Zona Roldán
+    {
+      id:18,
+      vinoteca: "Que buena idea",
+      direccion: "Independencia 234, Roldán",
+      ir:"https://goo.gl/maps/8gseR4nMqT6qhMoB8",
+      barrio:"Zona Roldan",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/quebuenaidea"
+      },
+        //Zona Rafaela
+    {
+      id:19,
+      vinoteca: "Los Cortesanos",
+      direccion: "Alvear 281, Rafaela",
+      ir:"https://g.page/LosCortesanos?share",
+      barrio:"Zona Rafaela",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/loscortesanos"
+      },
+    //Zona Esperanza
+      {
+        id:20,
+        vinoteca: "Los Cortesanos",
+        direccion: "Aarón Castellanos 1802, Esperanza",
+        ir:"https://g.page/VinotecaLosCortesanos?share",
+        barrio:"Zona Esperanza",
+        bodega: "rime",
+        thumbnailUrl: "img/vinotecas/rime/loscortesanosesperanza"
+        },
+          //Zona Entre Rios
+    {
+      id:21,
+      vinoteca: "Senza Colpa",
+      direccion: "Villa Elisa, Entre Rios - Uquiza 1782",
+      ir:"https://goo.gl/maps/Xj4RobFQzpTzygm6A",
+      barrio:"Zona Entre Rios",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/random4"
+      },
+      {
+      id:22,
+      vinoteca: "Vinoteca Brenda",
+      direccion: "Villa Elisa, Entre Rios - Estrada 844",
+      ir:"https://g.page/distribuidorayvinotecabrenda?share",
+      barrio:"Zona Entre Rios",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/entrerios/brenda"
+      },
+      {
+      id:23,
+      vinoteca: "Dioniso Vinos & Afines",
+      direccion: "Ramírez, Entre Rios - Eva Perón 531",
+      ir:"https://goo.gl/maps/CRKXkWXrLNnwCEbx9",
+      barrio:"Zona Entre Rios",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/entrerios/random1.jpg"
+      }
   ]
 
 selectBarrio.addEventListener('change', ()=>{
@@ -191,8 +267,8 @@ selectBarrio.addEventListener('change', ()=>{
         case "Zona Granadero Baigorria":
             pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Granadero Baigorria'));
             break;
-        case "Zona Fisherton":
-          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Fisherton'));
+        case "Zona Funes y Fisherton":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Funes y Fisherton'));
           break;
         case "Zona Villa Constitucion":
           pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Villa Constitucion'));
@@ -208,6 +284,18 @@ selectBarrio.addEventListener('change', ()=>{
           break;
         case "Zona Santo Tome":
           pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Santo Tome'));
+          break;
+        case "Zona Roldan":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Roldan'));
+          break;
+        case "Zona Rafaela":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Rafaela'));
+          break;
+        case "Zona Esperanza":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Esperanza'));
+          break;
+        case "Zona Entre Rios":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Entre Rios'));
           break;
     }
 })
