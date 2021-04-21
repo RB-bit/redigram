@@ -115,6 +115,15 @@ let vinotecasCasarena = [
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/lagourmeteria"
     },
+    {
+      id:10,
+      vinoteca: "Vinoteca Campos",
+      direccion: "Tucumán 1754",
+      ir:"https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
+      barrio:"Zona Centro",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/random4"
+    },
     // Macro-Centro
     {
       id:13,

@@ -80,6 +80,15 @@ const selectBarrio = document.getElementById('selectBarrio')
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/lagourmeteria"
   },
+  {
+    id:10,
+    vinoteca: "Vinoteca Campos",
+    direccion: "Tucumán 1754",
+    ir:"https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
+    barrio:"Zona Centro",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/random4"
+  },
    //Zona Macro Centro
    {
      id: 9,
@@ -126,6 +135,15 @@ const selectBarrio = document.getElementById('selectBarrio')
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/latoscana"
     },
+     {
+       id:13,
+       vinoteca: "Don Giovanni",
+       direccion: "Jujuy 2905, Pichincha",
+       ir:"",
+       barrio:"Zona Macro Centro",
+       bodega: "canale",
+       thumbnailUrl: "img/vinotecas/canale/dongiovanni"
+       },
    //Zona Norte
    {
      id:14,
@@ -146,6 +164,15 @@ const selectBarrio = document.getElementById('selectBarrio')
    bodega: "canale",
    thumbnailUrl: "img/vinotecas/canale/amenabar.png"
    },
+   {
+    id:12,
+    vinoteca: "Supermercados Alfa",
+    direccion: "Regimiento 11 y Castro Barros",
+    ir:"https://goo.gl/maps/6ugEQW1hfqDh6QnC6",
+    barrio:"Zona Sur",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/supermercadosalfa"
+  },
    //Zona Oeste
    {
    id:16,
@@ -367,7 +394,7 @@ const selectBarrio = document.getElementById('selectBarrio')
   },
   {
   id:39,
-  vinoteca: "Dioniso Vinos & Afines",
+  vinoteca: "Dionisio Vinos & Afines",
   direccion: "Ramírez, Entre Rios - Eva Perón 531",
   ir:"https://goo.gl/maps/CRKXkWXrLNnwCEbx9",
   barrio:"Zona Entre Rios",
@@ -382,7 +409,27 @@ const selectBarrio = document.getElementById('selectBarrio')
   barrio:"Zona Entre Rios",
   bodega: "canale",
   thumbnailUrl: "img/vinotecas/canale/entrerios/labodega"
-  }
+  },
+  //Granadero Baigorria
+  {
+  id: 29,
+  vinoteca: "Chateau Du Vin",
+  direccion: "Local 3, Complejo Tifón Baigorria - Julio Argentino Roca 650, Granadero Baigorria",
+  ir:"https://goo.gl/maps/Wdd2A9htPVdAk1BT9",
+  barrio:"Zona Granadero Baigorria",
+  bodega: "canale",
+  thumbnailUrl: "img/vinotecas/canale/chateau.png"
+  },
+  //Las Rosas
+  {
+  id: 30,
+  vinoteca: "Los Cocos",
+  direccion: "Belgrano 765, Las Rosas",
+  ir:"https://goo.gl/maps/RbpLgp9wu9GQEGeg9",
+  barrio:"Zona Las Rosas",
+  bodega: "canale",
+  thumbnailUrl: "img/vinotecas/canale/random1.jpg"
+  },
  ]
 
 let  vinotecasDelivery = [
@@ -453,6 +500,10 @@ let  vinotecasDelivery = [
         break;
       case "Zona Rafaela":
         pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Rafaela'));
+        Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+        break;
+      case "Zona Las Rosas":
+        pintarVinotecas(vinotecasCanale.filter((el) => el.barrio === 'Zona Las Rosas'));
         Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
         break;
       case "Zona Roldan":

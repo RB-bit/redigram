@@ -15,15 +15,6 @@ let vinotecasRime = [
       thumbnailUrl: "img/vinotecas/rime/losvinosdestella.png"
     },
     {
-      id: 2,
-      vinoteca: "Chateau Du Vin",
-      direccion: "Local 3, Complejo Tifón Baigorria - Julio Argentino Roca 650, Granadero Baigorria",
-      ir:"https://goo.gl/maps/Wdd2A9htPVdAk1BT9",
-      barrio:"Zona Granadero Baigorria",
-      bodega: "rime",
-      thumbnailUrl: "img/vinotecas/rime/chateau.png"
-    },
-    {
       id: 3,
       vinoteca: "La Fiambretta",
       direccion: "Laprida 1301 esq. 3 de febrero ",
@@ -48,7 +39,7 @@ let vinotecasRime = [
       ir:"https://g.page/don-baco-casa-de-vinos?share",
       barrio:"Zona Centro",
       bodega: "casarena",
-      thumbnailUrl: "img/vinotecas/casarena/vinotecaBaco"
+      thumbnailUrl: "img/vinotecas/casarena/vinotecaBaco.png"
     },
     {
       id: 6,
@@ -86,15 +77,34 @@ let vinotecasRime = [
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/lagourmeteria"
     },
-    // Zona macro Centro
     {
       id:10,
+      vinoteca: "Vinoteca Campos",
+      direccion: "Tucumán 1754",
+      ir:"https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
+      barrio:"Zona Centro",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/random4"
+    },
+    // Zona macro Centro
+    {
+      id:11,
       vinoteca: "Etiqueta Negra",
       direccion: "Viamonte 661",
       ir:"https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
       barrio:"Zona Macro Centro",
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/random4"
+    },
+    // Zona Sur Rosario
+    {
+      id:12,
+      vinoteca: "Supermercados Alfa",
+      direccion: "Regimiento 11 y Castro Barros",
+      ir:"https://goo.gl/maps/6ugEQW1hfqDh6QnC6",
+      barrio:"Zona Sur",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/supermercadosalfa"
     },
     // Zona Funes y Fisherton
     {
@@ -114,6 +124,15 @@ let vinotecasRime = [
     barrio:"Zona Funes y Fisherton",
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/rime/arlequin"
+    },
+    {
+    id:21,
+    vinoteca: "La Dulce - Jockey Club Rosario",
+    direccion: "Fisherton",
+    ir:"https://goo.gl/maps/cHYhwhNhx21kMUaP8",
+    barrio:"Zona Funes y Fisherton",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/jockey"
     },
     // Zona Villa Constitucion
     {
@@ -213,16 +232,16 @@ let vinotecasRime = [
       thumbnailUrl: "img/vinotecas/rime/loscortesanos"
       },
     //Zona Esperanza
-      {
-        id:20,
-        vinoteca: "Los Cortesanos",
-        direccion: "Aarón Castellanos 1802, Esperanza",
-        ir:"https://g.page/VinotecaLosCortesanos?share",
-        barrio:"Zona Esperanza",
-        bodega: "rime",
-        thumbnailUrl: "img/vinotecas/rime/loscortesanosesperanza"
-        },
-          //Zona Entre Rios
+    {
+    id:20,
+    vinoteca: "Los Cortesanos",
+    direccion: "Aarón Castellanos 1802, Esperanza",
+    ir:"https://g.page/VinotecaLosCortesanos?share",
+    barrio:"Zona Esperanza",
+    bodega: "rime",
+    thumbnailUrl: "img/vinotecas/rime/loscortesanosesperanza"
+    },
+      //Zona Entre Rios
     {
       id:21,
       vinoteca: "Senza Colpa",
@@ -243,13 +262,41 @@ let vinotecasRime = [
       },
       {
       id:23,
-      vinoteca: "Dioniso Vinos & Afines",
+      vinoteca: "Dionisio Vinos & Afines",
       direccion: "Ramírez, Entre Rios - Eva Perón 531",
       ir:"https://goo.gl/maps/CRKXkWXrLNnwCEbx9",
       barrio:"Zona Entre Rios",
       bodega: "rime",
       thumbnailUrl: "img/vinotecas/rime/entrerios/random1.jpg"
-      }
+      },
+      {
+      id:24,
+      vinoteca: "Vinoteca Porto Vino",
+      direccion: "Viale, Entre Rios - 25 de Mayo 36",
+      ir:"https://goo.gl/maps/SmpEoFvgbVdrirf48",
+      barrio:"Zona Entre Rios",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/entrerios/random4"
+      },
+      {
+      id:25,
+      vinoteca: "Cerveteca",
+      direccion: "Sarmiento 846 - Santa Teresa",
+      ir:"https://goo.gl/maps/i2ay6TzT4En7MY9BA",
+      barrio:"Zona Santa Teresa",
+      bodega: "rime",
+      thumbnailUrl: "img/vinotecas/rime/random2.jpeg"
+      },
+      //Granadero Baigorria
+      {
+        id: 29,
+        vinoteca: "Chateau Du Vin",
+        direccion: "Local 3, Complejo Tifón Baigorria - Julio Argentino Roca 650, Granadero Baigorria",
+        ir:"https://goo.gl/maps/Wdd2A9htPVdAk1BT9",
+        barrio:"Zona Granadero Baigorria",
+        bodega: "rime",
+        thumbnailUrl: "img/vinotecas/rime/chateau.png"
+      },
   ]
 
 selectBarrio.addEventListener('change', ()=>{
@@ -261,6 +308,9 @@ selectBarrio.addEventListener('change', ()=>{
         case "Zona Centro":
             pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Centro'));
             break;
+        case "Zona Sur":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Sur'));
+          break;
         case "Zona Macro Centro":
             pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Macro Centro'));
             break;          
@@ -296,6 +346,9 @@ selectBarrio.addEventListener('change', ()=>{
           break;
         case "Zona Entre Rios":
           pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Entre Rios'));
+          break;
+        case "Zona Santa Teresa":
+          pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona Santa Teresa'));
           break;
     }
 })
