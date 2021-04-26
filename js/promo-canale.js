@@ -81,13 +81,22 @@ const selectBarrio = document.getElementById('selectBarrio')
     thumbnailUrl: "img/vinotecas/canale/lagourmeteria"
   },
   {
-    id:10,
+    id:9,
     vinoteca: "Vinoteca Campos",
     direccion: "Tucumán 1754",
     ir:"https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
     barrio:"Zona Centro",
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/random4"
+  },
+  {
+    id:10,
+    vinoteca: "Vinoteca Inspira",
+    direccion: "Bv. Oroño 1096",
+    ir:"https://g.page/inspira-vinoteca?share",
+    barrio:"Zona Centro",
+    bodega: "canale",
+    thumbnailUrl: "img/vinotecas/canale/inspira"
   },
    //Zona Macro Centro
    {
@@ -135,15 +144,24 @@ const selectBarrio = document.getElementById('selectBarrio')
     bodega: "canale",
     thumbnailUrl: "img/vinotecas/canale/latoscana"
     },
-     {
-       id:13,
-       vinoteca: "Don Giovanni",
-       direccion: "Jujuy 2905, Pichincha",
-       ir:"",
-       barrio:"Zona Macro Centro",
-       bodega: "canale",
-       thumbnailUrl: "img/vinotecas/canale/dongiovanni"
-       },
+    {
+      id:13,
+      vinoteca: "Don Giovanni",
+      direccion: "Jujuy 2905, Pichincha",
+      ir:"https://goo.gl/maps/4eYSHkZ6FYzHF48JA",
+      barrio:"Zona Macro Centro",
+      bodega: "canale",
+      thumbnailUrl: "img/vinotecas/canale/dongiovanni"
+    },
+    {
+      id:13,
+      vinoteca: "Vino y se quedó",
+      direccion: "Cafferata 1419",
+      ir:"https://goo.gl/maps/SQatrb96NNtCZe3w7",
+      barrio:"Zona Macro Centro",
+      bodega: "canale",
+      thumbnailUrl: "img/vinotecas/canale/vinoysequedo"
+      },
    //Zona Norte
    {
      id:14,

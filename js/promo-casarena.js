@@ -124,6 +124,15 @@ let vinotecasCasarena = [
       bodega: "casarena",
       thumbnailUrl: "img/vinotecas/casarena/random4"
     },
+    {
+      id:10,
+      vinoteca: "Vinoteca Inspira",
+      direccion: "Bv. Oroño 1096",
+      ir:"https://g.page/inspira-vinoteca?share",
+      barrio:"Zona Centro",
+      bodega: "casarena",
+      thumbnailUrl: "img/vinotecas/casarena/inspira"
+    },
     // Macro-Centro
     {
       id:13,
