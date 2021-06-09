@@ -421,8 +421,8 @@ Promos-Home
    Promos - Page 
 //////////////*/
 
-.titular-promos-canale {
-    background: no-repeat center/100% url("../img/canale-desktop.png");
+.titular-promos-amalaya {
+    background: no-repeat center/100% url("../img/amalaya-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 58px;
     height: 500px;
@@ -434,8 +434,8 @@ Promos-Home
     color: white;
 }
 
-.titular-promos-rime {
-    background: no-repeat center/100% url("../img/rime-desktop.png");
+.titular-promos-mythic {
+    background: no-repeat center/100% url("../img/mythic-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 58px;
     height: 500px;
@@ -447,8 +447,8 @@ Promos-Home
     color: white;
 }
 
-.titular-promos-casarena {
-    background: no-repeat center/100% url("../img/casarena-portada-dektop.png");
+.titular-promos-vinscelto {
+    background: no-repeat center/100% url("../img/vinscelto-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 58px;
     height: 500px;
@@ -1167,8 +1167,8 @@ footer small {
 
 /* Ipad pro */
 @media (max-width: 1025px) {
-    .titular-promos-casarena {
-        background: no-repeat center/100% url("../img/casarena-portada.png");
+    .titular-promos-amalaya {
+        background: no-repeat center/100% url("../img/amalaya-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 550px;
         margin-top: 20px;
@@ -1181,9 +1181,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-rime {
-        background: no-repeat center/100% url("../img/rime-mobile.png");
-        ;
+    .titular-promos-vinscelto {
+        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 550px;
         margin-top: 20px;
@@ -1196,9 +1195,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-canale {
-        background: no-repeat center/100% url("../img/canale-mobile.png");
-        ;
+    .titular-promos-mythic {
+        background: no-repeat center/100% url("../img/mythic-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 550px;
         margin-top: 20px;
@@ -1227,8 +1225,8 @@ footer small {
 
 /* iPad */
 @media (max-width: 769px) {
-    .titular-promos-casarena {
-        background: no-repeat center/100% url("../img/casarena-portada.png");
+    .titular-promos-amalaya {
+        background: no-repeat center/100% url("../img/amalaya-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 400px;
         margin-top: 30px;
@@ -1241,8 +1239,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-rime {
-        background: no-repeat center/100% url("../img/rime-mobile.png");
+    .titular-promos-mythic {
+        background: no-repeat center/100% url("../img/mythic-desktop.png");
         ;
         font-family: 'Mulish', sans-serif;
         height: 400px;
@@ -1256,9 +1254,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-canale {
-        background: no-repeat center/100% url("../img/canale-mobile.png");
-        ;
+    .titular-promos-vinscelto {
+        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 400px;
         margin-top: 30px;
@@ -1288,8 +1285,8 @@ footer small {
 
 /* Iphone 7/8/9 Plus */
 @media (max-width: 415px) {
-    .titular-promos-casarena {
-        background: no-repeat center/100% url("../img/casarena-portada.png");
+    .titular-promos-amalaya {
+        background: no-repeat center/100% url("../img/amalaya-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 50px;
@@ -1302,8 +1299,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-rime {
-        background: no-repeat center/100% url("../img/rime-mobile.png");
+    .titular-promos-mythic {
+        background: no-repeat center/100% url("../img/mythic-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 50px;
@@ -1316,8 +1313,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-canale {
-        background: no-repeat center/100% url("../img/canale-mobile.png");
+    .titular-promos-vinscelto {
+        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 50px;
@@ -1347,8 +1344,8 @@ footer small {
 
 /* Iphone X-11-12 común y 6/7/8 común  */
 @media (max-width: 376px) {
-    .titular-promos-casarena {
-        background: no-repeat center/100% url("../img/casarena-portada.png");
+    .titular-promos-amalaya {
+        background: no-repeat center/100% url("../img/amalaya-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 45px;
@@ -1360,8 +1357,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-rime {
-        background: no-repeat center/100% url("../img/rime-mobile.png");
+    .titular-promos-mythic {
+        background: no-repeat center/100% url("../img/mythic-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 40px;
@@ -1373,8 +1370,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-canale {
-        background: no-repeat center/100% url("../img/canale-mobile.png");
+    .titular-promos-vinscelto {
+        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 40px;
@@ -1403,9 +1400,9 @@ footer small {
 }
 
 /* iPhone 5 */
-@media (max-width: 320px) {
-    .titular-promos-casarena {
-        background: no-repeat center/100% url("../img/casarena-portada.png");
+@media (max-width: 321px) {
+    .titular-promos-amalaya {
+        background: no-repeat center/100% url("../img/amalaya-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 30px;
@@ -1417,8 +1414,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-rime {
-        background: no-repeat center/100% url("../img/rime-mobile.png");
+    .titular-promos-mythic {
+        background: no-repeat center/100% url("../img/mythic-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 30px;
@@ -1430,8 +1427,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-canale {
-        background: no-repeat center/100% url("../img/canale-mobile.png");
+    .titular-promos-vinscelto {
+        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 30px;
