@@ -424,8 +424,8 @@ Promos-Home
 .titular-promos-amalaya {
     background: no-repeat center/100% url("../img/amalaya-desktop.png");
     font-family: 'Mulish', sans-serif;
-    margin-top: 58px;
-    height: 500px;
+    margin-top: 42px;
+    height: 700px;
     padding: 250px 0px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -437,8 +437,8 @@ Promos-Home
 .titular-promos-mythic {
     background: no-repeat center/100% url("../img/mythic-desktop.png");
     font-family: 'Mulish', sans-serif;
-    margin-top: 58px;
-    height: 500px;
+    margin-top: 42px;
+    height: 700px;
     padding: 250px 0px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -450,8 +450,8 @@ Promos-Home
 .titular-promos-vinscelto {
     background: no-repeat center/100% url("../img/vinscelto-desktop.png");
     font-family: 'Mulish', sans-serif;
-    margin-top: 58px;
-    height: 500px;
+    margin-top: 42px;
+    height: 700px;
     padding: 250px 0px 0px 0px;
     display: flex;
     flex-direction: column;
