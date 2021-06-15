@@ -360,6 +360,14 @@ Promos-Home
     background: #cabea2;
 }
 
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
 /* //////////////
    Subtitulo
 //////////////*/
@@ -475,6 +483,32 @@ Promos-Home
     width: 500px;
 }
 
+.preciosugerido {
+    border-radius: 30px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-button {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 7px;
+}
+
+.accordion-item {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 7px;
+}
+
+.accordion-body ul li {
+    list-style: none;
+}
+
+
+
 table {
     background: white;
     margin-top: 30px;
@@ -512,7 +546,9 @@ th {
 //////////////*/
 
 .bodegas__Cabecera {
-    background-image: url(/img/bodegas/vineyard-large.png);
+    background-image: url(/img/bodegas/vineyard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
     width: 100%;
     position: relative;
