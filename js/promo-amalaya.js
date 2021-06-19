@@ -3,6 +3,7 @@ const deli = document.getElementById('deli')
 const templateCard = document.getElementById('template-card').content
 const delivery = document.getElementById('delivery').content
 const fragment = document.createDocumentFragment()
+
 //Filtro por Barrio
 const selectBarrio = document.getElementById('selectBarrio')
 
