@@ -19,7 +19,7 @@ let vinotecasAmalaya = [
       thumbnailUrl: "img/vinotecas/amalaya/queseria.png"
     },
     {
-      id: 2,
+      id: 3,
       vinoteca: "La Fiambretta",
       direccion: "Laprida 1301 esq. 3 de febrero ",
       ir: "https://goo.gl/maps/guPuoTyQECR5jRvq6",
@@ -28,7 +28,7 @@ let vinotecasAmalaya = [
       thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaLaprida.png"
     },
     {
-        id: 3,
+        id: 1,
         vinoteca: "Rolón",
         direccion: "Francia esq. Zeballos",
         ir: "https://goo.gl/maps/5x48qFayMFQwCvz47",
@@ -46,7 +46,7 @@ let vinotecasAmalaya = [
       thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaMendoza.png"
     },
     {
-      id: 5,
+      id: 6,
       vinoteca: "El Camino",
       direccion: "Moreno 1039",
       ir: "https://g.page/el-camino-vinoteca?share",
@@ -55,7 +55,7 @@ let vinotecasAmalaya = [
       thumbnailUrl: "img/vinotecas/amalaya/elcamino.png"
     },
     {
-      id: 6,
+      id: 8,
       vinoteca: "La Gourmetería",
       direccion: "Tucumán 1322",
       ir: "https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
@@ -64,7 +64,7 @@ let vinotecasAmalaya = [
       thumbnailUrl: "img/vinotecas/amalaya/lagourmeteria"
     },
     {
-      id: 7,
+      id: 9,
       vinoteca: "Vinoteca Campos",
       direccion: "Tucumán 1754",
       ir: "https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
@@ -74,7 +74,7 @@ let vinotecasAmalaya = [
     },
   //Zona Macro Centro
   {
-    id: 8,
+    id: 18,
     vinoteca: "Mediterráneo",
     direccion: "Cafferata 356",
     ir: "https://goo.gl/maps/oAPTesEy1HATS8jZ7",
@@ -83,7 +83,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/mediterraneo"
   },
   {
-    id: 9,
+    id: 12,
     vinoteca: "Eleven Copas",
     direccion: "Corientes 1919",
     ir: "https://g.page/eleven-copas?share",
@@ -92,7 +92,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/elevencopas.png"
   },
   {
-    id: 10,
+    id: 13,
     vinoteca: "Etiqueta Negra",
     direccion: "Viamonte 661",
     ir: "https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
@@ -105,7 +105,7 @@ let vinotecasAmalaya = [
 
   //Zona Sur
   {
-    id: 11,
+    id: 21,
     vinoteca: "Supermercados Alfa",
     direccion: "Regimiento 11 y Castro Barros",
     ir: "https://goo.gl/maps/6ugEQW1hfqDh6QnC6",
@@ -114,7 +114,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/supermercadosalfa"
   },
   {
-    id: 12,
+    id: 21,
     vinoteca: "Supermercados Alfa",
     direccion: "San Martín 4935",
     ir: "https://goo.gl/maps/K6sGCRfZg6fLHiid6",
@@ -128,7 +128,7 @@ let vinotecasAmalaya = [
 
   //Zona Villa Constitución
   {
-    id: 13,
+    id: 27,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir: "https://g.page/entrecopasenoteca?share",
@@ -140,7 +140,7 @@ let vinotecasAmalaya = [
 
   //Zona San Lorenzo
   {
-    id: 14,
+    id: 35,
     vinoteca: "Campos",
     direccion: "Belgrano 776 - San Lorenzo",
     ir: "https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -153,7 +153,7 @@ let vinotecasAmalaya = [
   //Zona Santa Fe
 
   {
-    id: 15,
+    id: 2,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir: "https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -162,7 +162,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/donjuanjacinto2"
   },
   {
-    id: 16,
+    id: 38,
     vinoteca: "Don Juan Jacinto",
     direccion: "Aristóbulo del Valle 6342 - Santa Fe",
     ir: "https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -171,7 +171,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/donjuanjacinto1"
   },
   {
-    id: 17,
+    id: 40,
     vinoteca: "Exquisitos Placeres",
     direccion: "Balcarce 1576 - Santa Fe",
     ir: "https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
@@ -181,7 +181,7 @@ let vinotecasAmalaya = [
   },
   //Zona Santo Tomé
   {
-    id: 18,
+    id: 28,
     vinoteca: "Entre Copas - Almacén de Vinos",
     direccion: "Macias 2092 - Santo Tomé",
     ir: "https://goo.gl/maps/NabVLXmqtG6bFsVi9",
@@ -191,7 +191,7 @@ let vinotecasAmalaya = [
   },
   //Zona Rafaela
   {
-    id: 19,
+    id: 3,
     vinoteca: "Los Cortesanos",
     direccion: "Alvear 281, Rafaela",
     ir: "https://g.page/LosCortesanos?share",
@@ -203,7 +203,7 @@ let vinotecasAmalaya = [
 
   //Zona Esperanza
   {
-    id: 20,
+    id: 44,
     vinoteca: "Los Cortesanos",
     direccion: "Aarón Castellanos 1802, Esperanza",
     ir: "https://g.page/VinotecaLosCortesanos?share",
@@ -213,7 +213,7 @@ let vinotecasAmalaya = [
   },
   //Zona Entre Rios
   {
-    id: 21,
+    id: 35,
     vinoteca: "Vinoteca Porto Vino",
     direccion: "Viale, Entre Rios - 25 de Mayo",
     ir: "https://goo.gl/maps/SmpEoFvgbVdrirf48",
@@ -229,7 +229,7 @@ let vinotecasAmalaya = [
 
 let vinotecasDelivery = [
   {
-    id: 22,
+    id: 52,
     vinoteca: "Cepa Negra",
     direccion: "Delivery en Rosario, Fisherton, Funes y Roldán",
     contactar: "https://bit.ly/373LoKa",
@@ -237,6 +237,15 @@ let vinotecasDelivery = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
   },
+  // {
+  //   id: 53,
+  //   vinoteca: "Crimac",
+  //   direccion: "Compra on-line y Delivery en Rosario",
+  //   ir: "https://www.mercadovinos.com.ar/",
+  //   barrio: "Zona Delivery",
+  //   bodega: "amalaya",
+  //   thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
+  // },
 ]
 
 selectBarrio.addEventListener('change', () => {

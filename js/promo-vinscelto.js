@@ -70,13 +70,22 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/dionisio.png"
   },
+  {
+    id: 7,
+    vinoteca: "Entre Copas",
+    direccion: "Dorrego 1101 - Villa Constitución",
+    ir: "https://g.page/entrecopasenoteca?share",
+    barrio: "Zona Villa Constitucion",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/entrecopas"
+  },
   // Zona Santa Teresa
 
   //Zona Parana
 
   //Zona Santa Fe
   {
-    id: 7,
+    id: 8,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir: "https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -84,11 +93,37 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/donjuanjacinto2"
   },
+  {
+    id: 9,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "Aristóbulo del Valle 6342 - Santa Fe",
+    ir: "https://goo.gl/maps/bLxz4psyonqq7xMJ9",
+    barrio: "Zona Santa Fe",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/donjuanjacinto1"
+  },
+  {
+    id: 10,
+    vinoteca: "Exquisitos Placeres",
+    direccion: "Balcarce 1576 - Santa Fe",
+    ir: "https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
+    barrio: "Zona Santa Fe",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/exquisitosplaceres"
+  },
   //Zona Santo Tomé
-
+  {
+    id: 11,
+    vinoteca: "Entre Copas - Almacén de Vinos",
+    direccion: "Macias 2092 - Santo Tomé",
+    ir: "https://goo.gl/maps/NabVLXmqtG6bFsVi9",
+    barrio: "Zona Santo Tome",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/entrecopassantotome"
+  },
   //Zona Rafaela
   {
-    id: 8,
+    id:12,
     vinoteca: "Los Cortesanos",
     direccion: "Alvear 281, Rafaela",
     ir: "https://g.page/LosCortesanos?share",
@@ -99,12 +134,20 @@ let vinotecasVinscelto = [
   //Zona Roldán
 
   //Zona Esperanza
-
+  {
+    id: 13,
+    vinoteca: "Los Cortesanos",
+    direccion: "Aarón Castellanos 1802, Esperanza",
+    ir: "https://g.page/VinotecaLosCortesanos?share",
+    barrio: "Zona Esperanza",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/loscortesanosesperanza"
+  },
   //Zona Entre Rios
 
   //Zona Gualeguaychú
   {
-    id: 9,
+    id: 14,
     vinoteca: "El Bebedero",
     direccion: "Av. del Valle y 3 de febrero, Gualeguaychú",
     ir: "https://goo.gl/maps/Y1q2cT23epEvf5qj8",

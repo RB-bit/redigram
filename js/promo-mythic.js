@@ -8,14 +8,57 @@ const selectBarrio = document.getElementById('selectBarrio')
 
 let vinotecasMythic = [
   //Zona Centro
-
+  {
+    id: 1,
+    vinoteca: "Queseria sin un vino",
+    direccion: "Pte. Roca 1518",
+    ir: "https://goo.gl/maps/5ryrFkjuSeP9CKvr5",
+    barrio: "Zona Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/queseria.png"
+  },
+  {
+    id: 2,
+    vinoteca: "El Camino",
+    direccion: "Moreno 1039",
+    ir: "https://g.page/el-camino-vinoteca?share",
+    barrio: "Zona Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/elcamino.png"
+  },
+  {
+    id: 3,
+    vinoteca: "La Gourmetería",
+    direccion: "Tucumán 1322",
+    ir: "https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
+    barrio: "Zona Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/lagourmeteria"
+  },
+  {
+    id: 4,
+    vinoteca: "Vinoteca Campos",
+    direccion: "Tucumán 1754",
+    ir: "https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
+    barrio: "Zona Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random4"
+  },
   //Zona Macro Centro
-
+  {
+    id: 5,
+    vinoteca: "Etiqueta Negra",
+    direccion: "Viamonte 661",
+    ir: "https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
+    barrio: "Zona Macro Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random4"
+  },
   //Zona Norte
 
   //Zona Sur
   {
-    id: 1,
+    id: 6,
     vinoteca: "Vinos y Copas",
     direccion: "Virasoro 2001",
     ir: "https://goo.gl/maps/Fr8idJrCnoudyLnGA",
@@ -28,14 +71,32 @@ let vinotecasMythic = [
   //Zona Funes y Fisherton
 
   //Zona Villa Constitución
-
+  {
+    id: 7,
+    vinoteca: "Entre Copas",
+    direccion: "Dorrego 1101 - Villa Constitución",
+    ir: "https://g.page/entrecopasenoteca?share",
+    barrio: "Zona Villa Constitucion",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/entrecopas"
+  },
+  // San Lorenzo
+  {
+    id: 8,
+    vinoteca: "Campos",
+    direccion: "Belgrano 776 - San Lorenzo",
+    ir: "https://goo.gl/maps/yjed3Pvx3cMbFtK26",
+    barrio: "Zona San Lorenzo",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/vinoteca-campos"
+  },
   // Zona Santa Teresa
 
   //Zona Parana
 
   //Zona Santa Fe
   {
-    id: 2,
+    id: 9,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir: "https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -43,11 +104,37 @@ let vinotecasMythic = [
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/donjuanjacinto2"
   },
+  {
+    id: 10,
+    vinoteca: "Don Juan Jacinto",
+    direccion: "Aristóbulo del Valle 6342 - Santa Fe",
+    ir: "https://goo.gl/maps/bLxz4psyonqq7xMJ9",
+    barrio: "Zona Santa Fe",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/donjuanjacinto1"
+  },
+  {
+    id: 11,
+    vinoteca: "Exquisitos Placeres",
+    direccion: "Balcarce 1576 - Santa Fe",
+    ir: "https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
+    barrio: "Zona Santa Fe",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/exquisitosplaceres"
+  },
   //Zona Santo Tomé
-
+  {
+    id: 12,
+    vinoteca: "Entre Copas - Almacén de Vinos",
+    direccion: "Macias 2092 - Santo Tomé",
+    ir: "https://goo.gl/maps/NabVLXmqtG6bFsVi9",
+    barrio: "Zona Santo Tome",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/entrecopassantotome"
+  },
   //Zona Rafaela
   {
-    id: 3,
+    id: 13,
     vinoteca: "Los Cortesanos",
     direccion: "Alvear 281, Rafaela",
     ir: "https://g.page/LosCortesanos?share",
@@ -58,7 +145,15 @@ let vinotecasMythic = [
   //Zona Roldán
 
   //Zona Esperanza
-
+  {
+    id: 14,
+    vinoteca: "Los Cortesanos",
+    direccion: "Aarón Castellanos 1802, Esperanza",
+    ir: "https://g.page/VinotecaLosCortesanos?share",
+    barrio: "Zona Esperanza",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/loscortesanosesperanza"
+  },
   //Zona Entre Rios
 
 ]
