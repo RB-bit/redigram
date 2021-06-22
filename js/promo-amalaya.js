@@ -8,73 +8,127 @@ const fragment = document.createDocumentFragment()
 const selectBarrio = document.getElementById('selectBarrio')
 
 let vinotecasAmalaya = [
-    //Zona Centro
-    {
-      id: 1,
-      vinoteca: "Queseria sin un vino",
-      direccion: "Pte. Roca 1518",
-      ir: "https://goo.gl/maps/5ryrFkjuSeP9CKvr5",
+  //Zona Centro
+  {
+    id: 1,
+    vinoteca: "Queseria sin un vino",
+    direccion: "Pte. Roca 1518",
+    ir: "https://goo.gl/maps/5ryrFkjuSeP9CKvr5",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/queseria.png"
+  },
+  {
+    id: 2,
+    vinoteca: "La Fiambretta",
+    direccion: "Laprida 1301 esq. 3 de febrero ",
+    ir: "https://goo.gl/maps/guPuoTyQECR5jRvq6",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaLaprida.png"
+  },
+  {
+      id: 3,
+      vinoteca: "Rolón",
+      direccion: "Francia esq. Zeballos",
+      ir: "https://goo.gl/maps/5x48qFayMFQwCvz47",
       barrio: "Zona Centro",
       bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/queseria.png"
+      thumbnailUrl: "img/vinotecas/amalaya/random5.png"
     },
-    {
-      id: 2,
-      vinoteca: "La Fiambretta",
-      direccion: "Laprida 1301 esq. 3 de febrero ",
-      ir: "https://goo.gl/maps/guPuoTyQECR5jRvq6",
-      barrio: "Zona Centro",
-      bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaLaprida.png"
-    },
-    {
-        id: 3,
-        vinoteca: "Rolón",
-        direccion: "Francia esq. Zeballos",
-        ir: "https://goo.gl/maps/5x48qFayMFQwCvz47",
-        barrio: "Zona Centro",
-        bodega: "amalaya",
-        thumbnailUrl: "img/vinotecas/amalaya/random5.png"
-      },
-    {
-      id: 4,
-      vinoteca: "La Fiambretta - Mendoza esq. Italia",
-      direccion: "Mendoza esq. Italia",
-      ir: "https://g.page/lafiambretta?share",
-      barrio: "Zona Centro",
-      bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaMendoza.png"
-    },
-    {
-      id: 5,
-      vinoteca: "El Camino",
-      direccion: "Moreno 1039",
-      ir: "https://g.page/el-camino-vinoteca?share",
-      barrio: "Zona Centro",
-      bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/elcamino.png"
-    },
-    {
-      id: 6,
-      vinoteca: "La Gourmetería",
-      direccion: "Tucumán 1322",
-      ir: "https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
-      barrio: "Zona Centro",
-      bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/lagourmeteria"
-    },
-    {
-      id: 7,
-      vinoteca: "Vinoteca Campos",
-      direccion: "Tucumán 1754",
-      ir: "https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
-      barrio: "Zona Centro",
-      bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/random4"
-    },
-  //Zona Macro Centro
+  {
+    id: 4,
+    vinoteca: "La Fiambretta - Mendoza esq. Italia",
+    direccion: "Mendoza esq. Italia",
+    ir: "https://g.page/lafiambretta?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaMendoza.png"
+  },
+  {
+    id: 5,
+    vinoteca: "El Camino",
+    direccion: "Moreno 1039",
+    ir: "https://g.page/el-camino-vinoteca?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/elcamino.png"
+  },
+  {
+    id: 6,
+    vinoteca: "La Gourmetería",
+    direccion: "Tucumán 1322",
+    ir: "https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/lagourmeteria"
+  },
+  {
+    id: 7,
+    vinoteca: "Vinoteca Campos",
+    direccion: "Tucumán 1754",
+    ir: "https://goo.gl/maps/qqCsjrsd6Q7qMnrt9",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random4"
+  },
   {
     id: 8,
+    vinoteca: "La Casa de los Vinos",
+    direccion: "San Lorenzo esq. Pte. Roca",
+    ir: "https://g.page/lacasadelosvinosrosario?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/LaCasaDeLosVinos.png"
+  },
+  {
+    id: 9,
+    vinoteca: "Langosco",
+    direccion: "Córdoba 1725",
+    ir: "https://g.page/LANGOSCO-VINOS?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/langosco"
+  },
+  {
+    id: 10,
+    vinoteca: "Positano Vinos",
+    direccion: "Rioja 1629",
+    ir: "https://g.page/PositanoVinos?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/positano-rioja.png"
+  },
+  {
+    id: 11,
+    vinoteca: "Vin  Rouge",
+    direccion: "Mendoza 319",
+    ir: "https://g.page/vinrougevinoteca?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/vinrouge"
+  },
+  {
+    id: 12,
+    vinoteca: "Cavanova",
+    direccion: "1ero de Mayo 1349",
+    ir: "https://goo.gl/maps/56CRma3jRG7tmEBL6",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/cavanova.png"
+  },
+  {
+    id: 13,
+    vinoteca: "Locos por el Vino",
+    direccion: "Pellegrini 1624",
+    ir: "https://goo.gl/maps/GkhDHjCuu4nFwpXN8",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random4"
+  },
+  //Zona Macro Centro
+  {
+    id: 14,
     vinoteca: "Mediterráneo",
     direccion: "Cafferata 356",
     ir: "https://goo.gl/maps/oAPTesEy1HATS8jZ7",
@@ -83,7 +137,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/mediterraneo"
   },
   {
-    id: 9,
+    id: 15,
     vinoteca: "Eleven Copas",
     direccion: "Corientes 1919",
     ir: "https://g.page/eleven-copas?share",
@@ -92,7 +146,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/elevencopas.png"
   },
   {
-    id: 10,
+    id: 16,
     vinoteca: "Etiqueta Negra",
     direccion: "Viamonte 661",
     ir: "https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
@@ -100,12 +154,48 @@ let vinotecasAmalaya = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random4"
   },
+  {
+    id: 17,
+    vinoteca: "Vinicius",
+    direccion: "Mitre esquina Cochabamba ",
+    ir: "https://g.page/vinotecavinicius?share",
+    barrio: "Zona Macro Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/vinicius"
+  },
+  {
+    id: 18,
+    vinoteca: "ADN Autoservicio",
+    direccion: "Iriondo 1498",
+    ir: "https://goo.gl/maps/ZhQWFubtSZxxeKF17",
+    barrio: "Zona Macro Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/adn-autoservicio"
+  },
+  {
+    id: 19,
+    vinoteca: "Alfa Supermercados",
+    direccion: "3 de Febrero 2480",
+    ir: "https://g.page/alfasupermercados?share",
+    barrio: "Zona Macro Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alfa-supermercados-macro"
+  },
+  {
+    id: 20,
+    vinoteca: "Birra Birra",
+    direccion: "Av. Francia 1499",
+    ir: "https://goo.gl/maps/rLao7jbzig3KEU698",
+    barrio: "Zona Macro Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
+  },
 
   //Zona Norte
 
   //Zona Sur
   {
-    id: 11,
+    id: 21,
     vinoteca: "Supermercados Alfa",
     direccion: "Regimiento 11 y Castro Barros",
     ir: "https://goo.gl/maps/6ugEQW1hfqDh6QnC6",
@@ -114,7 +204,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/supermercadosalfa"
   },
   {
-    id: 12,
+    id: 22,
     vinoteca: "Supermercados Alfa",
     direccion: "San Martín 4935",
     ir: "https://goo.gl/maps/K6sGCRfZg6fLHiid6",
@@ -122,10 +212,36 @@ let vinotecasAmalaya = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/supermercadosalfa"
   },
+  {
+    id: 23,
+    vinoteca: "Catas de Garaje",
+    direccion: "Arijón 1375",
+    ir: "https://g.page/catasdegarage?share",
+    barrio: "Zona Sur",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/catasdegaraje"
+  },
+  {
+    id: 24,
+    vinoteca: "Cepas del Sur",
+    direccion: "San Martín 2963",
+    ir: "https://goo.gl/maps/7w4X2KxzAETrLj958",
+    barrio: "Zona Sur",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/cepasdelsur"
+  },
   //Zona Oeste
   
   //Zona Funes y Fisherton
-
+  {
+    id: 25,
+    vinoteca: "Positano Vinos",
+    direccion: "Av. Eva Perón 7915",
+    ir: "https://g.page/PositanoVinos-Fisherton?share",
+    barrio: "Zona Funes y Fisherton",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/positanofisherton"
+  },
   //Zona Villa Constitución
   {
     id: 13,

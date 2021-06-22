@@ -44,15 +44,42 @@ let vinotecasMythic = [
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/random4"
   },
-  //Zona Macro Centro
   {
     id: 5,
+    vinoteca: "Vin  Rouge",
+    direccion: "Mendoza 319",
+    ir: "https://g.page/vinrougevinoteca?share",
+    barrio: "Zona Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/vinrouge"
+  },
+  {
+    id: 6,
+    vinoteca: "Uva Selecta",
+    direccion: "Corrientes 314 - Local 2",
+    ir: "https://goo.gl/maps/2TsWJueThchZ9Utp9",
+    barrio: "Zona Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
+  //Zona Macro Centro
+  {
+    id: 7,
     vinoteca: "Etiqueta Negra",
     direccion: "Viamonte 661",
     ir: "https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
     barrio: "Zona Macro Centro",
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/random4"
+  },
+  {
+    id: 8,
+    vinoteca: "Vinicius",
+    direccion: "Mitre esquina Cochabamba ",
+    ir: "https://g.page/vinotecavinicius?share",
+    barrio: "Zona Macro Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/vinicius"
   },
   //Zona Norte
 
@@ -69,7 +96,15 @@ let vinotecasMythic = [
   //Zona Oeste
 
   //Zona Funes y Fisherton
-
+  {
+    id: 25,
+    vinoteca: "Epicueros",
+    direccion: "Miguel Galindo esquina Lennox",
+    ir: "https://goo.gl/maps/qEKRE6XnAqTe2mcZ9",
+    barrio: "Zona Funes y Fisherton",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
   //Zona Villa Constitución
   {
     id: 7,
