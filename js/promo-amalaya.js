@@ -55,6 +55,15 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/elcamino.png"
   },
   {
+    id: 5,
+    vinoteca: "De Buena Madera",
+    direccion: "Italia 954",
+    ir: "https://goo.gl/maps/PdZsZPX2HeZZjatBA",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/debuenamadera.png"
+  },
+  {
     id: 6,
     vinoteca: "La Gourmetería",
     direccion: "Tucumán 1322",
@@ -449,6 +458,15 @@ let vinotecasAmalaya = [
   },
   //Granadero Baigorria
   //Las Rosas
+  {
+    id: 27,
+    vinoteca: "Los Cocos",
+    direccion: "Belgrano 765, Las Rosas",
+    ir: "https://goo.gl/maps/u1QpNe1U7S8MF8kK7",
+    barrio: "Zona Las Rosas",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
+  },
 
 ]
 

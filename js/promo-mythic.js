@@ -254,7 +254,7 @@ let vinotecasMythic = [
       bodega: "mythic",
       thumbnailUrl: "img/vinotecas/mythic/random2.jpeg"
     },
-        //Galvez
+        //Las Rosas
         {
           id: 27,
           vinoteca: "Los Cocos",

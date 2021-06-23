@@ -179,7 +179,25 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/loscortesanosesperanza"
   },
   //Zona Entre Rios
-
+  {
+    id: 48,
+    vinoteca: "Dionisio Vinos & Afines",
+    direccion: "Ramírez, Entre Rios - Eva Perón 531",
+    ir: "https://goo.gl/maps/CRKXkWXrLNnwCEbx9",
+    barrio: "Zona Entre Rios",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random1.jpg"
+  },
+  //Casilda
+  {
+    id: 48,
+    vinoteca: "Dionisio Vinos & Afines",
+    direccion: "San Juan 2747 - Casilda",
+    ir: "https://goo.gl/maps/aZh3gp2fPpDtGReM7",
+    barrio: "Zona Casilda",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random1.jpg"
+  },
   //Zona Gualeguaychú
   {
     id: 14,
@@ -284,6 +302,10 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Venado Tuerto":
       pintarVinotecas(vinotecasVinscelto.filter((el) => el.barrio === 'Zona Venado Tuerto'));
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+      break;
+    case "Zona Casilda":
+      pintarVinotecas(vinotecasVinscelto.filter((el) => el.barrio === 'Zona Casilda'));
       Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
       break;
     case "Zona Delivery":
