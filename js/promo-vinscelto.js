@@ -193,24 +193,15 @@ let vinotecasVinscelto = [
 ]
 
 let vinotecasDelivery = [
-  // {
-  //   id: 52,
-  //   vinoteca: "Cepa Negra",
-  //   direccion: "Delivery en Rosario, Fisherton, Funes y Roldán",
-  //   contactar: "https://bit.ly/373LoKa",
-  //   barrio: "Zona Delivery",
-  //   bodega: "vinscelto",
-  //   thumbnailUrl: "img/vinotecas/vinscelto/random2.jpeg"
-  // },
-  // {
-  //   id: 53,
-  //   vinoteca: "Crimac",
-  //   direccion: "Compra on-line y Delivery en Rosario",
-  //   ir: "https://www.mercadovinos.com.ar/",
-  //   barrio: "Zona Delivery",
-  //   bodega: "vinscelto",
-  //   thumbnailUrl: "img/vinotecas/vinscelto/random1.jpg"
-  // },
+  {
+    id: 22,
+    vinoteca: "Lo de Tere",
+    direccion: "Delivery en Fisherton y Centro Rosario",
+    contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
+    barrio: "Zona Delivery",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
 ]
 
 selectBarrio.addEventListener('change', () => {

@@ -251,9 +251,19 @@ let vinotecasMythic = [
       direccion: "Nazareno Rossi 868, Gálvez",
       ir: "https://goo.gl/maps/knwLs7avFKDAFsw28",
       barrio: "Zona Galvez",
-      bodega: "amalaya",
-      thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
+      bodega: "mythic",
+      thumbnailUrl: "img/vinotecas/mythic/random2.jpeg"
     },
+        //Galvez
+        {
+          id: 27,
+          vinoteca: "Los Cocos",
+          direccion: "Belgrano 765, Las Rosas",
+          ir: "https://goo.gl/maps/u1QpNe1U7S8MF8kK7",
+          barrio: "Zona Las Rosas",
+          bodega: "mythic",
+          thumbnailUrl: "img/vinotecas/mythic/random2.jpeg"
+        },
 ]
 
 let vinotecasDelivery = [
@@ -263,9 +273,19 @@ let vinotecasDelivery = [
     direccion: "Delivery en Fisherton y Funes",
     contactar: "https://www.vinotecacampos.com.ar/la-vinoteca/",
     barrio: "Zona Delivery",
-    bodega: "amalaya",
-    thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
   },
+  {
+    id: 22,
+    vinoteca: "Lo de Tere",
+    direccion: "Delivery en Fisherton y Centro Rosario",
+    contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
+    barrio: "Zona Delivery",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
+  
 ]
 
 selectBarrio.addEventListener('change', () => {

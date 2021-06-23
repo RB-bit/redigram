@@ -471,6 +471,15 @@ let vinotecasDelivery = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
   },
+  {
+    id: 22,
+    vinoteca: "Lo de Tere",
+    direccion: "Delivery en Fisherton y Centro Rosario",
+    contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
+    barrio: "Zona Delivery",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
 ]
 
 selectBarrio.addEventListener('change', () => {
