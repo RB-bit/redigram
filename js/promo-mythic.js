@@ -81,6 +81,24 @@ let vinotecasMythic = [
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/vinicius"
   },
+  {
+    id: 9,
+    vinoteca: "Ruta 40",
+    direccion: "Buenos Aires 1490",
+    ir: "https://goo.gl/maps/BKQsxgeHZuexmoAW8",
+    barrio: "Zona Macro Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random4"
+  },
+  {
+    id: 10,
+    vinoteca: "Eleven Wines",
+    direccion: "Ov. Lagos 522",
+    ir: "https://g.page/vinoteca-eleven-wines?share",
+    barrio: "Zona Macro Centro",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/elevenwines"
+  },
   //Zona Norte
 
   //Zona Sur
@@ -128,7 +146,15 @@ let vinotecasMythic = [
   // Zona Santa Teresa
 
   //Zona Parana
-
+  {
+    id: 37,
+    vinoteca: "El Palacio",
+    direccion: "Gral. Pascual Echague 814 - Paraná",
+    ir: "https://goo.gl/maps/UBYeewHiq7KT2pXL9",
+    barrio: "Zona Parana",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random2.jpeg"
+  },
   //Zona Santa Fe
   {
     id: 9,
@@ -156,6 +182,24 @@ let vinotecasMythic = [
     barrio: "Zona Santa Fe",
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/exquisitosplaceres"
+  },
+  {
+    id: 12,
+    vinoteca: "Vinopolis",
+    direccion: "Santiago del Estero 3166 - Santa Fe",
+    ir: "https://goo.gl/maps/8fyBbC1XE6zpQtWL7",
+    barrio: "Zona Santa Fe",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/vinopolis"
+  },
+  {
+    id: 13,
+    vinoteca: "Vinoteca Filomena",
+    direccion: "San Lorenzo 3021 - Santa Fe",
+    ir: "https://goo.gl/maps/N2dUEMQG2ifRVeYz7",
+    barrio: "Zona Santa Fe",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/filomena"
   },
   //Zona Santo Tomé
   {
@@ -190,28 +234,38 @@ let vinotecasMythic = [
     thumbnailUrl: "img/vinotecas/mythic/loscortesanosesperanza"
   },
   //Zona Entre Rios
-
+  //Cañada de Gomez
+  {
+    id: 15,
+    vinoteca: "Los Toneles",
+    direccion: "Ocampo 961, Cañada de Gomez",
+    ir: "https://g.page/lostonelesalmacendevinos?share",
+    barrio: "Zona Canada de Gomez",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/lostoneles"
+  },
+    //Galvez
+    {
+      id: 27,
+      vinoteca: "Terroir",
+      direccion: "Nazareno Rossi 868, Gálvez",
+      ir: "https://goo.gl/maps/knwLs7avFKDAFsw28",
+      barrio: "Zona Galvez",
+      bodega: "amalaya",
+      thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
+    },
 ]
 
 let vinotecasDelivery = [
-  // {
-  //   id: 52,
-  //   vinoteca: "Cepa Negra",
-  //   direccion: "Delivery en Rosario, Fisherton, Funes y Roldán",
-  //   contactar: "https://bit.ly/373LoKa",
-  //   barrio: "Zona Delivery",
-  //   bodega: "mythic",
-  //   thumbnailUrl: "img/vinotecas/mythic/random2.jpeg"
-  // },
-  // {
-  //   id: 53,
-  //   vinoteca: "Crimac",
-  //   direccion: "Compra on-line y Delivery en Rosario",
-  //   ir: "https://www.mercadovinos.com.ar/",
-  //   barrio: "Zona Delivery",
-  //   bodega: "mythic",
-  //   thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
-  // },
+  {
+    id: 22,
+    vinoteca: "Vinoteca Campos",
+    direccion: "Delivery en Fisherton y Funes",
+    contactar: "https://www.vinotecacampos.com.ar/la-vinoteca/",
+    barrio: "Zona Delivery",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
+  },
 ]
 
 selectBarrio.addEventListener('change', () => {
@@ -286,6 +340,14 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Entre Rios":
       pintarVinotecas(vinotecasMythic.filter((el) => el.barrio === 'Zona Entre Rios'));
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+      break;
+    case "Zona Canada de Gomez":
+      pintarVinotecas(vinotecasMythic.filter((el) => el.barrio === 'Zona Canada de Gomez'));
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+      break;
+    case "Zona Galvez":
+      pintarVinotecas(vinotecasMythic.filter((el) => el.barrio === 'Zona Galvez'));
       Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
       break;
     case "Zona Delivery":

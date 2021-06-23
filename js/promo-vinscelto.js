@@ -27,6 +27,15 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/vinoysequedo"
   },
+  {
+    id: 20,
+    vinoteca: "Ruta 40",
+    direccion: "Buenos Aires 1490",
+    ir: "https://goo.gl/maps/BKQsxgeHZuexmoAW8",
+    barrio: "Zona Macro Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random4"
+  },
   //Zona Norte
 
   //Zona Sur
@@ -82,7 +91,15 @@ let vinotecasVinscelto = [
   // Zona Santa Teresa
 
   //Zona Parana
-
+  {
+    id: 37,
+    vinoteca: "El Palacio",
+    direccion: "Gral. Pascual Echague 814 - Paraná",
+    ir: "https://goo.gl/maps/UBYeewHiq7KT2pXL9",
+    barrio: "Zona Parana",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random2.jpeg"
+  },
   //Zona Santa Fe
   {
     id: 8,
@@ -110,6 +127,24 @@ let vinotecasVinscelto = [
     barrio: "Zona Santa Fe",
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/exquisitosplaceres"
+  },
+  {
+    id: 11,
+    vinoteca: "Vinopolis",
+    direccion: "Santiago del Estero 3166 - Santa Fe",
+    ir: "https://goo.gl/maps/8fyBbC1XE6zpQtWL7",
+    barrio: "Zona Santa Fe",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/vinopolis"
+  },
+  {
+    id: 12,
+    vinoteca: "Vinoteca Filomena",
+    direccion: "San Lorenzo 3021 - Santa Fe",
+    ir: "https://goo.gl/maps/N2dUEMQG2ifRVeYz7",
+    barrio: "Zona Santa Fe",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/filomena"
   },
   //Zona Santo Tomé
   {
@@ -254,6 +289,10 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Gualeguaychu":
       pintarVinotecas(vinotecasVinscelto.filter((el) => el.barrio === 'Zona Gualeguaychu'));
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+      break;
+    case "Zona Venado Tuerto":
+      pintarVinotecas(vinotecasVinscelto.filter((el) => el.barrio === 'Zona Venado Tuerto'));
       Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
       break;
     case "Zona Delivery":
