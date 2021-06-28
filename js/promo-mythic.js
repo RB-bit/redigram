@@ -123,6 +123,15 @@ let vinotecasMythic = [
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
   },
+  {
+    id: 44,
+    vinoteca: "Autoservicio Arlequín",
+    direccion: "Córdoba 1984, Funes",
+    ir: "https://goo.gl/maps/C1gXXDPNspRMcvkY8",
+    barrio: "Zona Funes y Fisherton",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/arlequin"
+  },
   //Zona Villa Constitución
   {
     id: 7,

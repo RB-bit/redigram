@@ -17,9 +17,27 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/verdemar.png"
   },
-  //Zona Macro Centro
   {
     id: 2,
+    vinoteca: "De Buena Madera",
+    direccion: "Italia 954",
+    ir: "https://goo.gl/maps/PdZsZPX2HeZZjatBA",
+    barrio: "Zona Centro",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/debuenamadera.png"
+  },
+  {
+    id: 3,
+    vinoteca: "Ruta 40",
+    direccion: "Buenos Aires 1490",
+    ir: "https://goo.gl/maps/BKQsxgeHZuexmoAW8",
+    barrio: "Zona Centro",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random4"
+  },
+  //Zona Macro Centro
+  {
+    id: 4,
     vinoteca: "Vino y se quedó",
     direccion: "Cafferata 1419",
     ir: "https://goo.gl/maps/SQatrb96NNtCZe3w7",
@@ -27,20 +45,11 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/vinoysequedo"
   },
-  {
-    id: 20,
-    vinoteca: "Ruta 40",
-    direccion: "Buenos Aires 1490",
-    ir: "https://goo.gl/maps/BKQsxgeHZuexmoAW8",
-    barrio: "Zona Macro Centro",
-    bodega: "amalaya",
-    thumbnailUrl: "img/vinotecas/amalaya/random4"
-  },
   //Zona Norte
 
   //Zona Sur
   {
-    id: 3,
+    id: 5,
     vinoteca: "La Botiga - Mercado Urbano",
     direccion: "Regimiento 11, 868",
     ir: "https://goo.gl/maps/WBcSLNmPHj6Zv7qH6",
@@ -68,6 +77,15 @@ let vinotecasVinscelto = [
     barrio: "Zona Funes y Fisherton",
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/arlequin"
+  },
+  {
+    id: 26,
+    vinoteca: "Casa Prada",
+    direccion: "Shopping Fisherton Plaza local 43",
+    ir: "https://goo.gl/maps/NWzZDV1EndumUU5q9",
+    barrio: "Zona Funes y Fisherton",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/prada.png"
   },
   //Zona Villa Constitucion
   {
