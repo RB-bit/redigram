@@ -584,11 +584,20 @@ let vinotecasAmalaya = [
       ir: "https://goo.gl/maps/a3xHekrh6kAoFFNY6",
       barrio: "Zona Venado Tuerto",
       bodega: "amalaya",
+      thumbnailUrl: "img/vinotecas/amalaya/random5"
+    },
+    {
+      id: 65,
+      vinoteca: "Terranova",
+      direccion: "Moreno 302 - Venado Tuerto",
+      ir: "https://goo.gl/maps/eQ4Vow6Y86ozWFDa8",
+      barrio: "Zona Venado Tuerto",
+      bodega: "amalaya",
       thumbnailUrl: "img/vinotecas/amalaya/random4"
     },
   //Galvez
   {
-    id: 65,
+    id: 66,
     vinoteca: "Terroir",
     direccion: "Nazareno Rossi 868, Gálvez",
     ir: "https://goo.gl/maps/knwLs7avFKDAFsw28",
@@ -598,7 +607,7 @@ let vinotecasAmalaya = [
   },
   //Paraná
   {
-    id: 66,
+    id: 67,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir: "https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -607,7 +616,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
   },
   {
-    id: 67,
+    id: 68,
     vinoteca: "Garay",
     direccion: "Buenos Aires 481, Paraná",
     ir: "https://goo.gl/maps/nWcDDD1TiNwk6MQc7",
@@ -617,7 +626,7 @@ let vinotecasAmalaya = [
   },
   //Casilda
   {
-    id: 68,
+    id: 69,
     vinoteca: "Dionisio Vinos & Afines",
     direccion: "San Juan 2747 - Casilda",
     ir: "https://goo.gl/maps/aZh3gp2fPpDtGReM7",
@@ -627,7 +636,7 @@ let vinotecasAmalaya = [
   },
   //Las Rosas
   {
-    id: 69,
+    id: 70,
     vinoteca: "Los Cocos",
     direccion: "Belgrano 765, Las Rosas",
     ir: "https://goo.gl/maps/u1QpNe1U7S8MF8kK7",
@@ -635,11 +644,21 @@ let vinotecasAmalaya = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
   },
+  //San Nicolás
+  {
+    id: 71,
+    vinoteca: "Vinoteca Ofelia",
+    direccion: "Maipú 17, San Ncolás",
+    ir: "https://goo.gl/maps/TqEpuBtqaLenjPdu7",
+    barrio: "Zona San Nicolas",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
+  },
 ]
 
 let vinotecasDelivery = [
   {
-    id: 70,
+    id: 72,
     vinoteca: "Cepa Negra",
     direccion: "Delivery en Rosario, Fisherton, Funes y Roldán",
     contactar: "https://bit.ly/373LoKa",
@@ -648,7 +667,7 @@ let vinotecasDelivery = [
     thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
   },
   {
-    id: 71,
+    id: 73,
     vinoteca: "Vinoteca Campos",
     direccion: "Delivery en Fisherton y Funes",
     contactar: "https://www.vinotecacampos.com.ar/la-vinoteca/",
@@ -657,13 +676,22 @@ let vinotecasDelivery = [
     thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
   },
   {
-    id: 72,
+    id: 74,
     vinoteca: "Lo de Tere",
     direccion: "Delivery en Fisherton y Centro Rosario",
     contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
     barrio: "Zona Delivery",
     bodega: "amalaya",
-    thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
+    thumbnailUrl: "img/vinotecas/amalaya/random5"
+  },
+  {
+    id: 75,
+    vinoteca: "La Champagnería",
+    direccion: "Delivery en Rosario",
+    contactar: "https://www.instagram.com/la_champaneria/?hl=es",
+    barrio: "Zona Delivery",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random6"
   },
 ]
 
@@ -765,6 +793,10 @@ selectBarrio.addEventListener('change', () => {
       pintarVinotecas(vinotecasAmalaya.filter((el) => el.barrio === 'Zona Galvez'));
       Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
       break;
+    case "Zona San Nicolas":
+      pintarVinotecas(vinotecasAmalaya.filter((el) => el.barrio === 'Zona San Nicolas'));
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+      break;   
     case "Zona Delivery":
       Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
       pintarVinotecas(vinotecasAmalaya.filter((el) => el.barrio === ''));
