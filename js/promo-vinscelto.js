@@ -35,6 +35,24 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/random4"
   },
+  {
+    id: 4,
+    vinoteca: "La Gourmetería",
+    direccion: "Tucumán 1322",
+    ir: "https://goo.gl/maps/6Qz9wDMjX8bU8dAq7",
+    barrio: "Zona Centro",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/lagourmeteria"
+  },
+  {
+    id: 5,
+    vinoteca: "El Camino",
+    direccion: "Moreno 1039",
+    ir: "https://g.page/el-camino-vinoteca?share",
+    barrio: "Zona Centro",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/elcamino.png"
+  },
   //Zona Macro Centro
   {
     id: 4,

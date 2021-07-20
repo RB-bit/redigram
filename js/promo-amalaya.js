@@ -207,9 +207,36 @@ let vinotecasAmalaya = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/555wines"
   },
-  //Zona Macro Centro
   {
     id: 23,
+    vinoteca: "El Viduño",
+    direccion: "Mendoza esquina Maipú",
+    ir: "https://g.page/vinotecaelviduno?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/elvidunio.png"
+  },
+  {
+    id: 24,
+    vinoteca: "Al Vino Vino",
+    direccion: "Av. Pellegrini 591",
+    ir: "https://g.page/al-vino-vino-rosario?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovinopell.png"
+  },
+  {
+    id: 25,
+    vinoteca: "Al Vino Vino",
+    direccion: "Urquiza 1010",
+    ir: "https://goo.gl/maps/sdA9zcfVeyvfhKebA",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovino"
+  },
+  //Zona Macro Centro
+  {
+    id: 26,
     vinoteca: "Mediterráneo",
     direccion: "Cafferata 356",
     ir: "https://goo.gl/maps/oAPTesEy1HATS8jZ7",
@@ -218,7 +245,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/mediterraneo"
   },
   {
-    id: 24,
+    id: 27,
     vinoteca: "Eleven Copas",
     direccion: "Corientes 1919",
     ir: "https://g.page/eleven-copas?share",
@@ -227,7 +254,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/elevencopas.png"
   },
   {
-    id: 25,
+    id: 28,
     vinoteca: "Etiqueta Negra",
     direccion: "Viamonte 661",
     ir: "https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
@@ -236,7 +263,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/random4"
   },
   {
-    id: 26,
+    id: 29,
     vinoteca: "Vinicius",
     direccion: "Mitre esquina Cochabamba ",
     ir: "https://g.page/vinotecavinicius?share",
@@ -245,7 +272,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/vinicius"
   },
   {
-    id: 27,
+    id: 30,
     vinoteca: "ADN Autoservicio",
     direccion: "Iriondo 1498",
     ir: "https://goo.gl/maps/ZhQWFubtSZxxeKF17",
@@ -254,7 +281,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/adn-autoservicio"
   },
   {
-    id: 28,
+    id: 31,
     vinoteca: "Alfa Supermercados",
     direccion: "3 de Febrero 2480",
     ir: "https://g.page/alfasupermercados?share",
@@ -263,7 +290,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/alfa-supermercados-macro"
   },
   {
-    id: 29,
+    id: 32,
     vinoteca: "Birra Birra",
     direccion: "Av. Francia 1499",
     ir: "https://goo.gl/maps/rLao7jbzig3KEU698",
@@ -272,7 +299,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
   },
   {
-    id: 30,
+    id: 33,
     vinoteca: "Don Giovanni",
     direccion: "Pichincha 120",
     ir: "https://goo.gl/maps/4eYSHkZ6FYzHF48JA",
@@ -281,7 +308,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/dongiovanni"
   },
   {
-    id: 31,
+    id: 34,
     vinoteca: "Vinoteca Peyrano",
     direccion: "Falucho 730",
     ir: "https://goo.gl/maps/otDzJ6DPjmaEaw5PA",
@@ -290,7 +317,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/random4"
   },
   {
-    id: 32,
+    id: 35,
     vinoteca: "Vinoteca Buenos Aires",
     direccion: "Buenos Aires 1920",
     ir: "https://goo.gl/maps/vUbYNHhhTFWvcEeM7",
@@ -299,13 +326,22 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/buenosaires"
   },
   {
-    id: 33,
+    id: 36,
     vinoteca: "Agenor Deli & Vinos",
     direccion: "Salta 2922",
     ir: "https://g.page/AgenorDeli?share",
     barrio: "Zona Macro Centro",
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/agenor"
+  },
+  {
+    id: 37,
+    vinoteca: "Rosario Vinos Exclusivos",
+    direccion: "Pasco 1501",
+    ir: "https://goo.gl/maps/2KxPH9C6UvVK2kt26",
+    barrio: "Zona Macro Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/vinosexclusivos.png"
   },
   //Zona Oeste
   {
