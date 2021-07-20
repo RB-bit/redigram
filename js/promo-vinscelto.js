@@ -55,7 +55,7 @@ let vinotecasVinscelto = [
   },
   //Zona Macro Centro
   {
-    id: 4,
+    id: 6,
     vinoteca: "Vino y se quedó",
     direccion: "Cafferata 1419",
     ir: "https://goo.gl/maps/SQatrb96NNtCZe3w7",
@@ -63,11 +63,28 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/vinoysequedo"
   },
+  {
+    id: 7,
+    vinoteca: "ADN Autoservicio",
+    direccion: "Iriondo 1498",
+    ir: "https://goo.gl/maps/ZhQWFubtSZxxeKF17",
+    barrio: "Zona Macro Centro",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/adn-autoservicio"
+  },
   //Zona Norte
-
+  {
+    id: 8,
+    vinoteca: "Plaza Mayor Wines",
+    direccion: "Martín Fierro 476",
+    ir: "https://goo.gl/maps/NQEjbygGKyJMPCWa8",
+    barrio: "Zona Norte",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random4"
+  },
   //Zona Sur
   {
-    id: 5,
+    id: 9,
     vinoteca: "La Botiga - Mercado Urbano",
     direccion: "Regimiento 11, 868",
     ir: "https://goo.gl/maps/WBcSLNmPHj6Zv7qH6",
@@ -76,10 +93,18 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/random4"
   },
   //Zona Oeste
-
+  {
+    id: 10,
+    vinoteca: "Vinoteca Battista",
+    direccion: "Mendoza 5890",
+    ir: "https://g.page/vinoteca-battista?share",
+    barrio: "Zona Oeste",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/batista"
+  },
   //Zona Funes y Fisherton
   {
-    id: 4,
+    id: 11,
     vinoteca: "MyM Distribuidora",
     direccion: "Mitre 2599 - Funes",
     ir: "https://goo.gl/maps/gh9LDqSjwkfCk6Uu5",
@@ -88,7 +113,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/random3.png"
   },
   {
-    id: 5,
+    id: 12,
     vinoteca: "Autoservicio Arlequín",
     direccion: "Córdoba 1984, Funes",
     ir: "https://goo.gl/maps/C1gXXDPNspRMcvkY8",
@@ -97,7 +122,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/arlequin"
   },
   {
-    id: 26,
+    id: 13,
     vinoteca: "Casa Prada",
     direccion: "Shopping Fisherton Plaza local 43",
     ir: "https://goo.gl/maps/NWzZDV1EndumUU5q9",
@@ -105,9 +130,18 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/prada.png"
   },
+  {  
+    id: 14,
+    vinoteca: "Perfect Wines",
+    direccion: "Alfonsín y Las Ranas, Funes, Santa Fe",
+    ir: "https://goo.gl/maps/NcQmgsmeyXv4HyqV9",
+    barrio: "Zona Funes y Fisherton",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random3.png"
+},
   //Zona Villa Constitucion
   {
-    id: 6,
+    id: 15,
     vinoteca: "Dionisio",
     direccion: "San Martín 715, Villa Constitución",
     ir: "https://goo.gl/maps/XT1HtKEK4mU6McbA7",
@@ -116,7 +150,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/dionisio.png"
   },
   {
-    id: 7,
+    id: 16,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir: "https://g.page/entrecopasenoteca?share",
@@ -128,7 +162,7 @@ let vinotecasVinscelto = [
 
   //Zona Parana
   {
-    id: 37,
+    id: 17,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir: "https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -138,7 +172,7 @@ let vinotecasVinscelto = [
   },
   //Zona Santa Fe
   {
-    id: 8,
+    id: 18,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir: "https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -147,7 +181,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/donjuanjacinto2"
   },
   {
-    id: 9,
+    id: 19,
     vinoteca: "Don Juan Jacinto",
     direccion: "Aristóbulo del Valle 6342 - Santa Fe",
     ir: "https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -156,7 +190,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/donjuanjacinto1"
   },
   {
-    id: 10,
+    id: 20,
     vinoteca: "Exquisitos Placeres",
     direccion: "Balcarce 1576 - Santa Fe",
     ir: "https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
@@ -165,7 +199,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/exquisitosplaceres"
   },
   {
-    id: 11,
+    id: 21,
     vinoteca: "Vinopolis",
     direccion: "Santiago del Estero 3166 - Santa Fe",
     ir: "https://goo.gl/maps/8fyBbC1XE6zpQtWL7",
@@ -174,7 +208,7 @@ let vinotecasVinscelto = [
     thumbnailUrl: "img/vinotecas/vinscelto/vinopolis"
   },
   {
-    id: 12,
+    id: 22,
     vinoteca: "Vinoteca Filomena",
     direccion: "San Lorenzo 3021 - Santa Fe",
     ir: "https://goo.gl/maps/N2dUEMQG2ifRVeYz7",
@@ -184,7 +218,7 @@ let vinotecasVinscelto = [
   },
   //Zona Santo Tomé
   {
-    id: 11,
+    id: 23,
     vinoteca: "Entre Copas - Almacén de Vinos",
     direccion: "Macias 2092 - Santo Tomé",
     ir: "https://goo.gl/maps/NabVLXmqtG6bFsVi9",
@@ -194,7 +228,7 @@ let vinotecasVinscelto = [
   },
   //Zona Rafaela
   {
-    id:12,
+    id: 24,
     vinoteca: "Los Cortesanos",
     direccion: "Alvear 281, Rafaela",
     ir: "https://g.page/LosCortesanos?share",
@@ -206,7 +240,7 @@ let vinotecasVinscelto = [
 
   //Zona Esperanza
   {
-    id: 13,
+    id: 25,
     vinoteca: "Los Cortesanos",
     direccion: "Aarón Castellanos 1802, Esperanza",
     ir: "https://g.page/VinotecaLosCortesanos?share",
@@ -214,9 +248,19 @@ let vinotecasVinscelto = [
     bodega: "vinscelto",
     thumbnailUrl: "img/vinotecas/vinscelto/loscortesanosesperanza"
   },
+  //Villa Gdor Galvez
+  {
+    id: 26,
+    vinoteca: "Vinoteca As de Copas",
+    direccion: "Rivadavia 1635 - Villa Gobernador Gálvez",
+    ir: "https://goo.gl/maps/kqJqPPxSnqBWge5WA",
+    barrio: "Zona Villa Gobernador Galvez",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random4"
+  },
   //Zona Entre Rios
   {
-    id: 48,
+    id: 27,
     vinoteca: "Dionisio Vinos & Afines",
     direccion: "Ramírez, Entre Rios - Eva Perón 531",
     ir: "https://goo.gl/maps/CRKXkWXrLNnwCEbx9",
@@ -226,7 +270,7 @@ let vinotecasVinscelto = [
   },
   //Casilda
   {
-    id: 48,
+    id: 28,
     vinoteca: "Dionisio Vinos & Afines",
     direccion: "San Juan 2747 - Casilda",
     ir: "https://goo.gl/maps/aZh3gp2fPpDtGReM7",
@@ -236,7 +280,7 @@ let vinotecasVinscelto = [
   },
   //Zona Gualeguaychú
   {
-    id: 14,
+    id: 29,
     vinoteca: "El Bebedero",
     direccion: "Av. del Valle y 3 de febrero, Gualeguaychú",
     ir: "https://goo.gl/maps/Y1q2cT23epEvf5qj8",
@@ -248,13 +292,31 @@ let vinotecasVinscelto = [
 
 let vinotecasDelivery = [
   {
-    id: 22,
+    id: 30,
     vinoteca: "Lo de Tere",
     direccion: "Delivery en Fisherton y Centro Rosario",
     contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
     barrio: "Zona Delivery",
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
+  {
+    id: 31,
+    vinoteca: "La Champagnería",
+    direccion: "Delivery en Rosario",
+    contactar: "https://www.instagram.com/la_champaneria/?hl=es",
+    barrio: "Zona Delivery",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random6"
+  },
+  {
+    id: 32,
+    vinoteca: "La Botellería",
+    direccion: "Delivery en Rosario",
+    contactar: "https://www.somoslabotilleria.com.ar/",
+    barrio: "Zona Delivery",
+    bodega: "vinscelto",
+    thumbnailUrl: "img/vinotecas/vinscelto/random5"
   },
 ]
 
@@ -298,6 +360,11 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Santa Fe":
       pintarVinotecas(vinotecasVinscelto.filter((el) => el.barrio === 'Zona Santa Fe'));
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
+      break;
+      
+    case "Zona Villa Gobernador Galvez":
+      pintarVinotecas(vinotecasVinscelto.filter((el) => el.barrio === 'Zona Villa Gobernador Galvez'));
       Delivery(vinotecasDelivery.filter((el) => el.barrio === ''));
       break;
     case "Zona Santo Tome":

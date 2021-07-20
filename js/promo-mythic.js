@@ -103,7 +103,7 @@ let vinotecasMythic = [
 
   //Zona Sur
   {
-    id: 6,
+    id: 11,
     vinoteca: "Vinos y Copas",
     direccion: "Virasoro 2001",
     ir: "https://goo.gl/maps/Fr8idJrCnoudyLnGA",
@@ -111,11 +111,20 @@ let vinotecasMythic = [
     bodega: "myhic",
     thumbnailUrl: "img/vinotecas/mythic/vinosycopas.png"
   },
+  {
+    id: 12,
+    vinoteca: "El Tonel",
+    direccion: "Ayacucho 5321",
+    ir: "https://goo.gl/maps/DpZLPxtVQxx8ZcpMA",
+    barrio: "Zona Sur",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/eltonel"
+  },
   //Zona Oeste
 
   //Zona Funes y Fisherton
   {
-    id: 25,
+    id: 13,
     vinoteca: "Epicueros",
     direccion: "Miguel Galindo esquina Lennox",
     ir: "https://goo.gl/maps/qEKRE6XnAqTe2mcZ9",
@@ -124,7 +133,7 @@ let vinotecasMythic = [
     thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
   },
   {
-    id: 44,
+    id: 14,
     vinoteca: "Autoservicio Arlequín",
     direccion: "Córdoba 1984, Funes",
     ir: "https://goo.gl/maps/C1gXXDPNspRMcvkY8",
@@ -134,7 +143,7 @@ let vinotecasMythic = [
   },
   //Zona Villa Constitución
   {
-    id: 7,
+    id: 15,
     vinoteca: "Entre Copas",
     direccion: "Dorrego 1101 - Villa Constitución",
     ir: "https://g.page/entrecopasenoteca?share",
@@ -144,7 +153,7 @@ let vinotecasMythic = [
   },
   // San Lorenzo
   {
-    id: 8,
+    id: 16,
     vinoteca: "Campos",
     direccion: "Belgrano 776 - San Lorenzo",
     ir: "https://goo.gl/maps/yjed3Pvx3cMbFtK26",
@@ -156,7 +165,7 @@ let vinotecasMythic = [
 
   //Zona Parana
   {
-    id: 37,
+    id: 17,
     vinoteca: "El Palacio",
     direccion: "Gral. Pascual Echague 814 - Paraná",
     ir: "https://goo.gl/maps/UBYeewHiq7KT2pXL9",
@@ -166,7 +175,7 @@ let vinotecasMythic = [
   },
   //Zona Santa Fe
   {
-    id: 9,
+    id: 18,
     vinoteca: "Don Juan Jacinto",
     direccion: "25 de mayo 3601 - Santa Fe",
     ir: "https://goo.gl/maps/YWvGh1k8cA8CR6zT7",
@@ -175,7 +184,7 @@ let vinotecasMythic = [
     thumbnailUrl: "img/vinotecas/mythic/donjuanjacinto2"
   },
   {
-    id: 10,
+    id: 19,
     vinoteca: "Don Juan Jacinto",
     direccion: "Aristóbulo del Valle 6342 - Santa Fe",
     ir: "https://goo.gl/maps/bLxz4psyonqq7xMJ9",
@@ -184,7 +193,7 @@ let vinotecasMythic = [
     thumbnailUrl: "img/vinotecas/mythic/donjuanjacinto1"
   },
   {
-    id: 11,
+    id: 20,
     vinoteca: "Exquisitos Placeres",
     direccion: "Balcarce 1576 - Santa Fe",
     ir: "https://goo.gl/maps/pVU8Mw6Bfx6J9NzAA",
@@ -193,7 +202,7 @@ let vinotecasMythic = [
     thumbnailUrl: "img/vinotecas/mythic/exquisitosplaceres"
   },
   {
-    id: 12,
+    id: 21,
     vinoteca: "Vinopolis",
     direccion: "Santiago del Estero 3166 - Santa Fe",
     ir: "https://goo.gl/maps/8fyBbC1XE6zpQtWL7",
@@ -202,7 +211,7 @@ let vinotecasMythic = [
     thumbnailUrl: "img/vinotecas/mythic/vinopolis"
   },
   {
-    id: 13,
+    id: 22,
     vinoteca: "Vinoteca Filomena",
     direccion: "San Lorenzo 3021 - Santa Fe",
     ir: "https://goo.gl/maps/N2dUEMQG2ifRVeYz7",
@@ -212,7 +221,7 @@ let vinotecasMythic = [
   },
   //Zona Santo Tomé
   {
-    id: 12,
+    id: 23,
     vinoteca: "Entre Copas - Almacén de Vinos",
     direccion: "Macias 2092 - Santo Tomé",
     ir: "https://goo.gl/maps/NabVLXmqtG6bFsVi9",
@@ -222,7 +231,7 @@ let vinotecasMythic = [
   },
   //Zona Rafaela
   {
-    id: 13,
+    id: 24,
     vinoteca: "Los Cortesanos",
     direccion: "Alvear 281, Rafaela",
     ir: "https://g.page/LosCortesanos?share",
@@ -234,7 +243,7 @@ let vinotecasMythic = [
 
   //Zona Esperanza
   {
-    id: 14,
+    id: 25,
     vinoteca: "Los Cortesanos",
     direccion: "Aarón Castellanos 1802, Esperanza",
     ir: "https://g.page/VinotecaLosCortesanos?share",
@@ -245,7 +254,7 @@ let vinotecasMythic = [
   //Zona Entre Rios
   //Cañada de Gomez
   {
-    id: 15,
+    id: 26,
     vinoteca: "Los Toneles",
     direccion: "Ocampo 961, Cañada de Gomez",
     ir: "https://g.page/lostonelesalmacendevinos?share",
@@ -265,7 +274,7 @@ let vinotecasMythic = [
     },
         //Las Rosas
         {
-          id: 27,
+          id: 28,
           vinoteca: "Los Cocos",
           direccion: "Belgrano 765, Las Rosas",
           ir: "https://goo.gl/maps/u1QpNe1U7S8MF8kK7",
@@ -277,7 +286,7 @@ let vinotecasMythic = [
 
 let vinotecasDelivery = [
   {
-    id: 22,
+    id: 29,
     vinoteca: "Vinoteca Campos",
     direccion: "Delivery en Fisherton y Funes",
     contactar: "https://www.vinotecacampos.com.ar/la-vinoteca/",
@@ -286,13 +295,22 @@ let vinotecasDelivery = [
     thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
   },
   {
-    id: 22,
+    id: 30,
     vinoteca: "Lo de Tere",
     direccion: "Delivery en Fisherton y Centro Rosario",
     contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
     barrio: "Zona Delivery",
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  },
+  {
+    id: 31,
+    vinoteca: "La Champagnería",
+    direccion: "Delivery en Rosario",
+    contactar: "https://www.instagram.com/la_champaneria/?hl=es",
+    barrio: "Zona Delivery",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random6"
   },
   
 ]

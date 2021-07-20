@@ -345,7 +345,7 @@ let vinotecasAmalaya = [
   },
   //Zona Oeste
   {
-    id: 34,
+    id: 38,
     vinoteca: "La Masía",
     direccion: "Av. Provincias Unidas 502",
     ir: "https://goo.gl/maps/32LzUBdkasSrMtZu8",
@@ -354,7 +354,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/lamasia1"
   },
   {
-    id: 35,
+    id: 39,
     vinoteca: "La Masía",
     direccion: "Av. Provincias Unidas 1254",
     ir: "https://goo.gl/maps/32LzUBdkasSrMtZu8",
@@ -363,7 +363,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/lamasia1"
   },
   {
-    id: 36,
+    id: 40,
     vinoteca: "La Masía",
     direccion: "Av. Pellegrini 6345",
     ir: "https://goo.gl/maps/3uS7NZ4a88Eo3DrL7",
@@ -372,7 +372,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/lamasia2"
   },
   {
-    id: 37,
+    id: 41,
     vinoteca: "La Masía",
     direccion: "Juan José Paso 7385",
     ir: "https://goo.gl/maps/KQhiH4zVLNvy4Grg6",
@@ -380,9 +380,18 @@ let vinotecasAmalaya = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random1.jpg"
   },
+  { 
+    id: 42,
+    vinoteca: "Vinería Franchesca",
+    direccion: "Mendoza 5503",
+    ir: "https://g.page/francescadelicatessen?share",
+    barrio: "Zona Oeste",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/franchesca"
+  },
   //Zona Sur
   {
-    id: 38,
+    id: 43,
     vinoteca: "Supermercados Alfa",
     direccion: "Regimiento 11 y Castro Barros",
     ir: "https://goo.gl/maps/6ugEQW1hfqDh6QnC6",
@@ -391,7 +400,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/supermercadosalfa"
   },
   {
-    id: 39,
+    id: 44,
     vinoteca: "Supermercados Alfa",
     direccion: "San Martín 4935",
     ir: "https://goo.gl/maps/K6sGCRfZg6fLHiid6",
@@ -400,7 +409,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/supermercadosalfa"
   },
   {
-    id: 40,
+    id: 45,
     vinoteca: "Catas de Garaje",
     direccion: "Arijón 1375",
     ir: "https://g.page/catasdegarage?share",
@@ -409,7 +418,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/catasdegaraje"
   },
   {
-    id: 41,
+    id: 46,
     vinoteca: "Cepas del Sur",
     direccion: "San Martín 2963",
     ir: "https://goo.gl/maps/7w4X2KxzAETrLj958",
@@ -418,7 +427,7 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/cepasdelsur"
   },
   {
-    id: 42,
+    id: 47,
     vinoteca: "La Botiga",
     direccion: "Regimiento 11 - 818, Rosario",
     ir: "https://goo.gl/maps/bU255QoiKtUrJUvh8",
@@ -426,9 +435,27 @@ let vinotecasAmalaya = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
   },
+  {
+    id: 48,
+    vinoteca: "Al Vino Vino",
+    direccion: "San Martín 5201",
+    ir: "https://goo.gl/maps/fJV5jxGSg1uBsAhD6",
+    barrio: "Zona Sur",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovinosur"
+  },
+  {
+    id: 49,
+    vinoteca: "Al Vino Vino",
+    direccion: "Mitre 2764",
+    ir: "https://goo.gl/maps/UAnoNYGzfMzutTRJA",
+    barrio: "Zona Sur",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovinosur2"
+  },
   //Zona Funes y Fisherton
   {
-    id: 43,
+    id: 50,
     vinoteca: "Positano Vinos",
     direccion: "Av. Eva Perón 7915",
     ir: "https://g.page/PositanoVinos-Fisherton?share",
@@ -437,13 +464,22 @@ let vinotecasAmalaya = [
     thumbnailUrl: "img/vinotecas/amalaya/positanofisherton"
   },
   {
-    id: 44,
+    id: 51,
     vinoteca: "Autoservicio Arlequín",
     direccion: "Córdoba 1984, Funes",
     ir: "https://goo.gl/maps/C1gXXDPNspRMcvkY8",
     barrio: "Zona Funes y Fisherton",
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/arlequin"
+  },
+  {
+    id: 52,
+    vinoteca: "MyM Distribuidora",
+    direccion: "Mitre 2599 - Funes",
+    ir: "https://goo.gl/maps/gh9LDqSjwkfCk6Uu5",
+    barrio: "Zona Funes y Fisherton",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random3.png"
   },
   // Zona Arroyo Seco
   {
