@@ -429,8 +429,8 @@ article {
    Promos - Page 
 //////////////*/
 
-.titular-promos-amalaya {
-    background: no-repeat center/100% url("../img/amalaya-desktop.png");
+.titular-promos-lagarde {
+    background: no-repeat center/100% url("../img/lagarde-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 42px;
     height: 700px;
@@ -442,8 +442,8 @@ article {
     color: white;
 }
 
-.titular-promos-mythic {
-    background: no-repeat center/100% url("../img/mythic-desktop.png");
+.titular-promos-rime {
+    background: no-repeat center/100% url("../img/rime-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 42px;
     height: 700px;
@@ -455,8 +455,8 @@ article {
     color: white;
 }
 
-.titular-promos-vinscelto {
-    background: no-repeat center/100% url("../img/vinscelto-desktop.png");
+.titular-promos-alchimia {
+    background: no-repeat center/100% url("../img/alchimia-desktop.png");
     font-family: 'Mulish', sans-serif;
     margin-top: 42px;
     height: 700px;
@@ -1203,11 +1203,11 @@ footer small {
 
 /* Ipad pro */
 @media (max-width: 1025px) {
-    .titular-promos-amalaya {
-        background: no-repeat center/100% url("../img/amalaya-desktop.png");
+    .titular-promos-lagarde {
+        background: no-repeat center/100% url("../img/lagarde-desktop.png");
         font-family: 'Mulish', sans-serif;
-        height: 550px;
-        margin-top: 20px;
+        height: 450px;
+        margin-top: 0;
         margin-bottom: 30px;
         padding-top: 120px;
         display: flex;
@@ -1217,11 +1217,11 @@ footer small {
         color: white;
     }
 
-    .titular-promos-vinscelto {
-        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
+    .titular-promos-alchimia {
+        background: no-repeat center/100% url("../img/alchimia-desktop.png");
         font-family: 'Mulish', sans-serif;
-        height: 550px;
-        margin-top: 20px;
+        height: 450px;
+        margin-top: 0;
         margin-bottom: 30px;
         padding-top: 120px;
         display: flex;
@@ -1231,11 +1231,11 @@ footer small {
         color: white;
     }
 
-    .titular-promos-mythic {
-        background: no-repeat center/100% url("../img/mythic-desktop.png");
+    .titular-promos-rime {
+        background: no-repeat center/100% url("../img/rime-desktop.png");
         font-family: 'Mulish', sans-serif;
-        height: 550px;
-        margin-top: 20px;
+        height: 450px;
+        margin-top: 0;
         margin-bottom: 30px;
         padding-top: 120px;
         display: flex;
@@ -1261,8 +1261,8 @@ footer small {
 
 /* iPad */
 @media (max-width: 769px) {
-    .titular-promos-amalaya {
-        background: no-repeat center/100% url("../img/amalaya-desktop.png");
+    .titular-promos-lagarde {
+        background: no-repeat center/100% url("../img/lagarde-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 400px;
         margin-top: 30px;
@@ -1275,9 +1275,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-mythic {
-        background: no-repeat center/100% url("../img/mythic-desktop.png");
-        ;
+    .titular-promos-rime {
+        background: no-repeat center/100% url("../img/rime-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 400px;
         margin-top: 30px;
@@ -1290,8 +1289,8 @@ footer small {
         color: white;
     }
 
-    .titular-promos-vinscelto {
-        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
+    .titular-promos-alchimia {
+        background: no-repeat center/100% url("../img/alchimia-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 400px;
         margin-top: 30px;
@@ -1321,11 +1320,10 @@ footer small {
 
 /* Iphone 7/8/9 Plus */
 @media (max-width: 415px) {
-    .titular-promos-amalaya {
-        background: no-repeat center/100% url("../img/amalaya-desktop.png");
+    .titular-promos-lagarde {
+        background: no-repeat center/100% url("../img/lagarde-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
-        margin-top: 50px;
         margin-bottom: 20px;
         padding: 0;
         display: flex;
@@ -1335,11 +1333,10 @@ footer small {
         color: white;
     }
 
-    .titular-promos-mythic {
-        background: no-repeat center/100% url("../img/mythic-desktop.png");
+    .titular-promos-rime {
+        background: no-repeat center/100% url("../img/rime-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
-        margin-top: 50px;
         margin-bottom: 20px;
         padding: 0;
         display: flex;
@@ -1349,11 +1346,10 @@ footer small {
         color: white;
     }
 
-    .titular-promos-vinscelto {
-        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
+    .titular-promos-alchimia {
+        background: no-repeat center/100% url("../img/alchimia-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
-        margin-top: 50px;
         margin-bottom: 20px;
         padding: 0;
         display: flex;
@@ -1364,37 +1360,24 @@ footer small {
     }
 
     .titular-promos-copy {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .form-select {
         width: 350px;
         margin-left: 15px;
-        margin-top: 15px;
+        margin-top: 5px;
         position: relative;
-        top: 10px;
+        top: 5px;
     }
 }
 
 /* Iphone X-11-12 común y 6/7/8 común  */
 @media (max-width: 376px) {
-    .titular-promos-amalaya {
-        background: no-repeat center/100% url("../img/amalaya-desktop.png");
-        font-family: 'Mulish', sans-serif;
-        height: 200px;
-        margin-top: 45px;
-        margin-bottom: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-    }
-
-    .titular-promos-mythic {
-        background: no-repeat center/100% url("../img/mythic-desktop.png");
+    .titular-promos-lagarde {
+        background: no-repeat center/100% url("../img/lagarde-mobile.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 40px;
@@ -1406,8 +1389,21 @@ footer small {
         color: white;
     }
 
-    .titular-promos-vinscelto {
-        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
+    .titular-promos-rime {
+        background: no-repeat center/100% url("../img/rime-mobile.png");
+        font-family: 'Mulish', sans-serif;
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .titular-promos-alchimia {
+        background: no-repeat center/100% url("../img/alchimia-mobile.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
         margin-top: 40px;
@@ -1437,11 +1433,11 @@ footer small {
 
 /* iPhone 5 */
 @media (max-width: 321px) {
-    .titular-promos-amalaya {
-        background: no-repeat center/100% url("../img/amalaya-desktop.png");
+    .titular-promos-lagarde {
+        background: no-repeat center/100% url("../img/lagarde-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 25px;
         display: flex;
         flex-direction: column;
@@ -1450,11 +1446,11 @@ footer small {
         color: white;
     }
 
-    .titular-promos-mythic {
-        background: no-repeat center/100% url("../img/mythic-desktop.png");
+    .titular-promos-rime {
+        background: no-repeat center/100% url("../img/rime-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 25px;
         display: flex;
         flex-direction: column;
@@ -1463,11 +1459,11 @@ footer small {
         color: white;
     }
 
-    .titular-promos-vinscelto {
-        background: no-repeat center/100% url("../img/vinscelto-desktop.png");
+    .titular-promos-alchimia {
+        background: no-repeat center/100% url("../img/alchimia-desktop.png");
         font-family: 'Mulish', sans-serif;
         height: 200px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 25px;
         display: flex;
         flex-direction: column;
@@ -1477,7 +1473,7 @@ footer small {
     }
 
     .titular-promos-copy {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
         padding-top: 125px;
         margin-top: 0px;
