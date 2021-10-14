@@ -4,40 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado de Vinos - Redigram</title>
+    <title>Alchimia</title>
 
-    <meta name="description" content="Somos una distribuidora de vinos que se ocupa de acercar los productos de las mejores bodegas a las vinotecas más confiables, y así, hacer llegar calidad a la mesa de la gente">
+    <meta name="description" content="Promoción bodega canale para aprovechar en tu vinoteca más cercana">
     <meta name="keywords" content="vinos, bodegas, vinotecas, catas de vino, amantes del vino, vino blanco, vino rosado, vino tinto, espumantes">
     <meta name="robots" atribute="index, follow">
 
-    <!-- Hotjar Tracking Code for https://redigram.com.ar/ -->
+
+        <!-- Hotjar Tracking Code for https://redigram.com.ar/ -->
   <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:2362346,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LR0GN59GWQ"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-LR0GN59GWQ');
-      </script>
-    <!-- End Google Analytics -->
-
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2362346,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
     <!-- Font Awesome -->
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         rel="stylesheet"
         />
-
     <!-- Google Fonts -->
     <link
         rel="preconnect" href="https://fonts.gstatic.com">
@@ -49,16 +39,13 @@
             rel="preconnect" href="https://fonts.gstatic.com">
         <link 
             href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
-
     <!-- MDB -->
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
         rel="stylesheet"
         />
-
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
-
     <!-- Favicon -->
     <link  rel="icon"   href="img/favicon.png" type="image/png" />
 </head>
@@ -126,80 +113,114 @@
     <!-- Container wrapper -->
     </nav>
 </navbar>
-    <header>
-        <div class="portada">
-            <img class="portada-img" src="img/vinosPortada" alt="vinos-portada">
-            <h1 class="portada-txt text-center">Bienvenido al Mercado</h1>
-            <h1 class="portada-txt-B text-center">Online del Vino</h1>
-        </div>
+
+    <!-- Header con "Filtro" -->
+    <header class="titular-promos-mythic">
+          <h3 class="titular-promos-copy">Elegí tu vinoteca, visitala y canjeá tu promo</h3>
+          <select class="form-select" aria-label="Disabled select example" id="selectBarrio">
+            <option selected>Elegí tu zona</option>
+            <option value="Todas las vinotecas">Todas las vinotecas</option>
+            <option value="Zona Centro">Rosario Centro</option>
+            <option value="Zona Macro Centro">Rosario Macro Centro</option>
+            <option value="Zona Sur">Rosario Zona Sur</option>
+            <option value="Zona Funes y Fisherton">Funes y Fisherton</option>
+            <option value="Zona Villa Constitucion">Villa Constitución</option>
+            <option value="Zona San Lorenzo">San Lorenzo</option>
+            <option value="Zona Santa Fe">Santa Fe</option>
+            <option value="Zona Santo Tome">Santo Tomé</option>
+            <option value="Zona Esperanza">Esperanza</option>
+            <option value="Zona Rafaela">Rafaela</option>
+            <option value="Zona Galvez">Gálvez</option>
+            <option value="Zona Parana">Paraná</option>
+            <option value="Zona Canada de Gomez">Cañada de Gomez</option>
+            <option value="Zona Las Rosas">Las Rosas</option>
+            <option value="Zona Delivery">Delivery</option>
+          </select>
     </header>
-    <section class="sub-titulo">
-      <h2 class="sub-titulo-txt">Elegí la promo de tu bodega favorita </h2>
-      <h2 class="sub-titulo-txt">y conseguila en las vinotecas más cercanas.</h2>
-      <a href="#promos"><i class="fas fa-chevron-down sub-titulo-icon"></i></a>
-    </section>
-    <article>
-      <ul class="navPromos">
-        <li class="navPromos__Link"><a href="#rime"> Promo Rimé</a></li>
-        <li class="navPromos__Link"><a href="#lagarde"> Promo Lagarde</a></li>
-        <li class="navPromos__Link"><a href="#alchimia"> Promo Alchimia</a></li>
-      </ul>
-    </article>
-    <main id="promos" class="promos">
-        <div class="row g-2">
-            <div class="col-md-4" id="rime">
-              <div class="card">
-                <img
-                  src="img/rime.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Rimé</h5>
-                  <p class="card-text">
-                    Comprá 2 y lleva 1 de regalo 
-                  </p>
-                  <a class="btn btn-primary text-end" style="background-color: #cabea2" href="promo-amalaya.html" role="button">Conseguí esta promo acá <i class="fas fa-wine-glass-alt"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4" id="lagarde">
-              <div class="card">
-                <img
-                  src="img/lagarde.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Lagarde</h5>
-                  <p class="card-text">
-                    Comprá 2 y lleva 1 de regalo
-                  </p>
-                  <a class="btn btn-primary text-end" style="background-color: #cabea2" href="promo-mythic.html" role="button">Conseguí esta promo acá <i class="fas fa-wine-glass-alt"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4" id="alchimia">
-              <div class="card">
-                <img
-                  src="img/alchimia.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Alchimia</h5>
-                  <p class="card-text">
-                    Comprá 2 y lleva 1 de regalo
-                  </p>
-                  <a class="btn btn-primary text-end" style="background-color: #cabea2" href="promo-vinscelto.html" role="button">Conseguí esta promo acá <i class="fas fa-wine-glass-alt"></i></a>
+
+        <!-- Sugested price -->
+        <hr>
+        <section class="preciosugerido">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Precio sugerido
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-mdb-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Unitario $750, promo $1500 las tres botellas.
                 </div>
               </div>
             </div>
           </div>
+    
+        </section>
+    
+
+    <!-- CARDS Vinotecas -->
+
+    <main class="vinotecas">
+      <div class="container">
+        
+        <div class="row" id="locales"></div>
+        <div class="row" id="deli"></div>
+      </div>
     </main>
 
-    <article><strong>Beber con moderación, prohibida su venta a menores de 18 años.</strong></article>
-    
+    <template id="template-card">
+      <div class="col-md-3 col-sm-12">
+        <div class="card">
+          <img
+            src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <a href="#!" target="_blank" class="btn btn-primary">IR</a>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template id="delivery">
+      <div class="col-md-3 col-sm-12">
+        <div class="card">
+          <img
+            src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the
+              card's content.
+            </p>
+            <a href="#!" target="_blank" class="btn btn-primary">Contactar</a>
+          </div>
+        </div>
+      </div>
+    </template>
+
     <footer>
       <div class="footer-container">
           <img class="footer-logo" src="img/redigram-blanco.png" class="logo-brand" alt="logo">
@@ -217,11 +238,16 @@
                   rel="noopener">Mango Tango</a></small>
       </div>
   </footer>
-    <!-- Script -->
-    <!-- MDB -->
-    <script
-        type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
-        ></script>
+      <!-- Script -->
+      <!-- MDB -->
+      <script
+          type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+          ></script>
+      <!-- Filtro de vinotecas -->
+      <script  
+          type="text/javascript"
+          src="../js/promo-lagarde.js"
+          ></script>
 </body>
 </html>
