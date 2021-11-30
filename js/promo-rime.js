@@ -33,8 +33,9 @@ let vinotecasRime = [
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaMendoza.png"
   },
+  // Zona macro Centro
   {
-    id: 4,
+    id: 9,
     vinoteca: "Rincón Fonseca",
     direccion: "España 1921",
     ir: "https://goo.gl/maps/CdPt7acFywSBe69w9",
@@ -42,9 +43,8 @@ let vinotecasRime = [
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/canale/rinconfonseca.png"
   },
-  // Zona macro Centro
   {
-    id: 5,
+    id: 10,
     vinoteca: "Vino y se quedó",
     direccion: "Cafferata 1419",
     ir: "https://goo.gl/maps/SQatrb96NNtCZe3w7",
@@ -53,7 +53,7 @@ let vinotecasRime = [
     thumbnailUrl: "img/vinotecas/canale/vinoysequedo"
   },
   {
-    id: 6,
+    id: 11,
     vinoteca: "Etiqueta Negra",
     direccion: "Viamonte 661",
     ir: "https://goo.gl/maps/ijYxWkvTZMkTH2Pf8",
@@ -63,7 +63,7 @@ let vinotecasRime = [
   },
   //Granadero Baigorria
   {
-    id: 37,
+    id: 12,
     vinoteca: "Chateau Du Vin",
     direccion: "Local 3, Complejo Tifón Baigorria - Julio Argentino Roca 650, Granadero Baigorria",
     ir: "https://goo.gl/maps/Wdd2A9htPVdAk1BT9",

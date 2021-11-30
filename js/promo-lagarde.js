@@ -71,7 +71,7 @@ let vinotecasLagarde = [
     bodega: "lagarde",
     thumbnailUrl: "img/vinotecas/rime/random4"
   },
-  //Máximo Paz
+  //Peyrano
   {
     id: 7,
     vinoteca: "Vinoteca Peyrano",
