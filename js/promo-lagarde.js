@@ -1,5 +1,4 @@
 const locales = document.getElementById('locales')
-const deli = document.getElementById('deli')
 const templateCard = document.getElementById('template-card').content
 const delivery = document.getElementById('delivery').content
 const fragment = document.createDocumentFragment()
@@ -415,7 +414,7 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Delivery":
       Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
-      pintarVinotecas(vinotecaLagarde.filter((el) => el.barrio === ''));
+      pintarVinotecas(vinotecasLagarde.filter((el) => el.barrio === ''));
       break;
   }
 })
@@ -441,7 +440,6 @@ function pintarVinotecas(array) {
 function Delivery(array) {
   deli.innerHTML = ''
   array.forEach(vinotecaDeli => {
-    console.log(vinotecaDeli)
     delivery.querySelector('h5').textContent = vinotecaDeli.vinoteca
     delivery.querySelector('p').textContent = vinotecaDeli.direccion
     delivery.querySelector('img').setAttribute("src", vinotecaDeli.thumbnailUrl)

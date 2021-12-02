@@ -6,6 +6,7 @@ const fragment = document.createDocumentFragment()
 //Filtro por Barrio
 const selectBarrio = document.getElementById('selectBarrio')
 
+
 let vinotecasRime = [
   //Rosario Centro
   {
@@ -243,7 +244,7 @@ let vinotecasRime = [
       thumbnailUrl: "img/vinotecas/casarena/entrecopassantotome"
   },
    //Santa Teresa
-   {
+  {
     id: 34,
     vinoteca: "Cerveteca",
     direccion: "San Martin 846",
@@ -365,7 +366,7 @@ let vinotecasRime = [
     ir: "https://goo.gl/maps/tCZCFesyWHLFW4zn7",
     barrio: "Zona Entre Rios",
     bodega: "amalaya",
-    thumbnailUrl: "img/vinotecas/rime/companiadevinos.png"
+    thumbnailUrl: "img/vinotecas/rime/random2.jpeg"
   },
   {
     id: 59,
@@ -402,7 +403,7 @@ let vinotecasRime = [
     vinoteca: "Dos Cepas",
     direccion: "San Martín 1594, Firmat",
     ir: "https://goo.gl/maps/pJy5p9cw9hKEAgx27",
-    barrio: "Zona Parana",
+    barrio: "Zona Firmat",
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random5.png"
   },
@@ -417,7 +418,7 @@ let vinotecasDelivery = [
     barrio: "Zona Delivery",
     bodega: "mythic",
     thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
-  },
+  }
 ]
 
 selectBarrio.addEventListener('change', () => {
