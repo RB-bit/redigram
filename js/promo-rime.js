@@ -35,6 +35,15 @@ let vinotecasRime = [
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/amalaya/LaFiabrettaMendoza.png"
   },
+  {
+    id: 5,
+    vinoteca: "El Camino",
+    direccion: "Moreno 1039",
+    ir: "https://g.page/el-camino-vinoteca?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/elcamino.png"
+  },
   // Zona macro Centro
   {
     id: 9,
@@ -143,7 +152,7 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Delivery":
       Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
-      pintarVinotecas(vinotecaLagarde.filter((el) => el.barrio === ''));
+      pintarVinotecas(vinotecaRime.filter((el) => el.barrio === ''));
       break;
   }
 })
