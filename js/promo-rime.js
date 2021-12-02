@@ -1,5 +1,7 @@
 const locales = document.getElementById('locales')
+const deli = document.getElementById('deli')
 const templateCard = document.getElementById('template-card').content
+const delivery = document.getElementById('delivery').content
 const fragment = document.createDocumentFragment()
 //Filtro por Barrio
 const selectBarrio = document.getElementById('selectBarrio')
@@ -73,6 +75,18 @@ let vinotecasRime = [
   },
 ]
 
+let vinotecasDelivery = [
+  {
+    id: 30,
+    vinoteca: "Lo de Tere",
+    direccion: "Delivery en Fisherton y Centro Rosario",
+    contactar: "https://instagram.com/teresita_roveri?utm_medium=copy_link",
+    barrio: "Zona Delivery",
+    bodega: "mythic",
+    thumbnailUrl: "img/vinotecas/mythic/random1.jpg"
+  }
+]
+
 selectBarrio.addEventListener('change', () => {
   //console.log(selectBarrio.value)
   switch (selectBarrio.value) {
@@ -127,10 +141,15 @@ selectBarrio.addEventListener('change', () => {
     case "Zona San Nicolas":
       pintarVinotecas(vinotecasRime.filter((el) => el.barrio === 'Zona San Nicolas'));
       break;
+    case "Zona Delivery":
+      Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
+      pintarVinotecas(vinotecaLagarde.filter((el) => el.barrio === ''));
+      break;
   }
 })
 
 pintarVinotecas(vinotecasRime)
+Delivery(vinotecasDelivery)
 
 function pintarVinotecas(array) {
   locales.innerHTML = ''
@@ -145,4 +164,19 @@ function pintarVinotecas(array) {
     fragment.appendChild(clone)
   })
   locales.appendChild(fragment)
+}
+
+function Delivery(array) {
+  deli.innerHTML = ''
+  array.forEach(vinotecaDeli => {
+    console.log(vinotecaDeli)
+    delivery.querySelector('h5').textContent = vinotecaDeli.vinoteca
+    delivery.querySelector('p').textContent = vinotecaDeli.direccion
+    delivery.querySelector('img').setAttribute("src", vinotecaDeli.thumbnailUrl)
+    delivery.querySelector('a').setAttribute("href", vinotecaDeli.ir)
+
+    const clone = delivery.cloneNode(true)
+    fragment.appendChild(clone)
+  })
+  deli.appendChild(fragment)
 }
