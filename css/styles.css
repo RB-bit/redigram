@@ -1560,3 +1560,46 @@ footer small {
         height: 70px;
     }
 }
+
+
+/* NEW CSS */
+
+.promo__Container-Casarena{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+    height: 400px;
+    background: no-repeat center/100% url("../img/alchimia-desktop.png");
+    background-color: #d0cdc6;
+}
+
+.promo__Titular{
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.promo__Filter {
+    width: 50%;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: #cabea2;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+}
+
+@media(min-width: 769px){
+    .promo__Container-Casarena{
+        height: 700px;
+    }
+    .promo__Titular{
+        margin-bottom: 50px;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+}
+
+
