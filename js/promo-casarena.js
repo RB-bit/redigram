@@ -82,6 +82,24 @@ let vinotecasCasarena = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/LaCasaDeLosVinos.png"
   },
+    {
+    id: 24,
+    vinoteca: "Al Vino Vino",
+    direccion: "Av. Pellegrini 591",
+    ir: "https://g.page/al-vino-vino-rosario?share",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovinopell.png"
+  },
+  {
+    id: 25,
+    vinoteca: "Al Vino Vino",
+    direccion: "Urquiza 1010",
+    ir: "https://goo.gl/maps/sdA9zcfVeyvfhKebA",
+    barrio: "Zona Centro",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovino"
+  },
   // Zona macro Centro
   {
     id: 10,
@@ -101,6 +119,26 @@ let vinotecasCasarena = [
     bodega: "rime",
     thumbnailUrl: "img/vinotecas/amalaya/random4"
   },
+  //Rosario Zona Sur
+  {
+    id: 48,
+    vinoteca: "Al Vino Vino",
+    direccion: "San Martín 5201",
+    ir: "https://goo.gl/maps/fJV5jxGSg1uBsAhD6",
+    barrio: "Zona Sur",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovinosur"
+  },
+  {
+    id: 49,
+    vinoteca: "Al Vino Vino",
+    direccion: "Mitre 2764",
+    ir: "https://goo.gl/maps/UAnoNYGzfMzutTRJA",
+    barrio: "Zona Sur",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/alvinovinosur2"
+  },
+  
   //Granadero Baigorria
   {
     id: 12,
@@ -149,7 +187,49 @@ let vinotecasCasarena = [
     ir: "https://goo.gl/maps/NjVPaJ2bgxCa7d947",
     barrio: "Zona Villa Gobernador Galvez",
     bodega: "casarena",
-    thumbnailUrl: "img/vinotecas/casarena/random2.jpg"
+    thumbnailUrl: "img/vinotecas/casarena/random2.jpeg"
+  },
+
+  //Zona Calchaquí
+  {
+    id: 46,
+    vinoteca: "Supermercado Rorro",
+    direccion: "Roque Sáenza Peña 915 - Calchaquí",
+    ir: "https://goo.gl/maps/TBv3Uw3z69Nd5dGT9",
+    barrio: "Zona Calchaqui",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random1.jpg"
+  },
+//Zona Casilda
+  {
+    id: 47,
+    vinoteca: "Casa de Baco",
+    direccion: "Fray Luis Beltrán 2202, Casilda",
+    ir: "https://goo.gl/maps/BkfXcv3WHcGenhpE9",
+    barrio: "Zona Casilda",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random4"
+  },
+
+  //Zona San Jorge
+  {
+    id: 47,
+    vinoteca: "Tienda Tevita",
+    direccion: "Irigoyen 1321, San Jorge",
+    ir: "https://goo.gl/maps/qw8gQJriGD2pDnUT9",
+    barrio: "Zona San Jorge",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/tevita.png"
+  },
+  //Zona Villa Cañas
+  {
+    id: 47,
+    vinoteca: "Empatía Wines",
+    direccion: "Calle 54 N°65 - entre Calle 53 y 51, Villa Cañas",
+    ir: "https://goo.gl/maps/DNquctLqWXVbBH9MA",
+    barrio: "Zona Villa Canias",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/empatia.png"
   },
 ]
 
@@ -168,9 +248,18 @@ let vinotecasDelivery = [
     vinoteca: "MyM Distribuidora",
     direccion: "Delivery en Rosario y Santa Fe",
     ir: "https://goo.gl/maps/gh9LDqSjwkfCk6Uu5",
-    barrio: "Zona Funes y Fisherton",
+    barrio: "Zona Delivery",
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random3.png"
+  },
+  {
+    id: 52,
+    vinoteca: "Pompei Wines",
+    direccion: "Delivery en Rosario y Santa Fe",
+    ir: "https://www.instagram.com/pompeiwines/",
+    barrio: "Zona Delivery",
+    bodega: "amalaya",
+    thumbnailUrl: "img/vinotecas/amalaya/random4"
   },
 ]
 
@@ -201,8 +290,8 @@ selectBarrio.addEventListener('change', () => {
     case "Zona Villa Constitucion":
       pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Constitucion'));
       break;
-    case "Zona Villa Gorbernador Galvez":
-      pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Gorbernador Galvez'));
+    case "Zona Villa Gobernador Galvez":
+      pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Gobernador Galvez'));
       break;
     case "Zona Villa Canias":
       pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Villa Canias'));
@@ -257,6 +346,9 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Casilda":
       pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Casilda'));
+      break;
+    case "Zona Calchaqui":
+      pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Calchaqui'));
       break;
     case "Zona Delivery":
       Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
