@@ -231,6 +231,36 @@ let vinotecasCasarena = [
     bodega: "casarena",
     thumbnailUrl: "img/vinotecas/casarena/empatia.png"
   },
+  //Fray Luis Beltrán
+  {
+    id: 47,
+    vinoteca: "Vinoteca Fiambrería Cosa Nostra",
+    direccion: "San Martín 2035, Fray Luis Beltrán",
+    ir: "https://goo.gl/maps/nuUj7LiRYXrjGz5L7",
+    barrio: "Zona Fray Luis Beltran",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random2.jpeg"
+  },
+  //Alcorta
+  {
+    id: 47,
+    vinoteca: "Vinoteca Restaurante Tía Elena",
+    direccion: "España, Alcorta, Santa Fe",
+    ir: "https://goo.gl/maps/MMfFdhipikP5UA7n7",
+    barrio: "Zona Alcorta",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random4"
+  },
+  //Concordia
+  {
+    id: 47,
+    vinoteca: "Vinoteca Qatar",
+    direccion: "Carlos Pellegrini 1131, Concordia, Entre Ríos",
+    ir: "https://g.page/qatarbebidas?share",
+    barrio: "Zona Concordia",
+    bodega: "casarena",
+    thumbnailUrl: "img/vinotecas/casarena/random7.png"
+  }
 ]
 
 let vinotecasDelivery = [
@@ -243,6 +273,15 @@ let vinotecasDelivery = [
     bodega: "amalaya",
     thumbnailUrl: "img/vinotecas/amalaya/random6"
   },
+  // {
+  //   id: 52,
+  //   vinoteca: "Tien de Vinos y Gourmet",
+  //   direccion: "Delivery en Granadero Baigorria - Santa Fe",
+  //   ir: "https://goo.gl/maps/gh9LDqSjwkfCk6Uu5",
+  //   barrio: "Zona Delivery",
+  //   bodega: "amalaya",
+  //   thumbnailUrl: "img/vinotecas/amalaya/random2.jpeg"
+  // },
   {
     id: 52,
     vinoteca: "MyM Distribuidora",
@@ -349,6 +388,15 @@ selectBarrio.addEventListener('change', () => {
       break;
     case "Zona Calchaqui":
       pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Calchaqui'));
+      break;
+    case "Zona Fray Luis Beltran":
+      pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Fray Luis Beltran'));
+      break;
+    case "Zona Alcorta":
+      pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Alcorta'));
+      break;
+    case "Zona Concordia":
+      pintarVinotecas(vinotecasCasarena.filter((el) => el.barrio === 'Zona Concordia'));
       break;
     case "Zona Delivery":
       Delivery(vinotecasDelivery.filter((el) => el.barrio === 'Zona Delivery'));
